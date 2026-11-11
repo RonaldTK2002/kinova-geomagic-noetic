@@ -35,6 +35,9 @@ RUN apt-get update \
   ros-noetic-actionlib-msgs \
   ros-noetic-moveit-ros-planning-interface \
   python3-numpy \
+  ros-$ROS_DISTRO-gazebo-ros-pkgs \
+  ros-$ROS_DISTRO-gazebo-ros \
+  ros-$ROS_DISTRO-gazebo-plugins \
   python3-pykdl \
   libeigen3-dev \
   dbus avahi-daemon avahi-utils libnss-mdns \
@@ -50,8 +53,8 @@ RUN pip3 install --no-cache-dir "conan>=1.52,<2" \
   && conan profile update settings.compiler.libcxx=libstdc++11 default
 
 COPY docker/vendor/openhaptics_3.4-0-developer-edition-amd64.tar.gz \
-     docker/vendor/geomagic_touch_device_driver_2016.1-1-amd64.tar.gz \
-     /tmp/geomagic-vendor/
+  docker/vendor/geomagic_touch_device_driver_2016.1-1-amd64.tar.gz \
+  /tmp/geomagic-vendor/
 
 COPY docker/install_vendor_geomagic.sh /tmp/install_vendor_geomagic.sh
 RUN chmod +x /tmp/install_vendor_geomagic.sh \
@@ -62,7 +65,7 @@ RUN chmod +x /tmp/install_vendor_geomagic.sh \
 # Pairing from Geomagic_Touch_Setup is stored here; OpenHaptics + libPhantom read the same path.
 # Driver binaries/libs stay in /opt/geomagic_touch_device_driver (see docker/geomagic-touch-setup.sh).
 RUN mkdir -p /tmp/xdg-runtime-root && chmod 700 /tmp/xdg-runtime-root \
- && mkdir -p /usr/share/3DSystems/config && chmod 755 /usr/share/3DSystems /usr/share/3DSystems/config
+  && mkdir -p /usr/share/3DSystems/config && chmod 755 /usr/share/3DSystems /usr/share/3DSystems/config
 ENV GTDD_HOME=/usr/share/3DSystems
 ENV XDG_RUNTIME_DIR=/tmp/xdg-runtime-root
 
@@ -72,8 +75,8 @@ COPY docker/run-quickhaptics-glut-example.sh /usr/local/bin/run-quickhaptics-glu
 COPY docker/run-hd-console-example.sh /usr/local/bin/run-hd-console-example.sh
 COPY docker/run-teeth-cavity-pick.sh /usr/local/bin/run-teeth-cavity-pick
 RUN chmod +x /usr/local/bin/geomagic-touch-setup /usr/local/bin/geomagic-touch-diagnostic \
-    /usr/local/bin/run-quickhaptics-glut-example.sh /usr/local/bin/run-hd-console-example.sh \
-    /usr/local/bin/run-teeth-cavity-pick
+  /usr/local/bin/run-quickhaptics-glut-example.sh /usr/local/bin/run-hd-console-example.sh \
+  /usr/local/bin/run-teeth-cavity-pick
 
 COPY docker/udev/70-geomagic-touch.rules /etc/udev/rules.d/70-geomagic-touch.rules
 
@@ -84,15 +87,15 @@ RUN rosdep init 2>/dev/null || true \
   && rosdep update --include-eol-distros \
   && apt-get update \
   && rosdep install --from-paths /catkin_ws/src --ignore-src -y \
-      --skip-keys="openhaptics-ae moveit_fake_controller_manager" \
-      --rosdistro=${ROS_DISTRO} \
+  --skip-keys="openhaptics-ae moveit_fake_controller_manager" \
+  --rosdistro=${ROS_DISTRO} \
   && rm -rf /var/lib/apt/lists/*
 
 RUN /bin/bash -c "source /opt/ros/noetic/setup.bash \
   && cd /catkin_ws \
   && catkin_make -DCMAKE_BUILD_TYPE=Release \
-       -DCATKIN_BLACKLIST_PACKAGES='kortex_gazebo;kortex_examples' \
-       -j$(nproc)"
+  -DCATKIN_BLACKLIST_PACKAGES='kortex_gazebo;kortex_examples' \
+  -j$(nproc)"
 
 COPY docker/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh

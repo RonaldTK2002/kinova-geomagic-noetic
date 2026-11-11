@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2026-10-01 18:10:26,435: init_node, name[/fk_visual_validator], pid[810]
+[xmlrpc][INFO] 2026-10-01 18:10:26,435: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-01 18:10:26,436: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:40247/]
+[rospy.init][INFO] 2026-10-01 18:10:26,436: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:40247/]
+[rospy.impl.masterslave][INFO] 2026-10-01 18:10:26,436: _ready: http://ronaldtk-Nitro-AN517-54:40247/
+[rospy.registration][INFO] 2026-10-01 18:10:26,436: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-01 18:10:26,436: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-01 18:10:26,536: registered with master
+[rospy.rosout][INFO] 2026-10-01 18:10:26,536: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-01 18:10:26,539: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-01 18:10:26,539: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2026-10-01 18:10:26,541: Nó de validação da Cinemática Direta iniciado. Publicando em /geomagic/fk_marker
+[rospy.internal][INFO] 2026-10-01 18:10:26,542: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:42541/], count 0
+[rospy.internal][INFO] 2026-10-01 18:10:26,805: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-01 18:18:03,750: topic[/geomagic/fk_marker] adding connection to [/rviz], count 0
+[rospy.core][INFO] 2026-10-01 18:23:04,852: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-01 18:23:04,854: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-01 18:23:04,854: topic[/geomagic/fk_marker] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-01 18:23:04,854: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:42541/
+[rospy.impl.masterslave][INFO] 2026-10-01 18:23:04,854: signal-2
+[rospy.core][INFO] 2026-10-01 18:23:05,453: signal_shutdown [atexit]

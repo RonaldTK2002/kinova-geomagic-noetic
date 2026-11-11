@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2026-10-22 19:33:40,988: init_node, name[/my_gen3/gen3_trajectory_controller_spawner], pid[1400]
+[xmlrpc][INFO] 2026-10-22 19:33:40,989: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-22 19:33:40,990: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:40125/]
+[rospy.init][INFO] 2026-10-22 19:33:40,990: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:40125/]
+[rospy.impl.masterslave][INFO] 2026-10-22 19:33:40,990: _ready: http://ronaldtk-Nitro-AN517-54:40125/
+[rospy.registration][INFO] 2026-10-22 19:33:40,991: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-22 19:33:40,991: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-22 19:33:41,090: registered with master
+[rospy.rosout][INFO] 2026-10-22 19:33:41,091: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-22 19:33:41,099: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-22 19:33:41,101: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-22 19:33:41,105: connected to core topic /clock
+[rosout][INFO] 2026-10-22 19:33:41,110: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2026-10-22 19:33:41,369: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-22 19:33:42,540: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:46033/], count 0
+[rosout][INFO] 2026-10-22 19:33:43,230: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2026-10-22 19:33:43,238: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2026-10-22 19:33:43,244: Loading controller: gen3_joint_trajectory_controller
+[rosout][INFO] 2026-10-22 19:33:43,543: Loading controller: joint_state_controller
+[rosout][INFO] 2026-10-22 19:33:43,588: Controller Spawner: Loaded controllers: gen3_joint_trajectory_controller, joint_state_controller
+[rosout][INFO] 2026-10-22 19:33:51,340: Started controllers: gen3_joint_trajectory_controller, joint_state_controller
+[rospy.core][INFO] 2026-10-22 19:34:29,584: signal_shutdown [signal-2]
+[rosout][INFO] 2026-10-22 19:34:29,585: Shutting down spawner. Stopping and unloading controllers...
+[rosout][INFO] 2026-10-22 19:34:29,602: Stopping all controllers...
+[rosout][INFO] 2026-10-22 19:34:29,630: Unloading all loaded controllers...
+[rosout][INFO] 2026-10-22 19:34:29,635: Trying to unload joint_state_controller
+[rosout][INFO] 2026-10-22 19:34:29,661: Succeeded in unloading joint_state_controller
+[rosout][INFO] 2026-10-22 19:34:29,669: Trying to unload gen3_joint_trajectory_controller
+[rosout][INFO] 2026-10-22 19:34:29,957: Succeeded in unloading gen3_joint_trajectory_controller
+[rospy.internal][INFO] 2026-10-22 19:34:29,972: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-22 19:34:29,972: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:46033/
+[rospy.impl.masterslave][INFO] 2026-10-22 19:34:29,973: signal-2
+[rospy.core][INFO] 2026-10-22 19:34:30,565: signal_shutdown [atexit]

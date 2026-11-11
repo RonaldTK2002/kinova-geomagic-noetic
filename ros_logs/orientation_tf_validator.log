@@ -1,0 +1,1172 @@
+[rospy.client][INFO] 2026-10-01 18:23:07,861: init_node, name[/orientation_tf_validator], pid[826]
+[xmlrpc][INFO] 2026-10-01 18:23:07,861: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-01 18:23:07,861: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:40047/]
+[rospy.init][INFO] 2026-10-01 18:23:07,861: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:40047/]
+[rospy.impl.masterslave][INFO] 2026-10-01 18:23:07,861: _ready: http://ronaldtk-Nitro-AN517-54:40047/
+[rospy.registration][INFO] 2026-10-01 18:23:07,862: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-01 18:23:07,862: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-01 18:23:07,962: registered with master
+[rospy.rosout][INFO] 2026-10-01 18:23:07,962: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-01 18:23:07,964: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-01 18:23:07,965: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2026-10-01 18:23:07,967: Publicando TF analítico no frame: geomagic_stylus_fk
+[rospy.internal][INFO] 2026-10-01 18:23:07,968: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:42541/], count 0
+[rosout][ERROR] 2026-10-01 18:23:07,975: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:07,995: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,015: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,035: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,055: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,075: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rospy.internal][INFO] 2026-10-01 18:23:08,090: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2026-10-01 18:23:08,095: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,115: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,136: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,155: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,175: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rospy.internal][INFO] 2026-10-01 18:23:08,190: topic[/tf] adding connection to [/rviz], count 0
+[rosout][ERROR] 2026-10-01 18:23:08,195: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,215: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,235: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,255: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,275: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,295: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,315: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,335: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,355: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,375: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,395: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,415: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,435: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,455: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,475: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,495: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,515: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,535: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,555: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,575: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,595: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,615: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,635: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,655: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,675: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,695: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,715: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,735: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,755: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,775: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,795: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,815: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,835: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,855: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,875: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,895: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,915: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,935: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,955: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,975: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:08,995: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,015: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,035: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,055: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,075: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,095: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,115: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,135: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,155: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,175: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,195: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,215: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,235: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,255: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,275: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,295: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,315: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,335: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,355: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,375: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,395: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,415: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,435: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,455: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,475: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,495: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,515: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,535: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,555: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,575: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,595: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,615: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,635: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,655: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,675: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,695: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,715: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,735: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,755: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,775: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,795: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,815: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,835: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,855: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,875: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,895: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,915: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,935: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,955: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,975: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:09,995: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,015: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,035: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,055: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,075: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,095: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,115: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,135: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,155: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,175: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,195: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,215: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,235: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,255: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,275: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,295: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,315: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,335: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,355: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,375: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,395: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,415: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,435: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,455: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,475: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,495: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,515: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,535: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,555: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,575: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,595: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,615: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,635: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,655: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,675: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,695: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rosout][ERROR] 2026-10-01 18:23:10,715: bad callback: <bound method OrientationTFValidator.callback of <__main__.OrientationTFValidator object at 0x7a7061768130>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 59, in callback
+    quat = R.from_matrix(rot_matrix).as_quat()  # Retorna [qx, qy, qz, qw]
+AttributeError: type object 'Rotation' has no attribute 'from_matrix'
+
+[rospy.core][INFO] 2026-10-01 18:23:10,721: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-01 18:23:10,723: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-01 18:23:10,723: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-01 18:23:10,723: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:42541/
+[rospy.impl.masterslave][INFO] 2026-10-01 18:23:10,723: signal-2
+[rospy.core][INFO] 2026-10-01 18:23:11,322: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-01 19:10:03,600: init_node, name[/orientation_tf_validator], pid[838]
+[xmlrpc][INFO] 2026-10-01 19:10:03,600: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-01 19:10:03,600: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:38119/]
+[rospy.init][INFO] 2026-10-01 19:10:03,601: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:38119/]
+[rospy.impl.masterslave][INFO] 2026-10-01 19:10:03,601: _ready: http://ronaldtk-Nitro-AN517-54:38119/
+[rospy.registration][INFO] 2026-10-01 19:10:03,601: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-01 19:10:03,601: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-01 19:10:03,701: registered with master
+[rospy.rosout][INFO] 2026-10-01 19:10:03,701: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-01 19:10:03,704: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-01 19:10:03,704: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2026-10-01 19:10:03,707: Publicando TF analítico no frame: geomagic_stylus_fk
+[rospy.internal][INFO] 2026-10-01 19:10:03,708: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:42541/], count 0
+[rospy.internal][INFO] 2026-10-01 19:10:03,948: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-01 19:10:03,948: topic[/tf] adding connection to [/rviz], count 0
+[rospy.internal][INFO] 2026-10-01 19:11:55,600: topic[/tf] adding connection to [/rostopic_898_1790881915474], count 1
+[rospy.internal][INFO] 2026-10-01 19:12:06,055: topic[/tf] removing connection to /rostopic_898_1790881915474
+[rospy.internal][INFO] 2026-10-01 19:12:08,439: topic[/tf] adding connection to [/rostopic_931_1790881928313], count 1
+[rospy.internal][INFO] 2026-10-01 19:12:12,575: topic[/tf] removing connection to /rostopic_931_1790881928313
+[rospy.core][INFO] 2026-10-01 19:12:29,332: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-01 19:12:29,334: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-01 19:12:29,334: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-01 19:12:29,334: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:42541/
+[rospy.impl.masterslave][INFO] 2026-10-01 19:12:29,334: signal-2
+[rospy.core][INFO] 2026-10-01 19:12:29,932: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-01 19:12:30,750: init_node, name[/orientation_tf_validator], pid[964]
+[xmlrpc][INFO] 2026-10-01 19:12:30,750: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-01 19:12:30,750: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:34359/]
+[rospy.impl.masterslave][INFO] 2026-10-01 19:12:30,750: _ready: http://ronaldtk-Nitro-AN517-54:34359/
+[rospy.init][INFO] 2026-10-01 19:12:30,750: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:34359/]
+[rospy.registration][INFO] 2026-10-01 19:12:30,751: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-01 19:12:30,751: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-01 19:12:30,851: registered with master
+[rospy.rosout][INFO] 2026-10-01 19:12:30,851: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-01 19:12:30,854: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-01 19:12:30,854: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2026-10-01 19:12:30,856: Publicando TF analítico no frame: geomagic_stylus_fk
+[rospy.internal][INFO] 2026-10-01 19:12:30,857: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:42541/], count 0
+[rospy.internal][INFO] 2026-10-01 19:12:31,137: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-01 19:12:31,137: topic[/tf] adding connection to [/rviz], count 0
+[rospy.internal][INFO] 2026-10-02 12:03:39,251: topic[/tf] removing connection to /rviz
+[rospy.core][INFO] 2026-10-02 12:03:41,467: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-02 12:03:41,469: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-02 12:03:41,469: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:42541/
+[rospy.impl.masterslave][INFO] 2026-10-02 12:03:41,469: signal-2
+[rospy.core][INFO] 2026-10-02 12:03:41,691: signal_shutdown [signal-2]
+[rospy.core][INFO] 2026-10-02 12:03:42,068: signal_shutdown [atexit]

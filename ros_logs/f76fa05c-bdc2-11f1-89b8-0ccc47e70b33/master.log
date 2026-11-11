@@ -1,0 +1,389 @@
+[rosmaster.main][INFO] 2026-10-01 18:07:30,073: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2026-10-01 18:07:30,074: Starting ROS Master Node
+[xmlrpc][INFO] 2026-10-01 18:07:30,074: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2026-10-01 18:07:30,074: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:11311/]
+[rosmaster.master][INFO] 2026-10-01 18:07:30,074: Master initialized: port[11311], uri[http://ronaldtk-Nitro-AN517-54:11311/]
+[xmlrpc][INFO] 2026-10-01 18:07:30,075: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2026-10-01 18:07:30,127: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:07:30,127: +PARAM [/roslaunch/uris/host_ronaldtk_nitro_an517_54__40241] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:07:30,154: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:07:30,154: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:07:30,154: +PARAM [/geomagic/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:07:30,154: +PARAM [/geomagic_node/torque_mode] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:07:30,154: +PARAM [/geomagic_node/force_topic] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:07:30,155: +PARAM [/geomagic_node/omni_name] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:07:30,158: +SERVICE [/rosout/get_loggers] /rosout http://ronaldtk-Nitro-AN517-54:38077/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,158: +SERVICE [/rosout/set_logger_level] /rosout http://ronaldtk-Nitro-AN517-54:38077/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,159: +PUB [/rosout_agg] /rosout http://ronaldtk-Nitro-AN517-54:38077/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,159: +SUB [/rosout] /rosout http://ronaldtk-Nitro-AN517-54:38077/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,178: +PUB [/rosout] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:38789/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,179: +SERVICE [/base_link_to_geomagic_base/get_loggers] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:38789/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,179: +SERVICE [/base_link_to_geomagic_base/set_logger_level] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:38789/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,179: +PUB [/rosout] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:45093/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,180: +SERVICE [/geomagic/rsp_geomagic/get_loggers] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:45093/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,180: +PUB [/tf_static] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:38789/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,180: +SERVICE [/geomagic/rsp_geomagic/set_logger_level] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:45093/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,180: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_link_to_geomagic_base
+[rosmaster.master][INFO] 2026-10-01 18:07:30,181: +PUB [/tf] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:45093/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,182: +PUB [/tf_static] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:45093/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,183: +SUB [/geomagic/joint_states] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:45093/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,187: +PUB [/rosout] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,187: +SERVICE [/geomagic_node/get_loggers] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,188: +SERVICE [/geomagic_node/set_logger_level] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,189: +SUB [/arm/force_feedback] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,190: +PUB [/geomagic/position] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,190: +PUB [/geomagic/speed] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,190: +PUB [/geomagic/joint_states] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,190: +PUB [/geomagic/button] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,190: +CACHEDPARAM [/rosout_disable_topics_generation] by /geomagic_node
+[rosmaster.master][INFO] 2026-10-01 18:07:30,210: +PUB [/rosout] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,210: +SERVICE [/rviz/get_loggers] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,211: +SERVICE [/rviz/set_logger_level] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,211: +CACHEDPARAM [/rosout_disable_topics_generation] by /rviz
+[rosmaster.master][INFO] 2026-10-01 18:07:30,274: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/']
+[rosmaster.master][INFO] 2026-10-01 18:07:30,274: publisherUpdate[/geomagic/joint_states] -> http://ronaldtk-Nitro-AN517-54:45093/ ['http://ronaldtk-Nitro-AN517-54:42541/']
+[rosmaster.master][INFO] 2026-10-01 18:07:30,277: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:07:30,277: publisherUpdate[/geomagic/joint_states] -> http://ronaldtk-Nitro-AN517-54:45093/ ['http://ronaldtk-Nitro-AN517-54:42541/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:07:30,277: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/']
+[rosmaster.master][INFO] 2026-10-01 18:07:30,277: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:07:30,277: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/']
+[rosmaster.master][INFO] 2026-10-01 18:07:30,278: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:07:30,278: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/']
+[rosmaster.master][INFO] 2026-10-01 18:07:30,278: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:07:30,316: +CACHEDPARAM [/roslaunch/uris/host_ronaldtk_nitro_an517_54__40241] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:07:30,316: +CACHEDPARAM [/geomagic_node/torque_mode] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:07:30,316: +CACHEDPARAM [/geomagic_node/force_topic] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:07:30,316: +CACHEDPARAM [/geomagic_node/omni_name] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:07:30,382: +SUB [/tf] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,384: +SUB [/tf_static] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,407: +PUB [/initialpose] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,408: +PUB [/goal] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,444: -PUB [/goal] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,444: -PUB [/initialpose] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,483: +SERVICE [/rviz/reload_shaders] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,484: +SERVICE [/rviz/load_config] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,484: +SERVICE [/rviz/load_config_discarding_changes] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:30,484: +SERVICE [/rviz/save_config] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:07:32,885: -PUB [/clicked_point] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:07:32,886: -PUB [/initialpose] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:07:32,908: +PUB [/move_base_simple/goal] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:07:32,921: +PUB [/clicked_point] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:07:32,922: +PUB [/initialpose] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:09:40,291: +PUB [/rosout] /rqt_gui_py_node_774 http://ronaldtk-Nitro-AN517-54:41117/
+[rosmaster.master][INFO] 2026-10-01 18:09:40,293: +SERVICE [/rqt_gui_py_node_774/get_loggers] /rqt_gui_py_node_774 http://ronaldtk-Nitro-AN517-54:41117/
+[rosmaster.master][INFO] 2026-10-01 18:09:40,293: +SERVICE [/rqt_gui_py_node_774/set_logger_level] /rqt_gui_py_node_774 http://ronaldtk-Nitro-AN517-54:41117/
+[rosmaster.master][INFO] 2026-10-01 18:09:40,336: +SERVICE [/rqt_gui_py_node_774/tf2_frames] /rqt_gui_py_node_774 http://ronaldtk-Nitro-AN517-54:41117/
+[rosmaster.master][INFO] 2026-10-01 18:09:40,337: +SUB [/tf] /rqt_gui_py_node_774 http://ronaldtk-Nitro-AN517-54:41117/
+[rosmaster.master][INFO] 2026-10-01 18:09:40,337: +SUB [/tf_static] /rqt_gui_py_node_774 http://ronaldtk-Nitro-AN517-54:41117/
+[rosmaster.master][INFO] 2026-10-01 18:09:40,342: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:41117/']
+[rosmaster.master][INFO] 2026-10-01 18:09:40,342: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:41117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:09:50,257: -SUB [/tf] /rqt_gui_py_node_774 http://ronaldtk-Nitro-AN517-54:41117/
+[rosmaster.master][INFO] 2026-10-01 18:09:50,258: -SUB [/tf_static] /rqt_gui_py_node_774 http://ronaldtk-Nitro-AN517-54:41117/
+[rosmaster.master][INFO] 2026-10-01 18:09:50,258: -PUB [/rosout] /rqt_gui_py_node_774 http://ronaldtk-Nitro-AN517-54:41117/
+[rosmaster.master][INFO] 2026-10-01 18:09:50,258: -SERVICE [/rqt_gui_py_node_774/get_loggers] /rqt_gui_py_node_774 rosrpc://ronaldtk-Nitro-AN517-54:36943
+[rosmaster.master][INFO] 2026-10-01 18:09:50,258: -SERVICE [/rqt_gui_py_node_774/set_logger_level] /rqt_gui_py_node_774 rosrpc://ronaldtk-Nitro-AN517-54:36943
+[rosmaster.master][INFO] 2026-10-01 18:09:50,258: -SERVICE [/rqt_gui_py_node_774/tf2_frames] /rqt_gui_py_node_774 rosrpc://ronaldtk-Nitro-AN517-54:36943
+[rosmaster.master][INFO] 2026-10-01 18:09:50,355: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/']
+[rosmaster.master][INFO] 2026-10-01 18:09:50,356: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:10:26,538: +PUB [/rosout] /fk_visual_validator http://ronaldtk-Nitro-AN517-54:40247/
+[rosmaster.master][INFO] 2026-10-01 18:10:26,540: +SERVICE [/fk_visual_validator/get_loggers] /fk_visual_validator http://ronaldtk-Nitro-AN517-54:40247/
+[rosmaster.master][INFO] 2026-10-01 18:10:26,540: +SERVICE [/fk_visual_validator/set_logger_level] /fk_visual_validator http://ronaldtk-Nitro-AN517-54:40247/
+[rosmaster.master][INFO] 2026-10-01 18:10:26,541: +PUB [/geomagic/fk_marker] /fk_visual_validator http://ronaldtk-Nitro-AN517-54:40247/
+[rosmaster.master][INFO] 2026-10-01 18:10:26,541: +SUB [/geomagic/joint_states] /fk_visual_validator http://ronaldtk-Nitro-AN517-54:40247/
+[rosmaster.master][INFO] 2026-10-01 18:10:26,542: +CACHEDPARAM [/rosout_disable_topics_generation] by /fk_visual_validator
+[rosmaster.master][INFO] 2026-10-01 18:10:26,603: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:40247/']
+[rosmaster.master][INFO] 2026-10-01 18:10:26,603: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:40247/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:10:26,805: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2026-10-01 18:15:24,668: -CACHEDPARAM [/run_id] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:15:24,668: -PUB [/move_base_simple/goal] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:15:24,668: -CACHEDPARAM [/rosversion] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:15:24,669: -PUB [/clicked_point] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:15:24,669: -CACHEDPARAM [/rosdistro] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:15:24,669: -PUB [/initialpose] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:15:24,669: -CACHEDPARAM [/geomagic/robot_description] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:15:24,669: -CACHEDPARAM [/roslaunch/uris/host_ronaldtk_nitro_an517_54__40241] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:15:24,669: -CACHEDPARAM [/geomagic_node/torque_mode] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:15:24,669: -CACHEDPARAM [/geomagic_node/force_topic] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:15:24,670: -CACHEDPARAM [/geomagic_node/omni_name] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:18:03,609: +SUB [/visualization_marker] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:18:03,610: +SUB [/visualization_marker_array] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:18:03,611: -SUB [/visualization_marker] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:18:03,611: -SUB [/visualization_marker_array] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:18:03,612: +SUB [/geomagic/fk_marker] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:18:03,613: +SUB [/geomagic/fk_marker_array] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-01 18:23:04,853: -SUB [/geomagic/joint_states] /fk_visual_validator http://ronaldtk-Nitro-AN517-54:40247/
+[rosmaster.master][INFO] 2026-10-01 18:23:04,853: -PUB [/rosout] /fk_visual_validator http://ronaldtk-Nitro-AN517-54:40247/
+[rosmaster.master][INFO] 2026-10-01 18:23:04,853: -PUB [/geomagic/fk_marker] /fk_visual_validator http://ronaldtk-Nitro-AN517-54:40247/
+[rosmaster.master][INFO] 2026-10-01 18:23:04,853: -SERVICE [/fk_visual_validator/get_loggers] /fk_visual_validator rosrpc://ronaldtk-Nitro-AN517-54:41427
+[rosmaster.master][INFO] 2026-10-01 18:23:04,853: -SERVICE [/fk_visual_validator/set_logger_level] /fk_visual_validator rosrpc://ronaldtk-Nitro-AN517-54:41427
+[rosmaster.master][INFO] 2026-10-01 18:23:04,884: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/']
+[rosmaster.master][INFO] 2026-10-01 18:23:04,884: publisherUpdate[/geomagic/fk_marker] -> http://ronaldtk-Nitro-AN517-54:43367/ []
+[rosmaster.master][INFO] 2026-10-01 18:23:04,884: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:23:04,885: publisherUpdate[/geomagic/fk_marker] -> http://ronaldtk-Nitro-AN517-54:43367/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:23:07,964: +PUB [/rosout] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:40047/
+[rosmaster.master][INFO] 2026-10-01 18:23:07,965: +SERVICE [/orientation_tf_validator/get_loggers] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:40047/
+[rosmaster.master][INFO] 2026-10-01 18:23:07,965: +SERVICE [/orientation_tf_validator/set_logger_level] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:40047/
+[rosmaster.master][INFO] 2026-10-01 18:23:07,966: +PUB [/tf] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:40047/
+[rosmaster.master][INFO] 2026-10-01 18:23:07,966: +SUB [/geomagic/joint_states] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:40047/
+[rosmaster.master][INFO] 2026-10-01 18:23:07,967: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:07,976: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:07,988: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:40047/']
+[rosmaster.master][INFO] 2026-10-01 18:23:07,988: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:43367/ ['http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:40047/']
+[rosmaster.master][INFO] 2026-10-01 18:23:07,989: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:40047/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:23:07,989: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:43367/ ['http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:40047/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:23:07,995: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,015: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,035: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,055: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,075: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,095: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,115: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,137: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,155: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,175: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,195: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,215: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,235: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,255: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,275: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,295: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,315: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,335: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,355: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,375: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,395: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,415: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,435: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,455: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,475: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,495: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,515: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,535: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,555: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,575: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,595: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,615: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,636: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,655: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,675: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,695: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,715: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,735: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,755: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,775: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,795: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,815: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,836: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,855: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,875: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,895: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,915: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,935: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,955: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,975: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:08,995: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,015: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,036: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,055: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,075: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,095: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,115: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,136: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,155: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,175: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,195: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,215: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,236: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,255: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,275: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,295: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,315: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,335: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,355: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,375: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,395: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,415: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,435: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,455: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,475: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,495: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,515: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,535: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,555: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,575: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,595: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,615: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,635: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,655: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,675: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,695: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,715: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,735: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,755: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,775: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,795: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,815: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,835: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,856: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,876: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,895: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,915: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,935: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,955: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,975: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:09,995: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,015: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,035: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,055: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,075: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,095: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,115: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,135: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,155: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,175: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,195: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,215: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,235: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,255: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,275: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,295: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,315: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,335: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,355: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,375: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,395: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,415: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,435: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,455: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,475: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,495: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,515: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,535: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,555: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,575: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,595: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,615: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,635: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,655: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,675: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,695: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,715: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 18:23:10,722: -SUB [/geomagic/joint_states] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:40047/
+[rosmaster.master][INFO] 2026-10-01 18:23:10,722: -PUB [/rosout] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:40047/
+[rosmaster.master][INFO] 2026-10-01 18:23:10,722: -PUB [/tf] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:40047/
+[rosmaster.master][INFO] 2026-10-01 18:23:10,722: -SERVICE [/orientation_tf_validator/get_loggers] /orientation_tf_validator rosrpc://ronaldtk-Nitro-AN517-54:42343
+[rosmaster.master][INFO] 2026-10-01 18:23:10,722: -SERVICE [/orientation_tf_validator/set_logger_level] /orientation_tf_validator rosrpc://ronaldtk-Nitro-AN517-54:42343
+[rosmaster.master][INFO] 2026-10-01 18:23:10,792: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/']
+[rosmaster.master][INFO] 2026-10-01 18:23:10,792: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:23:10,792: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:43367/ ['http://ronaldtk-Nitro-AN517-54:45093/']
+[rosmaster.master][INFO] 2026-10-01 18:23:10,793: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:43367/ ['http://ronaldtk-Nitro-AN517-54:45093/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 19:10:03,703: +PUB [/rosout] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:38119/
+[rosmaster.master][INFO] 2026-10-01 19:10:03,705: +SERVICE [/orientation_tf_validator/get_loggers] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:38119/
+[rosmaster.master][INFO] 2026-10-01 19:10:03,705: +SERVICE [/orientation_tf_validator/set_logger_level] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:38119/
+[rosmaster.master][INFO] 2026-10-01 19:10:03,706: +PUB [/tf] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:38119/
+[rosmaster.master][INFO] 2026-10-01 19:10:03,707: +SUB [/geomagic/joint_states] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:38119/
+[rosmaster.master][INFO] 2026-10-01 19:10:03,707: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 19:10:03,746: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:38119/']
+[rosmaster.master][INFO] 2026-10-01 19:10:03,746: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:43367/ ['http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:38119/']
+[rosmaster.master][INFO] 2026-10-01 19:10:03,747: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:38119/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 19:10:03,747: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:43367/ ['http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:38119/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 19:11:55,589: +PUB [/rosout] /rostopic_898_1790881915474 http://ronaldtk-Nitro-AN517-54:45909/
+[rosmaster.master][INFO] 2026-10-01 19:11:55,590: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:38119/', 'http://ronaldtk-Nitro-AN517-54:45909/']
+[rosmaster.master][INFO] 2026-10-01 19:11:55,590: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:38119/', 'http://ronaldtk-Nitro-AN517-54:45909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 19:11:55,591: +SERVICE [/rostopic_898_1790881915474/get_loggers] /rostopic_898_1790881915474 http://ronaldtk-Nitro-AN517-54:45909/
+[rosmaster.master][INFO] 2026-10-01 19:11:55,591: +SERVICE [/rostopic_898_1790881915474/set_logger_level] /rostopic_898_1790881915474 http://ronaldtk-Nitro-AN517-54:45909/
+[rosmaster.master][INFO] 2026-10-01 19:11:55,598: +SUB [/tf] /rostopic_898_1790881915474 http://ronaldtk-Nitro-AN517-54:45909/
+[rosmaster.master][INFO] 2026-10-01 19:12:06,033: -SUB [/tf] /rostopic_898_1790881915474 http://ronaldtk-Nitro-AN517-54:45909/
+[rosmaster.master][INFO] 2026-10-01 19:12:06,033: -PUB [/rosout] /rostopic_898_1790881915474 http://ronaldtk-Nitro-AN517-54:45909/
+[rosmaster.master][INFO] 2026-10-01 19:12:06,033: -SERVICE [/rostopic_898_1790881915474/get_loggers] /rostopic_898_1790881915474 rosrpc://ronaldtk-Nitro-AN517-54:33863
+[rosmaster.master][INFO] 2026-10-01 19:12:06,033: -SERVICE [/rostopic_898_1790881915474/set_logger_level] /rostopic_898_1790881915474 rosrpc://ronaldtk-Nitro-AN517-54:33863
+[rosmaster.master][INFO] 2026-10-01 19:12:06,103: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:38119/']
+[rosmaster.master][INFO] 2026-10-01 19:12:06,103: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:38119/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 19:12:08,427: +PUB [/rosout] /rostopic_931_1790881928313 http://ronaldtk-Nitro-AN517-54:38363/
+[rosmaster.master][INFO] 2026-10-01 19:12:08,429: +SERVICE [/rostopic_931_1790881928313/get_loggers] /rostopic_931_1790881928313 http://ronaldtk-Nitro-AN517-54:38363/
+[rosmaster.master][INFO] 2026-10-01 19:12:08,429: +SERVICE [/rostopic_931_1790881928313/set_logger_level] /rostopic_931_1790881928313 http://ronaldtk-Nitro-AN517-54:38363/
+[rosmaster.master][INFO] 2026-10-01 19:12:08,437: +SUB [/tf] /rostopic_931_1790881928313 http://ronaldtk-Nitro-AN517-54:38363/
+[rosmaster.master][INFO] 2026-10-01 19:12:08,506: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:38119/', 'http://ronaldtk-Nitro-AN517-54:38363/']
+[rosmaster.master][INFO] 2026-10-01 19:12:08,506: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:38119/', 'http://ronaldtk-Nitro-AN517-54:38363/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 19:12:12,553: -SUB [/tf] /rostopic_931_1790881928313 http://ronaldtk-Nitro-AN517-54:38363/
+[rosmaster.master][INFO] 2026-10-01 19:12:12,553: -PUB [/rosout] /rostopic_931_1790881928313 http://ronaldtk-Nitro-AN517-54:38363/
+[rosmaster.master][INFO] 2026-10-01 19:12:12,553: -SERVICE [/rostopic_931_1790881928313/get_loggers] /rostopic_931_1790881928313 rosrpc://ronaldtk-Nitro-AN517-54:39431
+[rosmaster.master][INFO] 2026-10-01 19:12:12,553: -SERVICE [/rostopic_931_1790881928313/set_logger_level] /rostopic_931_1790881928313 rosrpc://ronaldtk-Nitro-AN517-54:39431
+[rosmaster.master][INFO] 2026-10-01 19:12:12,611: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:38119/']
+[rosmaster.master][INFO] 2026-10-01 19:12:12,612: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:38119/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 19:12:29,332: -SUB [/geomagic/joint_states] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:38119/
+[rosmaster.master][INFO] 2026-10-01 19:12:29,333: -PUB [/rosout] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:38119/
+[rosmaster.master][INFO] 2026-10-01 19:12:29,333: -PUB [/tf] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:38119/
+[rosmaster.master][INFO] 2026-10-01 19:12:29,333: -SERVICE [/orientation_tf_validator/get_loggers] /orientation_tf_validator rosrpc://ronaldtk-Nitro-AN517-54:35105
+[rosmaster.master][INFO] 2026-10-01 19:12:29,333: -SERVICE [/orientation_tf_validator/set_logger_level] /orientation_tf_validator rosrpc://ronaldtk-Nitro-AN517-54:35105
+[rosmaster.master][INFO] 2026-10-01 19:12:29,432: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/']
+[rosmaster.master][INFO] 2026-10-01 19:12:29,433: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:43367/ ['http://ronaldtk-Nitro-AN517-54:45093/']
+[rosmaster.master][INFO] 2026-10-01 19:12:29,433: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 19:12:29,433: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:43367/ ['http://ronaldtk-Nitro-AN517-54:45093/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 19:12:30,853: +PUB [/rosout] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:34359/
+[rosmaster.master][INFO] 2026-10-01 19:12:30,855: +SERVICE [/orientation_tf_validator/get_loggers] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:34359/
+[rosmaster.master][INFO] 2026-10-01 19:12:30,855: +SERVICE [/orientation_tf_validator/set_logger_level] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:34359/
+[rosmaster.master][INFO] 2026-10-01 19:12:30,855: +PUB [/tf] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:34359/
+[rosmaster.master][INFO] 2026-10-01 19:12:30,856: +SUB [/geomagic/joint_states] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:34359/
+[rosmaster.master][INFO] 2026-10-01 19:12:30,857: +CACHEDPARAM [/rosout_disable_topics_generation] by /orientation_tf_validator
+[rosmaster.master][INFO] 2026-10-01 19:12:30,935: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:34359/']
+[rosmaster.master][INFO] 2026-10-01 19:12:30,935: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:43367/ ['http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:34359/']
+[rosmaster.master][INFO] 2026-10-01 19:12:30,936: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:43367/', 'http://ronaldtk-Nitro-AN517-54:34359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 19:12:30,936: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:43367/ ['http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:34359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-02 12:03:39,201: -SUB [/geomagic/fk_marker] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-02 12:03:39,201: -SUB [/geomagic/fk_marker_array] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-02 12:03:39,212: -SUB [/tf_static] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-02 12:03:39,212: -SUB [/tf] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-02 12:03:39,213: -SERVICE [/rviz/save_config] /rviz rosrpc://ronaldtk-Nitro-AN517-54:51147
+[rosmaster.master][INFO] 2026-10-02 12:03:39,213: -SERVICE [/rviz/load_config_discarding_changes] /rviz rosrpc://ronaldtk-Nitro-AN517-54:51147
+[rosmaster.master][INFO] 2026-10-02 12:03:39,213: -SERVICE [/rviz/load_config] /rviz rosrpc://ronaldtk-Nitro-AN517-54:51147
+[rosmaster.master][INFO] 2026-10-02 12:03:39,214: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://ronaldtk-Nitro-AN517-54:51147
+[rosmaster.master][INFO] 2026-10-02 12:03:39,337: -PUB [/rosout] /rviz http://ronaldtk-Nitro-AN517-54:43367/
+[rosmaster.master][INFO] 2026-10-02 12:03:39,337: -SERVICE [/rviz/get_loggers] /rviz rosrpc://ronaldtk-Nitro-AN517-54:51147
+[rosmaster.master][INFO] 2026-10-02 12:03:39,337: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://ronaldtk-Nitro-AN517-54:51147
+[rosmaster.master][INFO] 2026-10-02 12:03:39,338: -CACHEDPARAM [/rosout_disable_topics_generation] by /rviz
+[rosmaster.master][INFO] 2026-10-02 12:03:39,382: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:34359/']
+[rosmaster.master][INFO] 2026-10-02 12:03:39,383: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/', 'http://ronaldtk-Nitro-AN517-54:34359/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-02 12:03:41,468: -SUB [/geomagic/joint_states] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:34359/
+[rosmaster.master][INFO] 2026-10-02 12:03:41,468: -PUB [/rosout] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:34359/
+[rosmaster.master][INFO] 2026-10-02 12:03:41,468: -PUB [/tf] /orientation_tf_validator http://ronaldtk-Nitro-AN517-54:34359/
+[rosmaster.master][INFO] 2026-10-02 12:03:41,468: -SERVICE [/orientation_tf_validator/get_loggers] /orientation_tf_validator rosrpc://ronaldtk-Nitro-AN517-54:41455
+[rosmaster.master][INFO] 2026-10-02 12:03:41,468: -SERVICE [/orientation_tf_validator/set_logger_level] /orientation_tf_validator rosrpc://ronaldtk-Nitro-AN517-54:41455
+[rosmaster.master][INFO] 2026-10-02 12:03:41,485: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/']
+[rosmaster.master][INFO] 2026-10-02 12:03:41,486: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/', 'http://ronaldtk-Nitro-AN517-54:42541/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-02 12:04:13,487: -PUB [/rosout] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,487: -PUB [/geomagic/position] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,488: -PUB [/geomagic/speed] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,488: -PUB [/geomagic/joint_states] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,488: -PUB [/geomagic/button] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,489: -SUB [/arm/force_feedback] /geomagic_node http://ronaldtk-Nitro-AN517-54:42541/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,489: -SERVICE [/geomagic_node/get_loggers] /geomagic_node rosrpc://ronaldtk-Nitro-AN517-54:34131
+[rosmaster.master][INFO] 2026-10-02 12:04:13,489: -SERVICE [/geomagic_node/set_logger_level] /geomagic_node rosrpc://ronaldtk-Nitro-AN517-54:34131
+[rosmaster.master][INFO] 2026-10-02 12:04:13,489: -CACHEDPARAM [/rosout_disable_topics_generation] by /geomagic_node
+[rosmaster.master][INFO] 2026-10-02 12:04:13,527: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/']
+[rosmaster.master][INFO] 2026-10-02 12:04:13,527: publisherUpdate[/geomagic/joint_states] -> http://ronaldtk-Nitro-AN517-54:45093/ []
+[rosmaster.master][INFO] 2026-10-02 12:04:13,528: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:38789/', 'http://ronaldtk-Nitro-AN517-54:45093/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-02 12:04:13,528: publisherUpdate[/geomagic/joint_states] -> http://ronaldtk-Nitro-AN517-54:45093/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2026-10-02 12:04:13,589: -PUB [/rosout] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:38789/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,590: -PUB [/tf_static] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:38789/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,590: -SERVICE [/base_link_to_geomagic_base/get_loggers] /base_link_to_geomagic_base rosrpc://ronaldtk-Nitro-AN517-54:46201
+[rosmaster.master][INFO] 2026-10-02 12:04:13,590: -SERVICE [/base_link_to_geomagic_base/set_logger_level] /base_link_to_geomagic_base rosrpc://ronaldtk-Nitro-AN517-54:46201
+[rosmaster.master][INFO] 2026-10-02 12:04:13,590: -CACHEDPARAM [/rosout_disable_topics_generation] by /base_link_to_geomagic_base
+[rosmaster.master][INFO] 2026-10-02 12:04:13,628: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:45093/']
+[rosmaster.master][INFO] 2026-10-02 12:04:13,629: -PUB [/rosout] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:45093/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,629: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ ['http://ronaldtk-Nitro-AN517-54:45093/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-02 12:04:13,629: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ []
+[rosmaster.master][INFO] 2026-10-02 12:04:13,629: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:38077/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-02 12:04:13,629: -PUB [/tf] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:45093/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,630: -PUB [/tf_static] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:45093/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,630: -SUB [/geomagic/joint_states] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:45093/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,630: -SERVICE [/geomagic/rsp_geomagic/get_loggers] /geomagic/rsp_geomagic rosrpc://ronaldtk-Nitro-AN517-54:50673
+[rosmaster.master][INFO] 2026-10-02 12:04:13,631: -SERVICE [/geomagic/rsp_geomagic/set_logger_level] /geomagic/rsp_geomagic rosrpc://ronaldtk-Nitro-AN517-54:50673
+[rosmaster.master][INFO] 2026-10-02 12:04:13,830: -PUB [/rosout_agg] /rosout http://ronaldtk-Nitro-AN517-54:38077/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,830: -SUB [/rosout] /rosout http://ronaldtk-Nitro-AN517-54:38077/
+[rosmaster.master][INFO] 2026-10-02 12:04:13,830: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ronaldtk-Nitro-AN517-54:40557
+[rosmaster.master][INFO] 2026-10-02 12:04:13,830: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ronaldtk-Nitro-AN517-54:40557
+[rosmaster.master][INFO] 2026-10-02 12:04:13,831: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2026-10-02 12:04:13,892: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2026-10-02 12:04:13,892: stopping master...
+[rospy.core][INFO] 2026-10-02 12:04:13,892: signal_shutdown [atexit]

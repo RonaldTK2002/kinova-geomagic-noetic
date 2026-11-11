@@ -1,0 +1,126 @@
+[roslaunch][INFO] 2026-10-01 18:05:49,888: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2026-10-01 18:05:49,891: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2026-10-01 18:05:49,891: roslaunch starting with args ['/opt/ros/noetic/bin/roslaunch', 'kinova_geomagic_demo', 'demo_hardware.launch', 'robot_ip:=192.168.1.10']
+[roslaunch][INFO] 2026-10-01 18:05:49,891: roslaunch env is environ({'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'ronaldtk-Nitro-AN517-54', 'GALLIUM_DRIVER': 'llvmpipe', 'ROS_PACKAGE_PATH': '/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/catkin_ws/devel/share/common-lisp', 'PWD': '/catkin_ws', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'CMAKE_PREFIX_PATH': '/catkin_ws/devel:/opt/ros/noetic', 'OPENHAPTICS_ROOT': '/usr', 'PYTHONPATH': '/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'xterm', 'DISPLAY': ':1', 'SHLVL': '0', 'ROS_MASTER_URI': 'http://localhost:11311', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'XDG_RUNTIME_DIR': '/tmp/xdg-runtime-root', 'GTDD_HOME': '/usr/share/3DSystems', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'LC_NUMERIC': 'en_US.UTF-8', 'ROS_LOG_FILENAME': '/root/.ros/log/bbe28ff4-bdc2-11f1-842c-0ccc47e70b33/roslaunch-ronaldtk-Nitro-AN517-54-1.log'})
+[roslaunch][INFO] 2026-10-01 18:05:49,891: starting in server mode
+[roslaunch.parent][INFO] 2026-10-01 18:05:49,891: starting roslaunch parent run
+[roslaunch][INFO] 2026-10-01 18:05:49,891: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2026-10-01 18:05:49,982: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2026-10-01 18:05:49,982: loading config file /catkin_ws/src/kinova_geomagic_demo/launch/demo_hardware.launch
+[roslaunch][INFO] 2026-10-01 18:05:50,002: Added node of type [robot_state_publisher/robot_state_publisher] in namespace [/geomagic/]
+[roslaunch][INFO] 2026-10-01 18:05:50,002: Added node of type [tf2_ros/static_transform_publisher] in namespace [/]
+[roslaunch][INFO] 2026-10-01 18:05:50,002: ... selected machine [] for node of type [robot_state_publisher/robot_state_publisher]
+[roslaunch][INFO] 2026-10-01 18:05:50,002: ... selected machine [] for node of type [tf2_ros/static_transform_publisher]
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,003: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,004: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,004: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2026-10-01 18:05:50,004: starting parent XML-RPC server
+[roslaunch.server][INFO] 2026-10-01 18:05:50,004: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2026-10-01 18:05:50,004: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2026-10-01 18:05:50,004: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-01 18:05:50,004: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:36945/]
+[xmlrpc][INFO] 2026-10-01 18:05:50,004: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2026-10-01 18:05:50,015: started roslaunch server http://ronaldtk-Nitro-AN517-54:36945/
+[roslaunch.parent][INFO] 2026-10-01 18:05:50,016: ... parent XML-RPC server started
+[roslaunch][INFO] 2026-10-01 18:05:50,016: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2026-10-01 18:05:50,016: auto-starting new master
+[roslaunch][INFO] 2026-10-01 18:05:50,016: create_master_process: rosmaster, /opt/ros/noetic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2026-10-01 18:05:50,016: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,016: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,016: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2026-10-01 18:05:50,016: process[master]: starting os process
+[roslaunch][INFO] 2026-10-01 18:05:50,016: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/root/.ros/log/bbe28ff4-bdc2-11f1-842c-0ccc47e70b33/master.log']]
+[roslaunch][INFO] 2026-10-01 18:05:50,016: process[master]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2026-10-01 18:05:50,019: process[master]: started with pid [81]
+[roslaunch][INFO] 2026-10-01 18:05:50,019: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2026-10-01 18:05:50,120: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2026-10-01 18:05:50,220: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2026-10-01 18:05:50,221: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2026-10-01 18:05:50,222: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2026-10-01 18:05:50,223: setting /run_id to bbe28ff4-bdc2-11f1-842c-0ccc47e70b33
+[roslaunch][INFO] 2026-10-01 18:05:50,223: setting /roslaunch/uris/host_ronaldtk_nitro_an517_54__36945' to http://ronaldtk-Nitro-AN517-54:36945/
+[roslaunch][INFO] 2026-10-01 18:05:50,224: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2026-10-01 18:05:50,224: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2026-10-01 18:05:50,224: process[rosout-1]: env[{'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'ronaldtk-Nitro-AN517-54', 'GALLIUM_DRIVER': 'llvmpipe', 'ROS_PACKAGE_PATH': '/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/catkin_ws/devel/share/common-lisp', 'PWD': '/catkin_ws', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'CMAKE_PREFIX_PATH': '/catkin_ws/devel:/opt/ros/noetic', 'OPENHAPTICS_ROOT': '/usr', 'PYTHONPATH': '/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'xterm', 'DISPLAY': ':1', 'SHLVL': '0', 'ROS_MASTER_URI': 'http://localhost:11311', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'XDG_RUNTIME_DIR': '/tmp/xdg-runtime-root', 'GTDD_HOME': '/usr/share/3DSystems', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'LC_NUMERIC': 'en_US.UTF-8', 'ROS_LOG_FILENAME': '/root/.ros/log/bbe28ff4-bdc2-11f1-842c-0ccc47e70b33/roslaunch-ronaldtk-Nitro-AN517-54-1.log'}]
+[roslaunch][INFO] 2026-10-01 18:05:50,243: process[rosout-1]: args[['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout']]
+[roslaunch][INFO] 2026-10-01 18:05:50,243: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,243: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,243: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2026-10-01 18:05:50,244: ... registered process [rosout-1]
+[roslaunch][INFO] 2026-10-01 18:05:50,244: process[rosout-1]: starting os process
+[roslaunch][INFO] 2026-10-01 18:05:50,244: process[rosout-1]: start w/ args [['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout', '__log:=/root/.ros/log/bbe28ff4-bdc2-11f1-842c-0ccc47e70b33/rosout-1.log']]
+[roslaunch][INFO] 2026-10-01 18:05:50,244: process[rosout-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2026-10-01 18:05:50,247: process[rosout-1]: started with pid [91]
+[roslaunch][INFO] 2026-10-01 18:05:50,247: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2026-10-01 18:05:50,247: load_parameters starting ...
+[roslaunch][INFO] 2026-10-01 18:05:50,249: ... load_parameters complete
+[roslaunch][INFO] 2026-10-01 18:05:50,249: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2026-10-01 18:05:50,250: ... preparing to launch node of type [robot_state_publisher/robot_state_publisher]
+[roslaunch][INFO] 2026-10-01 18:05:50,250: create_node_process: package[robot_state_publisher] type[robot_state_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2026-10-01 18:05:50,250: process[geomagic/rsp_geomagic-2]: env[{'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'ronaldtk-Nitro-AN517-54', 'GALLIUM_DRIVER': 'llvmpipe', 'ROS_PACKAGE_PATH': '/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/catkin_ws/devel/share/common-lisp', 'PWD': '/catkin_ws', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'CMAKE_PREFIX_PATH': '/catkin_ws/devel:/opt/ros/noetic', 'OPENHAPTICS_ROOT': '/usr', 'PYTHONPATH': '/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'xterm', 'DISPLAY': ':1', 'SHLVL': '0', 'ROS_MASTER_URI': 'http://localhost:11311', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'XDG_RUNTIME_DIR': '/tmp/xdg-runtime-root', 'GTDD_HOME': '/usr/share/3DSystems', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'LC_NUMERIC': 'en_US.UTF-8', 'ROS_LOG_FILENAME': '/root/.ros/log/bbe28ff4-bdc2-11f1-842c-0ccc47e70b33/roslaunch-ronaldtk-Nitro-AN517-54-1.log', 'ROS_NAMESPACE': '/geomagic'}]
+[roslaunch][INFO] 2026-10-01 18:05:50,250: process[geomagic/rsp_geomagic-2]: args[['/opt/ros/noetic/lib/robot_state_publisher/robot_state_publisher', '__name:=rsp_geomagic']]
+[roslaunch][INFO] 2026-10-01 18:05:50,250: ... created process [geomagic/rsp_geomagic-2]
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,250: ProcessMonitor.register[geomagic/rsp_geomagic-2]
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,250: ProcessMonitor.register[geomagic/rsp_geomagic-2] complete
+[roslaunch][INFO] 2026-10-01 18:05:50,250: ... registered process [geomagic/rsp_geomagic-2]
+[roslaunch][INFO] 2026-10-01 18:05:50,250: process[geomagic/rsp_geomagic-2]: starting os process
+[roslaunch][INFO] 2026-10-01 18:05:50,250: process[geomagic/rsp_geomagic-2]: start w/ args [['/opt/ros/noetic/lib/robot_state_publisher/robot_state_publisher', '__name:=rsp_geomagic', '__log:=/root/.ros/log/bbe28ff4-bdc2-11f1-842c-0ccc47e70b33/geomagic-rsp_geomagic-2.log']]
+[roslaunch][INFO] 2026-10-01 18:05:50,250: process[geomagic/rsp_geomagic-2]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2026-10-01 18:05:50,253: process[geomagic/rsp_geomagic-2]: started with pid [94]
+[roslaunch][INFO] 2026-10-01 18:05:50,253: ... successfully launched [geomagic/rsp_geomagic-2]
+[roslaunch][INFO] 2026-10-01 18:05:50,253: ... preparing to launch node of type [tf2_ros/static_transform_publisher]
+[roslaunch][INFO] 2026-10-01 18:05:50,253: create_node_process: package[tf2_ros] type[static_transform_publisher] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2026-10-01 18:05:50,253: process[base_link_to_geomagic_base-3]: env[{'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'ronaldtk-Nitro-AN517-54', 'GALLIUM_DRIVER': 'llvmpipe', 'ROS_PACKAGE_PATH': '/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/catkin_ws/devel/share/common-lisp', 'PWD': '/catkin_ws', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'CMAKE_PREFIX_PATH': '/catkin_ws/devel:/opt/ros/noetic', 'OPENHAPTICS_ROOT': '/usr', 'PYTHONPATH': '/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'xterm', 'DISPLAY': ':1', 'SHLVL': '0', 'ROS_MASTER_URI': 'http://localhost:11311', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'XDG_RUNTIME_DIR': '/tmp/xdg-runtime-root', 'GTDD_HOME': '/usr/share/3DSystems', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'LC_NUMERIC': 'en_US.UTF-8', 'ROS_LOG_FILENAME': '/root/.ros/log/bbe28ff4-bdc2-11f1-842c-0ccc47e70b33/roslaunch-ronaldtk-Nitro-AN517-54-1.log'}]
+[roslaunch][INFO] 2026-10-01 18:05:50,253: process[base_link_to_geomagic_base-3]: args[['/opt/ros/noetic/lib/tf2_ros/static_transform_publisher', '0.5', '0', '0.25', '0', '0', '0', 'world', 'base', '__name:=base_link_to_geomagic_base']]
+[roslaunch][INFO] 2026-10-01 18:05:50,253: ... created process [base_link_to_geomagic_base-3]
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,253: ProcessMonitor.register[base_link_to_geomagic_base-3]
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,253: ProcessMonitor.register[base_link_to_geomagic_base-3] complete
+[roslaunch][INFO] 2026-10-01 18:05:50,253: ... registered process [base_link_to_geomagic_base-3]
+[roslaunch][INFO] 2026-10-01 18:05:50,253: process[base_link_to_geomagic_base-3]: starting os process
+[roslaunch][INFO] 2026-10-01 18:05:50,254: process[base_link_to_geomagic_base-3]: start w/ args [['/opt/ros/noetic/lib/tf2_ros/static_transform_publisher', '0.5', '0', '0.25', '0', '0', '0', 'world', 'base', '__name:=base_link_to_geomagic_base', '__log:=/root/.ros/log/bbe28ff4-bdc2-11f1-842c-0ccc47e70b33/base_link_to_geomagic_base-3.log']]
+[roslaunch][INFO] 2026-10-01 18:05:50,254: process[base_link_to_geomagic_base-3]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2026-10-01 18:05:50,256: process[base_link_to_geomagic_base-3]: started with pid [95]
+[roslaunch][INFO] 2026-10-01 18:05:50,256: ... successfully launched [base_link_to_geomagic_base-3]
+[roslaunch][INFO] 2026-10-01 18:05:50,256: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2026-10-01 18:05:50,256: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140362467567360)>
+[roslaunch.parent][INFO] 2026-10-01 18:05:50,256: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2026-10-01 18:05:50,256: spin
+[roslaunch.pmon][INFO] 2026-10-01 18:06:06,798: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140362467567360)>
+[roslaunch.pmon][INFO] 2026-10-01 18:06:06,839: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140362467567360)>
+[roslaunch.pmon][INFO] 2026-10-01 18:06:06,840: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140362467567360)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7fa8af0c59d0>, <roslaunch.nodeprocess.LocalProcess object at 0x7fa8af0c8640>, <roslaunch.nodeprocess.LocalProcess object at 0x7fa8af0c8820>, <roslaunch.nodeprocess.LocalProcess object at 0x7fa8af0c88e0>]
+[roslaunch.pmon][INFO] 2026-10-01 18:06:06,840: ProcessMonitor exit: killing base_link_to_geomagic_base-3
+[roslaunch][INFO] 2026-10-01 18:06:06,840: [base_link_to_geomagic_base-3] killing on exit
+[roslaunch][INFO] 2026-10-01 18:06:06,840: process[base_link_to_geomagic_base-3]: killing os process with pid[95] pgid[95]
+[roslaunch.pmon][INFO] 2026-10-01 18:06:06,840: ProcessMonitor exit: killing geomagic/rsp_geomagic-2
+[roslaunch][INFO] 2026-10-01 18:06:06,840: [base_link_to_geomagic_base-3] sending SIGINT to pgid [95]
+[roslaunch][INFO] 2026-10-01 18:06:06,840: [geomagic/rsp_geomagic-2] killing on exit
+[roslaunch][INFO] 2026-10-01 18:06:06,840: [base_link_to_geomagic_base-3] sent SIGINT to pgid [95]
+[roslaunch][INFO] 2026-10-01 18:06:06,841: process[geomagic/rsp_geomagic-2]: killing os process with pid[94] pgid[94]
+[roslaunch][INFO] 2026-10-01 18:06:06,841: [geomagic/rsp_geomagic-2] sending SIGINT to pgid [94]
+[roslaunch][INFO] 2026-10-01 18:06:06,841: [geomagic/rsp_geomagic-2] sent SIGINT to pgid [94]
+[roslaunch][INFO] 2026-10-01 18:06:07,041: process[base_link_to_geomagic_base-3]: SIGINT killed with return value 0
+[roslaunch][INFO] 2026-10-01 18:06:07,041: process[geomagic/rsp_geomagic-2]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2026-10-01 18:06:07,041: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2026-10-01 18:06:07,042: [rosout-1] killing on exit
+[roslaunch][INFO] 2026-10-01 18:06:07,042: process[rosout-1]: killing os process with pid[91] pgid[91]
+[roslaunch][INFO] 2026-10-01 18:06:07,042: [rosout-1] sending SIGINT to pgid [91]
+[roslaunch][INFO] 2026-10-01 18:06:07,042: [rosout-1] sent SIGINT to pgid [91]
+[roslaunch][INFO] 2026-10-01 18:06:07,242: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2026-10-01 18:06:07,242: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2026-10-01 18:06:07,242: [master] killing on exit
+[roslaunch][INFO] 2026-10-01 18:06:07,242: process[master]: killing os process with pid[81] pgid[81]
+[roslaunch][INFO] 2026-10-01 18:06:07,242: [master] sending SIGINT to pgid [81]
+[roslaunch][INFO] 2026-10-01 18:06:07,242: [master] sent SIGINT to pgid [81]
+[roslaunch][INFO] 2026-10-01 18:06:07,443: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2026-10-01 18:06:07,443: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2026-10-01 18:06:07,443: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2026-10-01 18:06:07,443: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2026-10-01 18:06:07,443: runner.stop()
+[roslaunch][INFO] 2026-10-01 18:06:07,443: shutting down processing monitor...
+[roslaunch][INFO] 2026-10-01 18:06:07,443: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140362467567360)>
+[roslaunch.pmon][INFO] 2026-10-01 18:06:07,443: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140362467567360)>
+[roslaunch][INFO] 2026-10-01 18:06:07,443: ... shutting down processing monitor complete
+[roslaunch][INFO] 2026-10-01 18:06:07,443: done
+[roslaunch.pmon][INFO] 2026-10-01 18:06:07,443: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140362467567360)>
+[rospy.core][INFO] 2026-10-01 18:06:07,443: signal_shutdown [atexit]

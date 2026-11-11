@@ -1,0 +1,25 @@
+[rospy.client][INFO] 2026-10-22 19:35:01,362: init_node, name[/my_gen3/home_the_arm], pid[3428]
+[xmlrpc][INFO] 2026-10-22 19:35:01,363: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-22 19:35:01,364: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:44053/]
+[rospy.init][INFO] 2026-10-22 19:35:01,364: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:44053/]
+[rospy.impl.masterslave][INFO] 2026-10-22 19:35:01,364: _ready: http://ronaldtk-Nitro-AN517-54:44053/
+[rospy.registration][INFO] 2026-10-22 19:35:01,366: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-22 19:35:01,366: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-22 19:35:01,465: registered with master
+[rospy.rosout][INFO] 2026-10-22 19:35:01,465: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-22 19:35:01,471: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-22 19:35:01,473: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-22 19:35:01,475: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-22 19:35:01,478: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:45631/], count 0
+[rosout][INFO] 2026-10-22 19:35:01,480: Unpausing Gazebo...
+[rosout][INFO] 2026-10-22 19:35:01,488: Unpaused Gazebo.
+[rospy.internal][INFO] 2026-10-22 19:35:01,521: topic[/my_gen3/action_topic] adding connection to [http://ronaldtk-Nitro-AN517-54:42577/], count 0
+[rospy.internal][INFO] 2026-10-22 19:35:01,755: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2026-10-22 19:35:03,926: Sending the robot home...
+[rosout][INFO] 2026-10-22 19:35:08,076: Received ACTION_END notification
+[rosout][INFO] 2026-10-22 19:35:08,081: The Gazebo initialization executed without fail.
+[rospy.core][INFO] 2026-10-22 19:35:08,083: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-22 19:35:08,087: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-22 19:35:08,088: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:45631/
+[rospy.internal][INFO] 2026-10-22 19:35:08,089: topic[/my_gen3/action_topic] removing connection to http://ronaldtk-Nitro-AN517-54:42577/
+[rospy.impl.masterslave][INFO] 2026-10-22 19:35:08,090: atexit

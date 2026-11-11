@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2026-10-16 21:46:33,711: init_node, name[/geomagic_kinova_cartesian_teleop], pid[2845]
+[xmlrpc][INFO] 2026-10-16 21:46:33,712: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-16 21:46:33,712: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:42623/]
+[rospy.init][INFO] 2026-10-16 21:46:33,712: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:42623/]
+[rospy.impl.masterslave][INFO] 2026-10-16 21:46:33,712: _ready: http://ronaldtk-Nitro-AN517-54:42623/
+[rospy.registration][INFO] 2026-10-16 21:46:33,713: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-16 21:46:33,713: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-16 21:46:33,813: registered with master
+[rospy.rosout][INFO] 2026-10-16 21:46:33,813: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-16 21:46:33,816: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-16 21:46:33,816: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-16 21:46:33,817: connected to core topic /clock
+[rosout][INFO] 2026-10-16 21:46:33,823: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-16 21:46:33,824: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-16 21:46:33,829: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:34083/], count 0
+[rospy.internal][INFO] 2026-10-16 21:46:33,831: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:34083/], count 0
+[rosout][INFO] 2026-10-16 21:46:33,832: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-16 21:46:34,055: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rospy.internal][INFO] 2026-10-16 21:46:34,057: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-16 21:46:34,164: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:42503/], count 0
+[rospy.internal][INFO] 2026-10-16 21:46:34,767: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:42503/], count 0
+[rospy.internal][INFO] 2026-10-16 21:46:45,634: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:33303/], count 0
+[rosout][INFO] 2026-10-16 21:47:14,405: Teleop enabled (Geomagic dark button).

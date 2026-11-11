@@ -1,0 +1,16 @@
+<launch>
+  <arg name="teleop" default="true"/>
+  <node if="$(arg teleop)" pkg="kinova_geomagic_demo" type="geomagic_kinova_cartesian_teleop.py" name="geomagic_kinova_cartesian_teleop" output="screen">
+    <param name="robot_description_param" value="/my_gen3/robot_description"/>
+    <param name="geomagic_description_param" value="/geomagic/robot_description"/>
+    <param name="workspace_scale" value="2.0"/>
+    <param name="position_gain" value="0.1"/>
+    <param name="orientation_gain" value="0.1"/>
+    <param name="max_joint_speed_deg_s" value="25.0"/>
+    <param name="damping_lambda" value="0.05"/>
+    <param name="force_scale" value="3.0"/>
+    <param name="force_deadband" value="0.5"/>
+    <param name="force_filter_alpha" value="0.15"/>
+    <param name="max_feedback_force" value="25.0"/>
+  </node>
+</launch>

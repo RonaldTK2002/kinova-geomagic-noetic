@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2026-10-22 19:44:30,989: init_node, name[/my_gen3/urdf_spawner], pid[18133]
+[xmlrpc][INFO] 2026-10-22 19:44:30,990: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-22 19:44:30,991: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:32817/]
+[rospy.init][INFO] 2026-10-22 19:44:30,991: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:32817/]
+[rospy.impl.masterslave][INFO] 2026-10-22 19:44:30,991: _ready: http://ronaldtk-Nitro-AN517-54:32817/
+[rospy.registration][INFO] 2026-10-22 19:44:30,992: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-22 19:44:30,992: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-22 19:44:31,091: registered with master
+[rospy.rosout][INFO] 2026-10-22 19:44:31,092: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-22 19:44:31,098: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-22 19:44:31,100: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-22 19:44:31,103: connected to core topic /clock
+[rosout][INFO] 2026-10-22 19:44:31,108: Loading model XML from ros parameter robot_description
+[rosout][INFO] 2026-10-22 19:44:31,122: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2026-10-22 19:44:31,304: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-22 19:44:32,523: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:40607/], count 0
+[rosout][INFO] 2026-10-22 19:44:32,637: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2026-10-22 19:44:32,646: Spawn status: SpawnModel: Failure - entity already exists.
+[rosout][ERROR] 2026-10-22 19:44:32,649: Spawn service failed. Exiting.
+[rospy.core][INFO] 2026-10-22 19:44:32,651: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-22 19:44:32,653: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-22 19:44:32,654: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:40607/
+[rospy.impl.masterslave][INFO] 2026-10-22 19:44:32,654: atexit

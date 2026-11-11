@@ -1,0 +1,157 @@
+[rospy.client][INFO] 2026-10-23 17:33:17,657: init_node, name[/send_kinova_home_node], pid[65295]
+[xmlrpc][INFO] 2026-10-23 17:33:17,658: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 17:33:17,659: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:43035/]
+[rospy.init][INFO] 2026-10-23 17:33:17,659: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:43035/]
+[rospy.impl.masterslave][INFO] 2026-10-23 17:33:17,659: _ready: http://ronaldtk-Nitro-AN517-54:43035/
+[rospy.registration][INFO] 2026-10-23 17:33:17,661: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 17:33:17,661: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 17:33:17,760: registered with master
+[rospy.rosout][INFO] 2026-10-23 17:33:17,761: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 17:33:17,775: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 17:33:17,780: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 17:33:17,787: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 17:33:17,793: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rosout][INFO] 2026-10-23 17:33:17,797: Aguardando serviços de ação da base do Kinova...
+[rosout][INFO] 2026-10-23 17:33:17,809: Enviando Kinova Gen3 para pose Home...
+[rosout][INFO] 2026-10-23 17:33:17,820: Comando de Home enviado com sucesso!
+[rospy.core][INFO] 2026-10-23 17:33:17,823: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-23 17:33:17,827: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.impl.masterslave][INFO] 2026-10-23 17:33:17,828: atexit
+[rospy.client][INFO] 2026-10-23 17:53:40,203: init_node, name[/send_kinova_home_node], pid[66618]
+[xmlrpc][INFO] 2026-10-23 17:53:40,204: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 17:53:40,205: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:45137/]
+[rospy.impl.masterslave][INFO] 2026-10-23 17:53:40,205: _ready: http://ronaldtk-Nitro-AN517-54:45137/
+[rospy.init][INFO] 2026-10-23 17:53:40,206: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:45137/]
+[rospy.registration][INFO] 2026-10-23 17:53:40,207: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 17:53:40,209: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 17:53:40,307: registered with master
+[rospy.rosout][INFO] 2026-10-23 17:53:40,308: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 17:53:40,314: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 17:53:40,316: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 17:53:40,320: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 17:53:40,323: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rosout][INFO] 2026-10-23 17:53:40,325: Aguardando serviços de ação da base do Kinova...
+[rosout][INFO] 2026-10-23 17:53:40,338: Enviando Kinova Gen3 para pose Home...
+[rosout][INFO] 2026-10-23 17:53:40,501: Comando de Home enviado com sucesso!
+[rospy.core][INFO] 2026-10-23 17:53:40,504: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-23 17:53:40,508: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.impl.masterslave][INFO] 2026-10-23 17:53:40,509: atexit
+[rospy.client][INFO] 2026-10-23 17:57:10,393: init_node, name[/send_kinova_home_node], pid[66642]
+[xmlrpc][INFO] 2026-10-23 17:57:10,395: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 17:57:10,395: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:44281/]
+[rospy.init][INFO] 2026-10-23 17:57:10,396: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:44281/]
+[rospy.impl.masterslave][INFO] 2026-10-23 17:57:10,397: _ready: http://ronaldtk-Nitro-AN517-54:44281/
+[rospy.registration][INFO] 2026-10-23 17:57:10,400: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 17:57:10,401: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 17:57:10,497: registered with master
+[rospy.rosout][INFO] 2026-10-23 17:57:10,500: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 17:57:10,527: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 17:57:10,534: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 17:57:10,542: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 17:57:10,547: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rosout][INFO] 2026-10-23 17:57:10,548: Aguardando serviços de ação da base do Kinova...
+[rosout][INFO] 2026-10-23 17:57:10,562: Enviando Kinova Gen3 para pose Home...
+[rosout][INFO] 2026-10-23 17:57:10,615: Comando de Home enviado com sucesso!
+[rospy.core][INFO] 2026-10-23 17:57:10,618: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-23 17:57:10,622: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.impl.masterslave][INFO] 2026-10-23 17:57:10,624: atexit
+[rospy.client][INFO] 2026-10-23 18:01:13,321: init_node, name[/send_kinova_home_node], pid[69615]
+[xmlrpc][INFO] 2026-10-23 18:01:13,322: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 18:01:13,322: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:41219/]
+[rospy.init][INFO] 2026-10-23 18:01:13,323: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:41219/]
+[rospy.impl.masterslave][INFO] 2026-10-23 18:01:13,323: _ready: http://ronaldtk-Nitro-AN517-54:41219/
+[rospy.registration][INFO] 2026-10-23 18:01:13,325: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 18:01:13,325: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 18:01:13,423: registered with master
+[rospy.rosout][INFO] 2026-10-23 18:01:13,426: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 18:01:13,441: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 18:01:13,447: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 18:01:13,454: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 18:01:13,464: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36057/], count 0
+[rosout][INFO] 2026-10-23 18:01:13,472: Aguardando serviços de ação da base do Kinova...
+[rosout][INFO] 2026-10-23 18:01:13,487: Enviando Kinova Gen3 para pose Home...
+[rosout][INFO] 2026-10-23 18:01:13,494: Comando de Home enviado com sucesso!
+[rospy.core][INFO] 2026-10-23 18:01:13,497: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-23 18:01:13,501: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36057/
+[rospy.impl.masterslave][INFO] 2026-10-23 18:01:13,502: atexit
+[rospy.client][INFO] 2026-10-23 18:13:11,628: init_node, name[/send_kinova_home_node], pid[73610]
+[xmlrpc][INFO] 2026-10-23 18:13:11,629: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 18:13:11,630: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:44497/]
+[rospy.init][INFO] 2026-10-23 18:13:11,630: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:44497/]
+[rospy.impl.masterslave][INFO] 2026-10-23 18:13:11,630: _ready: http://ronaldtk-Nitro-AN517-54:44497/
+[rospy.registration][INFO] 2026-10-23 18:13:11,633: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 18:13:11,633: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 18:13:11,734: registered with master
+[rospy.rosout][INFO] 2026-10-23 18:13:11,735: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 18:13:11,758: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 18:13:11,766: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 18:13:11,775: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 18:13:11,784: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36057/], count 0
+[rosout][INFO] 2026-10-23 18:13:11,792: Aguardando serviços de ação da base do Kinova...
+[rosout][INFO] 2026-10-23 18:13:11,821: Enviando Kinova Gen3 para pose Home...
+[rosout][INFO] 2026-10-23 18:13:11,833: Comando de Home enviado com sucesso!
+[rospy.core][INFO] 2026-10-23 18:13:11,836: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-23 18:13:11,839: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36057/
+[rospy.impl.masterslave][INFO] 2026-10-23 18:13:11,839: atexit
+[rospy.internal][ERROR] 2026-10-23 18:13:11,840: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 739, in receive_once
+    sock.setblocking(1)
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.client][INFO] 2026-10-23 18:21:59,630: init_node, name[/send_kinova_home_node], pid[76485]
+[xmlrpc][INFO] 2026-10-23 18:21:59,631: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 18:21:59,632: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:44891/]
+[rospy.impl.masterslave][INFO] 2026-10-23 18:21:59,632: _ready: http://ronaldtk-Nitro-AN517-54:44891/
+[rospy.init][INFO] 2026-10-23 18:21:59,634: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:44891/]
+[rospy.registration][INFO] 2026-10-23 18:21:59,636: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 18:21:59,636: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 18:21:59,735: registered with master
+[rospy.rosout][INFO] 2026-10-23 18:21:59,735: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 18:21:59,752: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 18:21:59,758: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 18:21:59,765: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 18:21:59,770: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36057/], count 0
+[rosout][INFO] 2026-10-23 18:21:59,782: Aguardando serviços de ação da base do Kinova...
+[rosout][INFO] 2026-10-23 18:21:59,802: Enviando Kinova Gen3 para pose Home...
+[rosout][INFO] 2026-10-23 18:21:59,816: Comando de Home enviado com sucesso!
+[rospy.core][INFO] 2026-10-23 18:21:59,819: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-23 18:21:59,822: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36057/
+[rospy.impl.masterslave][INFO] 2026-10-23 18:21:59,823: atexit
+[rospy.client][INFO] 2026-10-23 18:56:28,186: init_node, name[/send_kinova_home_node], pid[93776]
+[xmlrpc][INFO] 2026-10-23 18:56:28,187: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 18:56:28,188: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:46341/]
+[rospy.init][INFO] 2026-10-23 18:56:28,188: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:46341/]
+[rospy.impl.masterslave][INFO] 2026-10-23 18:56:28,188: _ready: http://ronaldtk-Nitro-AN517-54:46341/
+[rospy.registration][INFO] 2026-10-23 18:56:28,189: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 18:56:28,190: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 18:56:28,289: registered with master
+[rospy.rosout][INFO] 2026-10-23 18:56:28,290: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 18:56:28,297: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 18:56:28,299: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 18:56:28,302: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 18:56:28,306: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rosout][INFO] 2026-10-23 18:56:28,310: Aguardando serviços de ação da base do Kinova...
+[rosout][INFO] 2026-10-23 18:56:28,321: Enviando Kinova Gen3 para pose Home...
+[rosout][INFO] 2026-10-23 18:56:28,334: Comando de Home enviado com sucesso!
+[rospy.core][INFO] 2026-10-23 18:56:28,336: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-23 18:56:28,339: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.impl.masterslave][INFO] 2026-10-23 18:56:28,339: atexit
+[rospy.client][INFO] 2026-10-23 19:31:35,778: init_node, name[/send_kinova_home_node], pid[98961]
+[xmlrpc][INFO] 2026-10-23 19:31:35,781: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 19:31:35,782: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:35985/]
+[rospy.impl.masterslave][INFO] 2026-10-23 19:31:35,783: _ready: http://ronaldtk-Nitro-AN517-54:35985/
+[rospy.init][INFO] 2026-10-23 19:31:35,784: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:35985/]
+[rospy.registration][INFO] 2026-10-23 19:31:35,786: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 19:31:35,786: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 19:31:35,884: registered with master
+[rospy.rosout][INFO] 2026-10-23 19:31:35,884: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 19:31:35,892: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 19:31:35,893: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 19:31:35,897: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 19:31:35,900: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rosout][INFO] 2026-10-23 19:31:35,902: Aguardando serviços de ação da base do Kinova...
+[rosout][INFO] 2026-10-23 19:31:35,916: Enviando Kinova Gen3 para pose Home...
+[rosout][INFO] 2026-10-23 19:31:35,924: Comando de Home enviado com sucesso!
+[rospy.core][INFO] 2026-10-23 19:31:35,927: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-23 19:31:35,932: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.impl.masterslave][INFO] 2026-10-23 19:31:35,933: atexit

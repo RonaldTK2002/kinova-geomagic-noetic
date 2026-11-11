@@ -1,0 +1,71 @@
+[roslaunch][INFO] 2026-10-23 12:39:55,978: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2026-10-23 12:39:55,995: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2026-10-23 12:39:55,995: roslaunch starting with args ['/opt/ros/noetic/bin/roslaunch', 'kinova_geomagic_demo', 'teleop.launch']
+[roslaunch][INFO] 2026-10-23 12:39:55,995: roslaunch env is environ({'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'TMUX': '/tmp//tmux-0/default,509,0', 'PKG_CONFIG_PATH': '/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'ronaldtk-Nitro-AN517-54', 'GALLIUM_DRIVER': 'llvmpipe', 'ROS_PACKAGE_PATH': '/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/catkin_ws/devel/share/common-lisp', 'PWD': '/catkin_ws', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CMAKE_PREFIX_PATH': '/catkin_ws/devel:/opt/ros/noetic', 'OPENHAPTICS_ROOT': '/usr', 'PYTHONPATH': '/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'screen', 'TMUX_PANE': '%1', 'DISPLAY': ':1', 'SHLVL': '2', 'ROS_MASTER_URI': 'http://localhost:11311', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'XDG_RUNTIME_DIR': '/tmp/xdg-runtime-root', 'GTDD_HOME': '/usr/share/3DSystems', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'LC_NUMERIC': 'en_US.UTF-8', '_': '/opt/ros/noetic/bin/roslaunch', 'ROS_LOG_FILENAME': '/root/.ros/log/6e410066-cedc-11f1-9bfe-0ccc47e70b33/roslaunch-ronaldtk-Nitro-AN517-54-1753.log'})
+[roslaunch][INFO] 2026-10-23 12:39:55,996: starting in server mode
+[roslaunch.parent][INFO] 2026-10-23 12:39:55,996: starting roslaunch parent run
+[roslaunch][INFO] 2026-10-23 12:39:55,996: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2026-10-23 12:39:56,340: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2026-10-23 12:39:56,341: loading config file /catkin_ws/src/kinova_geomagic_demo/launch/teleop.launch
+[roslaunch][ERROR] 2026-10-23 12:39:56,342: RLException: [/catkin_ws/src/kinova_geomagic_demo/launch/teleop.launch] requires the 'teleop' arg to be set
+[roslaunch][ERROR] 2026-10-23 12:39:56,342: The traceback for the exception was written to the log file
+[roslaunch][ERROR] 2026-10-23 12:39:56,344: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/substitution_args.py", line 278, in _eval_arg
+    return args[name]
+KeyError: 'teleop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 763, in load
+    self._load_launch(launch, ros_config, is_core=core, filename=filename, argv=argv, verbose=verbose)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 735, in _load_launch
+    self._recurse_load(ros_config, launch.childNodes, self.root_context, None, is_core, verbose)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 673, in _recurse_load
+    n = self._node_tag(tag, context, ros_config, default_machine, verbose=verbose)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 95, in call
+    if ifunless_test(args[0], args[1], args[2]):
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 74, in ifunless_test
+    if_val, unless_val = obj.opt_attrs(tag, context, ['if', 'unless'])
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 208, in opt_attrs
+    return [self.resolve_args(tag_value(tag,a), context) for a in attrs]
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 208, in <listcomp>
+    return [self.resolve_args(tag_value(tag,a), context) for a in attrs]
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 189, in resolve_args
+    return substitution_args.resolve_args(args, context=context.resolve_dict, resolve_anon=self.resolve_anon)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/substitution_args.py", line 387, in resolve_args
+    resolved = _resolve_args(arg_str, context, resolve_anon, commands)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/substitution_args.py", line 405, in _resolve_args
+    resolved = commands[command](resolved, a, args, context)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/substitution_args.py", line 296, in _arg
+    return resolved.replace("$(%s)" % a, _eval_arg(name=args[0], args=context['arg']))
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/substitution_args.py", line 280, in _eval_arg
+    raise ArgException(name)
+roslaunch.substitution_args.ArgException: teleop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/config.py", line 461, in load_config_default
+    loader.load(f, config, argv=args, verbose=verbose)
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/xmlloader.py", line 766, in load
+    raise XmlParseException("[%s] requires the '%s' arg to be set"%(filename, str(e)))
+roslaunch.xmlloader.XmlParseException: [/catkin_ws/src/kinova_geomagic_demo/launch/teleop.launch] requires the 'teleop' arg to be set
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/__init__.py", line 347, in main
+    p.start()
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/parent.py", line 305, in start
+    self._start_infrastructure()
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/parent.py", line 254, in _start_infrastructure
+    self._load_config()
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/parent.py", line 156, in _load_config
+    self.config = roslaunch.config.load_config_default(self.roslaunch_files, self.port,
+  File "/opt/ros/noetic/lib/python3/dist-packages/roslaunch/config.py", line 463, in load_config_default
+    raise RLException(e)
+roslaunch.core.RLException: [/catkin_ws/src/kinova_geomagic_demo/launch/teleop.launch] requires the 'teleop' arg to be set
+
+[rospy.core][INFO] 2026-10-23 12:39:56,345: signal_shutdown [atexit]

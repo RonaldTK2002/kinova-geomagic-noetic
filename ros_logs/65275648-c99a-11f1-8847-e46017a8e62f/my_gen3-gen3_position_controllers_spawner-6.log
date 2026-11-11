@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2026-10-16 19:47:19,393: init_node, name[/my_gen3/gen3_position_controllers_spawner], pid[193]
+[xmlrpc][INFO] 2026-10-16 19:47:19,394: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-16 19:47:19,394: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:42995/]
+[rospy.init][INFO] 2026-10-16 19:47:19,394: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:42995/]
+[rospy.impl.masterslave][INFO] 2026-10-16 19:47:19,394: _ready: http://ronaldtk-Nitro-AN517-54:42995/
+[rospy.registration][INFO] 2026-10-16 19:47:19,394: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-16 19:47:19,394: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-16 19:47:19,494: registered with master
+[rospy.rosout][INFO] 2026-10-16 19:47:19,494: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-16 19:47:19,496: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-16 19:47:19,497: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-16 19:47:19,498: connected to core topic /clock
+[rosout][INFO] 2026-10-16 19:47:19,499: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2026-10-16 19:47:19,787: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-16 19:47:20,294: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:35649/], count 0
+[rosout][INFO] 2026-10-16 19:47:20,704: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2026-10-16 19:47:20,706: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2026-10-16 19:47:20,708: Loading controller: joint_1_position_controller
+[rosout][INFO] 2026-10-16 19:47:20,722: Loading controller: joint_2_position_controller
+[rosout][INFO] 2026-10-16 19:47:20,733: Loading controller: joint_3_position_controller
+[rosout][INFO] 2026-10-16 19:47:20,744: Loading controller: joint_4_position_controller
+[rosout][INFO] 2026-10-16 19:47:20,817: Loading controller: joint_5_position_controller
+[rosout][INFO] 2026-10-16 19:47:20,829: Loading controller: joint_6_position_controller
+[rosout][INFO] 2026-10-16 19:47:29,715: Loading controller: joint_7_position_controller
+[rosout][INFO] 2026-10-16 19:47:29,738: Controller Spawner: Loaded controllers: joint_1_position_controller, joint_2_position_controller, joint_3_position_controller, joint_4_position_controller, joint_5_position_controller, joint_6_position_controller, joint_7_position_controller
+[rospy.core][INFO] 2026-10-16 19:48:18,500: signal_shutdown [signal-2]
+[rosout][INFO] 2026-10-16 19:48:18,501: Shutting down spawner. Stopping and unloading controllers...
+[rosout][INFO] 2026-10-16 19:48:18,502: Stopping all controllers...
+[rosout][INFO] 2026-10-16 19:48:18,508: Unloading all loaded controllers...
+[rosout][INFO] 2026-10-16 19:48:18,512: Trying to unload joint_7_position_controller
+[rosout][INFO] 2026-10-16 19:48:18,546: Succeeded in unloading joint_7_position_controller
+[rosout][INFO] 2026-10-16 19:48:18,551: Trying to unload joint_6_position_controller
+[rosout][INFO] 2026-10-16 19:48:18,661: Succeeded in unloading joint_6_position_controller
+[rosout][INFO] 2026-10-16 19:48:18,668: Trying to unload joint_5_position_controller
+[rosout][INFO] 2026-10-16 19:48:18,687: Succeeded in unloading joint_5_position_controller
+[rosout][INFO] 2026-10-16 19:48:18,693: Trying to unload joint_4_position_controller
+[rosout][INFO] 2026-10-16 19:48:18,703: Succeeded in unloading joint_4_position_controller
+[rosout][INFO] 2026-10-16 19:48:18,705: Trying to unload joint_3_position_controller

@@ -1,0 +1,67 @@
+[roslaunch][INFO] 2026-10-23 15:19:07,367: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2026-10-23 15:19:07,376: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2026-10-23 15:19:07,377: roslaunch starting with args ['/opt/ros/noetic/bin/roslaunch', 'kinova_geomagic_demo', 'teleop.launch']
+[roslaunch][INFO] 2026-10-23 15:19:07,377: roslaunch env is environ({'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'TMUX': '/tmp//tmux-0/default,509,0', 'PKG_CONFIG_PATH': '/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'ronaldtk-Nitro-AN517-54', 'GALLIUM_DRIVER': 'llvmpipe', 'ROS_PACKAGE_PATH': '/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/catkin_ws/devel/share/common-lisp', 'PWD': '/catkin_ws/src/kinova_geomagic_demo/scripts', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CMAKE_PREFIX_PATH': '/catkin_ws/devel:/opt/ros/noetic', 'OPENHAPTICS_ROOT': '/usr', 'PYTHONPATH': '/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'screen', 'TMUX_PANE': '%1', 'DISPLAY': ':1', 'SHLVL': '2', 'ROS_MASTER_URI': 'http://localhost:11311', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'XDG_RUNTIME_DIR': '/tmp/xdg-runtime-root', 'GTDD_HOME': '/usr/share/3DSystems', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'LC_NUMERIC': 'en_US.UTF-8', '_': '/opt/ros/noetic/bin/roslaunch', 'OLDPWD': '/catkin_ws', 'ROS_LOG_FILENAME': '/root/.ros/log/debf89dc-cef2-11f1-bc52-0ccc47e70b33/roslaunch-ronaldtk-Nitro-AN517-54-45034.log'})
+[roslaunch][INFO] 2026-10-23 15:19:07,377: starting in server mode
+[roslaunch.parent][INFO] 2026-10-23 15:19:07,377: starting roslaunch parent run
+[roslaunch][INFO] 2026-10-23 15:19:07,378: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2026-10-23 15:19:07,702: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2026-10-23 15:19:07,702: loading config file /catkin_ws/src/kinova_geomagic_demo/launch/teleop.launch
+[roslaunch][INFO] 2026-10-23 15:19:07,709: Added node of type [kinova_geomagic_demo/geomagic_kinova_cartesian_teleop.py] in namespace [/]
+[roslaunch][INFO] 2026-10-23 15:19:07,710: ... selected machine [] for node of type [kinova_geomagic_demo/geomagic_kinova_cartesian_teleop.py]
+[roslaunch.pmon][INFO] 2026-10-23 15:19:07,717: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2026-10-23 15:19:07,717: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2026-10-23 15:19:07,722: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2026-10-23 15:19:07,723: starting parent XML-RPC server
+[roslaunch.server][INFO] 2026-10-23 15:19:07,723: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2026-10-23 15:19:07,723: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2026-10-23 15:19:07,726: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 15:19:07,726: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:42357/]
+[xmlrpc][INFO] 2026-10-23 15:19:07,727: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2026-10-23 15:19:07,736: started roslaunch server http://ronaldtk-Nitro-AN517-54:42357/
+[roslaunch.parent][INFO] 2026-10-23 15:19:07,737: ... parent XML-RPC server started
+[roslaunch][INFO] 2026-10-23 15:19:07,737: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2026-10-23 15:19:07,740: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2026-10-23 15:19:07,742: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2026-10-23 15:19:07,746: setting /roslaunch/uris/host_ronaldtk_nitro_an517_54__42357' to http://ronaldtk-Nitro-AN517-54:42357/
+[roslaunch][INFO] 2026-10-23 15:19:07,748: load_parameters starting ...
+[roslaunch][INFO] 2026-10-23 15:19:07,791: ... load_parameters complete
+[roslaunch][INFO] 2026-10-23 15:19:07,791: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2026-10-23 15:19:07,792: ... preparing to launch node of type [kinova_geomagic_demo/geomagic_kinova_cartesian_teleop.py]
+[roslaunch][INFO] 2026-10-23 15:19:07,792: create_node_process: package[kinova_geomagic_demo] type[geomagic_kinova_cartesian_teleop.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2026-10-23 15:19:07,792: process[geomagic_kinova_cartesian_teleop-1]: env[{'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'TMUX': '/tmp//tmux-0/default,509,0', 'PKG_CONFIG_PATH': '/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'ronaldtk-Nitro-AN517-54', 'GALLIUM_DRIVER': 'llvmpipe', 'ROS_PACKAGE_PATH': '/catkin_ws/src:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/catkin_ws/devel/share/common-lisp', 'PWD': '/catkin_ws/src/kinova_geomagic_demo/scripts', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CMAKE_PREFIX_PATH': '/catkin_ws/devel:/opt/ros/noetic', 'OPENHAPTICS_ROOT': '/usr', 'PYTHONPATH': '/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'screen', 'TMUX_PANE': '%1', 'DISPLAY': ':1', 'SHLVL': '2', 'ROS_MASTER_URI': 'http://localhost:11311', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu', 'XDG_RUNTIME_DIR': '/tmp/xdg-runtime-root', 'GTDD_HOME': '/usr/share/3DSystems', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'LC_NUMERIC': 'en_US.UTF-8', '_': '/opt/ros/noetic/bin/roslaunch', 'OLDPWD': '/catkin_ws', 'ROS_LOG_FILENAME': '/root/.ros/log/debf89dc-cef2-11f1-bc52-0ccc47e70b33/roslaunch-ronaldtk-Nitro-AN517-54-45034.log'}]
+[roslaunch][INFO] 2026-10-23 15:19:07,869: process[geomagic_kinova_cartesian_teleop-1]: args[['/catkin_ws/devel/lib/kinova_geomagic_demo/geomagic_kinova_cartesian_teleop.py', '__name:=geomagic_kinova_cartesian_teleop']]
+[roslaunch][INFO] 2026-10-23 15:19:07,869: ... created process [geomagic_kinova_cartesian_teleop-1]
+[roslaunch.pmon][INFO] 2026-10-23 15:19:07,869: ProcessMonitor.register[geomagic_kinova_cartesian_teleop-1]
+[roslaunch.pmon][INFO] 2026-10-23 15:19:07,870: ProcessMonitor.register[geomagic_kinova_cartesian_teleop-1] complete
+[roslaunch][INFO] 2026-10-23 15:19:07,870: ... registered process [geomagic_kinova_cartesian_teleop-1]
+[roslaunch][INFO] 2026-10-23 15:19:07,870: process[geomagic_kinova_cartesian_teleop-1]: starting os process
+[roslaunch][INFO] 2026-10-23 15:19:07,870: process[geomagic_kinova_cartesian_teleop-1]: start w/ args [['/catkin_ws/devel/lib/kinova_geomagic_demo/geomagic_kinova_cartesian_teleop.py', '__name:=geomagic_kinova_cartesian_teleop', '__log:=/root/.ros/log/debf89dc-cef2-11f1-bc52-0ccc47e70b33/geomagic_kinova_cartesian_teleop-1.log']]
+[roslaunch][INFO] 2026-10-23 15:19:07,870: process[geomagic_kinova_cartesian_teleop-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 2026-10-23 15:19:07,881: process[geomagic_kinova_cartesian_teleop-1]: started with pid [45048]
+[roslaunch][INFO] 2026-10-23 15:19:07,883: ... successfully launched [geomagic_kinova_cartesian_teleop-1]
+[roslaunch][INFO] 2026-10-23 15:19:07,884: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2026-10-23 15:19:07,884: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 128364597171968)>
+[roslaunch.parent][INFO] 2026-10-23 15:19:07,884: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2026-10-23 15:19:07,885: spin
+[roslaunch.pmon][INFO] 2026-10-23 16:49:51,004: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 128364597171968)>
+[roslaunch.pmon][INFO] 2026-10-23 16:49:51,017: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 128364597171968)>
+[roslaunch.pmon][INFO] 2026-10-23 16:49:51,017: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 128364597171968)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x74bf36459400>]
+[roslaunch.pmon][INFO] 2026-10-23 16:49:51,018: ProcessMonitor exit: killing geomagic_kinova_cartesian_teleop-1
+[roslaunch][INFO] 2026-10-23 16:49:51,018: [geomagic_kinova_cartesian_teleop-1] killing on exit
+[roslaunch][INFO] 2026-10-23 16:49:51,018: process[geomagic_kinova_cartesian_teleop-1]: killing os process with pid[45048] pgid[45048]
+[roslaunch][INFO] 2026-10-23 16:49:51,019: [geomagic_kinova_cartesian_teleop-1] sending SIGINT to pgid [45048]
+[roslaunch][INFO] 2026-10-23 16:49:51,019: [geomagic_kinova_cartesian_teleop-1] sent SIGINT to pgid [45048]
+[roslaunch][INFO] 2026-10-23 16:49:51,827: process[geomagic_kinova_cartesian_teleop-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2026-10-23 16:49:51,828: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2026-10-23 16:49:51,828: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2026-10-23 16:49:51,828: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2026-10-23 16:49:51,828: runner.stop()
+[roslaunch][INFO] 2026-10-23 16:49:51,829: shutting down processing monitor...
+[roslaunch][INFO] 2026-10-23 16:49:51,829: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 128364597171968)>
+[roslaunch.pmon][INFO] 2026-10-23 16:49:51,829: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 128364597171968)>
+[roslaunch][INFO] 2026-10-23 16:49:51,830: ... shutting down processing monitor complete
+[roslaunch][INFO] 2026-10-23 16:49:51,830: done
+[roslaunch.pmon][INFO] 2026-10-23 16:49:51,830: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 128364597171968)>
+[rospy.core][INFO] 2026-10-23 16:49:51,831: signal_shutdown [atexit]

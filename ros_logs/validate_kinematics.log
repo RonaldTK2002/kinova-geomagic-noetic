@@ -1,0 +1,288 @@
+[rospy.client][INFO] 2026-10-23 13:18:10,529: init_node, name[/validate_kinematics], pid[4439]
+[xmlrpc][INFO] 2026-10-23 13:18:10,530: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 13:18:10,531: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:35703/]
+[rospy.init][INFO] 2026-10-23 13:18:10,531: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:35703/]
+[rospy.impl.masterslave][INFO] 2026-10-23 13:18:10,531: _ready: http://ronaldtk-Nitro-AN517-54:35703/
+[rospy.registration][INFO] 2026-10-23 13:18:10,533: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 13:18:10,533: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 13:18:10,632: registered with master
+[rospy.rosout][INFO] 2026-10-23 13:18:10,633: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 13:18:10,640: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 13:18:10,642: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 13:18:10,649: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 13:18:10,657: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:46289/], count 0
+[rosout][INFO] 2026-10-23 13:18:10,698: Nó validate_kinematics ativo. Publicando TFs calculados via DH.
+[rospy.internal][INFO] 2026-10-23 13:18:10,703: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:46289/], count 0
+[rospy.internal][INFO] 2026-10-23 13:18:10,704: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:45929/], count 0
+[rospy.internal][INFO] 2026-10-23 13:18:10,869: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 13:18:10,967: topic[/tf] adding connection to [/my_gen3/move_group], count 0
+[rospy.internal][INFO] 2026-10-23 13:18:10,969: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 1
+[rospy.internal][INFO] 2026-10-23 13:18:10,970: topic[/tf] adding connection to [/rviz], count 2
+[rospy.core][INFO] 2026-10-23 13:21:45,390: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 13:21:45,410: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 13:21:45,416: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 13:21:45,429: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 13:21:45,432: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 13:21:45,434: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:46289/
+[rospy.internal][INFO] 2026-10-23 13:21:45,435: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:46289/
+[rospy.internal][INFO] 2026-10-23 13:21:45,436: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:45929/
+[rospy.impl.masterslave][INFO] 2026-10-23 13:21:45,436: signal-2
+[rosout][ERROR] 2026-10-23 13:21:45,432: bad callback: <bound method PlotFramesNode._on_haptic_state of <__main__.PlotFramesNode object at 0x715465450250>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "validate_kinematics.py", line 108, in _on_haptic_state
+    self._broadcast_tf(T_stylus_base, self.geomagic_base_frame, self.stylus_calc_frame)
+  File "validate_kinematics.py", line 96, in _broadcast_tf
+    self.tf_broadcaster.sendTransform(t)
+  File "/opt/ros/noetic/lib/python3/dist-packages/tf2_ros/transform_broadcaster.py", line 54, in sendTransform
+    self.pub_tf.publish(TFMessage(transform))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rospy.core][INFO] 2026-10-23 13:21:45,994: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 13:23:06,946: init_node, name[/validate_kinematics], pid[4579]
+[xmlrpc][INFO] 2026-10-23 13:23:06,948: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 13:23:06,952: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:35377/]
+[rospy.init][INFO] 2026-10-23 13:23:06,952: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:35377/]
+[rospy.impl.masterslave][INFO] 2026-10-23 13:23:06,952: _ready: http://ronaldtk-Nitro-AN517-54:35377/
+[rospy.registration][INFO] 2026-10-23 13:23:06,955: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 13:23:06,956: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 13:23:07,053: registered with master
+[rospy.rosout][INFO] 2026-10-23 13:23:07,053: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 13:23:07,060: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 13:23:07,062: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 13:23:07,065: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 13:23:07,068: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:46289/], count 0
+[rosout][INFO] 2026-10-23 13:23:07,121: Nó validate_kinematics ativo. Publicando TFs calculados via DH.
+[rospy.internal][INFO] 2026-10-23 13:23:07,139: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:46289/], count 0
+[rospy.internal][INFO] 2026-10-23 13:23:07,144: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:45929/], count 0
+[rospy.internal][INFO] 2026-10-23 13:23:07,266: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 13:23:07,363: topic[/tf] adding connection to [/my_gen3/move_group], count 0
+[rospy.internal][INFO] 2026-10-23 13:23:07,369: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 1
+[rospy.internal][INFO] 2026-10-23 13:23:07,371: topic[/tf] adding connection to [/rviz], count 2
+[rospy.core][INFO] 2026-10-23 13:24:53,228: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 13:24:53,246: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 13:24:53,247: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 13:24:53,248: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 13:24:53,248: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 13:24:53,249: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:46289/
+[rospy.internal][INFO] 2026-10-23 13:24:53,249: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:46289/
+[rospy.internal][INFO] 2026-10-23 13:24:53,251: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:45929/
+[rospy.impl.masterslave][INFO] 2026-10-23 13:24:53,251: signal-2
+[rospy.core][INFO] 2026-10-23 13:24:53,832: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 13:25:29,184: init_node, name[/validate_kinematics], pid[5850]
+[xmlrpc][INFO] 2026-10-23 13:25:29,185: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 13:25:29,186: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:43359/]
+[rospy.init][INFO] 2026-10-23 13:25:29,186: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:43359/]
+[rospy.impl.masterslave][INFO] 2026-10-23 13:25:29,186: _ready: http://ronaldtk-Nitro-AN517-54:43359/
+[rospy.registration][INFO] 2026-10-23 13:25:29,188: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 13:25:29,188: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 13:25:29,287: registered with master
+[rospy.rosout][INFO] 2026-10-23 13:25:29,287: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 13:25:29,294: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 13:25:29,295: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 13:25:29,298: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 13:25:29,301: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:41903/], count 0
+[rospy.internal][INFO] 2026-10-23 13:25:29,328: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:41903/], count 0
+[rosout][INFO] 2026-10-23 13:25:29,324: Nó validate_kinematics ativo. Publicando TFs calculados via DH.
+[rospy.internal][INFO] 2026-10-23 13:25:29,332: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:43621/], count 0
+[rospy.internal][INFO] 2026-10-23 13:25:29,517: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 13:25:29,523: topic[/tf] adding connection to [/my_gen3/move_group], count 0
+[rospy.internal][INFO] 2026-10-23 13:25:29,526: topic[/tf] adding connection to [/rviz], count 1
+[rospy.internal][INFO] 2026-10-23 13:25:29,533: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 2
+[rospy.core][INFO] 2026-10-23 13:26:13,871: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 13:26:13,880: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 13:26:13,881: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 13:26:13,881: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 13:26:13,882: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 13:26:13,882: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:41903/
+[rospy.internal][INFO] 2026-10-23 13:26:13,883: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:41903/
+[rospy.internal][INFO] 2026-10-23 13:26:13,884: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:43621/
+[rospy.impl.masterslave][INFO] 2026-10-23 13:26:13,884: signal-2
+[rospy.core][INFO] 2026-10-23 13:26:14,472: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 13:26:19,693: init_node, name[/validate_kinematics], pid[6298]
+[xmlrpc][INFO] 2026-10-23 13:26:19,694: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 13:26:19,695: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:43605/]
+[rospy.init][INFO] 2026-10-23 13:26:19,695: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:43605/]
+[rospy.impl.masterslave][INFO] 2026-10-23 13:26:19,695: _ready: http://ronaldtk-Nitro-AN517-54:43605/
+[rospy.registration][INFO] 2026-10-23 13:26:19,697: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 13:26:19,697: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 13:26:19,795: registered with master
+[rospy.rosout][INFO] 2026-10-23 13:26:19,796: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 13:26:19,803: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 13:26:19,805: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 13:26:19,809: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 13:26:19,813: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:41903/], count 0
+[rosout][INFO] 2026-10-23 13:26:19,831: Nó validate_kinematics ativo. Publicando TFs calculados via DH.
+[rospy.internal][INFO] 2026-10-23 13:26:19,836: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:41903/], count 0
+[rospy.internal][INFO] 2026-10-23 13:26:19,837: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:43621/], count 0
+[rospy.internal][INFO] 2026-10-23 13:26:20,016: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 13:26:20,116: topic[/tf] adding connection to [/my_gen3/move_group], count 0
+[rospy.internal][INFO] 2026-10-23 13:26:20,118: topic[/tf] adding connection to [/rviz], count 1
+[rospy.internal][INFO] 2026-10-23 13:26:20,119: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 2
+[rospy.core][INFO] 2026-10-23 13:36:24,570: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 13:36:24,575: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 13:36:24,575: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 13:36:24,575: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 13:36:24,575: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 13:36:24,576: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:41903/
+[rospy.internal][INFO] 2026-10-23 13:36:24,576: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:41903/
+[rospy.internal][INFO] 2026-10-23 13:36:24,577: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:43621/
+[rospy.impl.masterslave][INFO] 2026-10-23 13:36:24,578: signal-2
+[rospy.core][INFO] 2026-10-23 13:36:25,171: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 15:41:41,775: init_node, name[/validate_kinematics], pid[52924]
+[xmlrpc][INFO] 2026-10-23 15:41:41,776: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 15:41:41,776: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:33475/]
+[rospy.init][INFO] 2026-10-23 15:41:41,776: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:33475/]
+[rospy.impl.masterslave][INFO] 2026-10-23 15:41:41,777: _ready: http://ronaldtk-Nitro-AN517-54:33475/
+[rospy.registration][INFO] 2026-10-23 15:41:41,779: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 15:41:41,780: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 15:41:41,878: registered with master
+[rospy.rosout][INFO] 2026-10-23 15:41:41,878: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 15:41:41,884: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 15:41:41,885: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 15:41:41,888: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 15:41:41,897: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:42413/], count 0
+[rosout][INFO] 2026-10-23 15:41:41,922: Nó validate_kinematics ativo. Publicando TFs calculados via DH.
+[rospy.internal][INFO] 2026-10-23 15:41:41,930: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:42413/], count 0
+[rospy.internal][INFO] 2026-10-23 15:41:41,931: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:39885/], count 0
+[rospy.internal][INFO] 2026-10-23 15:41:42,137: topic[/tf] adding connection to [/my_gen3/move_group], count 0
+[rospy.internal][INFO] 2026-10-23 15:41:42,139: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 15:41:42,140: topic[/tf] adding connection to [/rviz], count 1
+[rospy.internal][INFO] 2026-10-23 15:41:42,141: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 2
+[rospy.core][INFO] 2026-10-23 15:42:48,616: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 15:42:48,627: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 15:42:48,627: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 15:42:48,627: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 15:42:48,628: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 15:42:48,628: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:42413/
+[rospy.internal][INFO] 2026-10-23 15:42:48,629: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:42413/
+[rospy.internal][INFO] 2026-10-23 15:42:48,630: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:39885/
+[rospy.impl.masterslave][INFO] 2026-10-23 15:42:48,630: signal-2
+[rospy.core][INFO] 2026-10-23 15:42:49,228: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 15:43:09,642: init_node, name[/validate_kinematics], pid[52944]
+[xmlrpc][INFO] 2026-10-23 15:43:09,643: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 15:43:09,644: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:34655/]
+[rospy.init][INFO] 2026-10-23 15:43:09,644: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:34655/]
+[rospy.impl.masterslave][INFO] 2026-10-23 15:43:09,645: _ready: http://ronaldtk-Nitro-AN517-54:34655/
+[rospy.registration][INFO] 2026-10-23 15:43:09,646: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 15:43:09,646: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 15:43:09,745: registered with master
+[rospy.rosout][INFO] 2026-10-23 15:43:09,745: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 15:43:09,753: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 15:43:09,756: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 15:43:09,759: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 15:43:09,762: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:42413/], count 0
+[rosout][INFO] 2026-10-23 15:43:09,780: Nó validate_kinematics ativo. Publicando TFs calculados via DH.
+[rospy.internal][INFO] 2026-10-23 15:43:09,786: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:39885/], count 0
+[rospy.internal][INFO] 2026-10-23 15:43:09,786: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:42413/], count 0
+[rospy.internal][INFO] 2026-10-23 15:43:09,965: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 15:43:10,007: topic[/tf] adding connection to [/my_gen3/move_group], count 0
+[rospy.internal][INFO] 2026-10-23 15:43:10,009: topic[/tf] adding connection to [/rviz], count 1
+[rospy.internal][INFO] 2026-10-23 15:43:10,010: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 2
+[rospy.core][INFO] 2026-10-23 16:49:53,618: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 16:49:53,630: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 16:49:53,631: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 16:49:53,632: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 16:49:53,633: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 16:49:53,634: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:42413/
+[rospy.internal][INFO] 2026-10-23 16:49:53,635: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:42413/
+[rospy.internal][INFO] 2026-10-23 16:49:53,635: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:39885/
+[rospy.impl.masterslave][INFO] 2026-10-23 16:49:53,636: signal-2
+[rospy.core][INFO] 2026-10-23 16:49:54,229: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 16:50:24,049: init_node, name[/validate_kinematics], pid[52995]
+[xmlrpc][INFO] 2026-10-23 16:50:24,050: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 16:50:24,050: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:40165/]
+[rospy.impl.masterslave][INFO] 2026-10-23 16:50:24,051: _ready: http://ronaldtk-Nitro-AN517-54:40165/
+[rospy.init][INFO] 2026-10-23 16:50:24,051: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:40165/]
+[rospy.registration][INFO] 2026-10-23 16:50:24,052: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 16:50:24,053: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 16:50:24,153: registered with master
+[rospy.rosout][INFO] 2026-10-23 16:50:24,154: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 16:50:24,169: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 16:50:24,172: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 16:50:24,178: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 16:50:24,183: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:42413/], count 0
+[rospy.internal][INFO] 2026-10-23 16:50:24,214: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:42413/], count 0
+[rosout][INFO] 2026-10-23 16:50:24,207: Nó validate_kinematics ativo. Publicando TFs calculados via DH.
+[rospy.internal][INFO] 2026-10-23 16:50:24,224: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:39885/], count 0
+[rospy.internal][INFO] 2026-10-23 16:50:24,456: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 16:50:24,460: topic[/tf] adding connection to [/my_gen3/move_group], count 0
+[rospy.internal][INFO] 2026-10-23 16:50:24,460: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 1
+[rospy.internal][INFO] 2026-10-23 16:50:24,461: topic[/tf] adding connection to [/rviz], count 2
+[rospy.core][INFO] 2026-10-23 16:50:25,133: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 16:50:25,139: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 16:50:25,140: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 16:50:25,140: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 16:50:25,140: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 16:50:25,144: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:42413/
+[rospy.internal][INFO] 2026-10-23 16:50:25,145: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:42413/
+[rospy.internal][INFO] 2026-10-23 16:50:25,146: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:39885/
+[rospy.impl.masterslave][INFO] 2026-10-23 16:50:25,147: signal-2
+[rosout][ERROR] 2026-10-23 16:50:25,148: bad callback: <bound method PlotFramesNode._on_kinova_state of <__main__.PlotFramesNode object at 0x7c63a5dcc220>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "src/kinova_geomagic_demo/scripts/validate_kinematics.py", line 102, in _on_kinova_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, self.kinova_calc_frame)
+  File "src/kinova_geomagic_demo/scripts/validate_kinematics.py", line 96, in _broadcast_tf
+    self.tf_broadcaster.sendTransform(t)
+  File "/opt/ros/noetic/lib/python3/dist-packages/tf2_ros/transform_broadcaster.py", line 54, in sendTransform
+    self.pub_tf.publish(TFMessage(transform))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rosout][ERROR] 2026-10-23 16:50:25,149: bad callback: <bound method PlotFramesNode._on_haptic_state of <__main__.PlotFramesNode object at 0x7c63a5dcc220>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "src/kinova_geomagic_demo/scripts/validate_kinematics.py", line 108, in _on_haptic_state
+    self._broadcast_tf(T_stylus_base, self.geomagic_base_frame, self.stylus_calc_frame)
+  File "src/kinova_geomagic_demo/scripts/validate_kinematics.py", line 96, in _broadcast_tf
+    self.tf_broadcaster.sendTransform(t)
+  File "/opt/ros/noetic/lib/python3/dist-packages/tf2_ros/transform_broadcaster.py", line 54, in sendTransform
+    self.pub_tf.publish(TFMessage(transform))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rospy.core][INFO] 2026-10-23 16:50:25,735: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 16:52:15,752: init_node, name[/validate_kinematics], pid[53737]
+[xmlrpc][INFO] 2026-10-23 16:52:15,753: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 16:52:15,754: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:42365/]
+[rospy.init][INFO] 2026-10-23 16:52:15,755: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:42365/]
+[rospy.impl.masterslave][INFO] 2026-10-23 16:52:15,755: _ready: http://ronaldtk-Nitro-AN517-54:42365/
+[rospy.registration][INFO] 2026-10-23 16:52:15,760: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 16:52:15,760: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 16:52:15,856: registered with master
+[rospy.rosout][INFO] 2026-10-23 16:52:15,856: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 16:52:15,863: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 16:52:15,869: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 16:52:15,874: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 16:52:15,879: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:33709/], count 0
+[rosout][INFO] 2026-10-23 16:52:15,898: Nó validate_kinematics ativo. Publicando TFs calculados via DH.
+[rospy.internal][INFO] 2026-10-23 16:52:15,903: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:33709/], count 0
+[rospy.internal][INFO] 2026-10-23 16:52:15,906: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:32917/], count 0
+[rospy.internal][INFO] 2026-10-23 16:52:16,078: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 16:52:16,142: topic[/tf] adding connection to [/rviz], count 0
+[rospy.internal][INFO] 2026-10-23 16:52:16,146: topic[/tf] adding connection to [/my_gen3/move_group], count 1
+[rospy.internal][INFO] 2026-10-23 16:52:16,147: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 2
+[rospy.core][INFO] 2026-10-23 17:15:23,208: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 17:15:23,216: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 17:15:23,217: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 17:15:23,218: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 17:15:23,218: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 17:15:23,218: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:33709/
+[rospy.internal][INFO] 2026-10-23 17:15:23,219: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:33709/
+[rospy.internal][INFO] 2026-10-23 17:15:23,221: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:32917/
+[rospy.impl.masterslave][INFO] 2026-10-23 17:15:23,222: signal-2
+[rospy.core][INFO] 2026-10-23 17:15:23,810: signal_shutdown [atexit]

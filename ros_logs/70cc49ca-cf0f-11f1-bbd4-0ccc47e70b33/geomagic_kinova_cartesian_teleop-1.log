@@ -1,0 +1,479 @@
+[rospy.client][INFO] 2026-10-23 18:47:53,830: init_node, name[/geomagic_kinova_cartesian_teleop], pid[80933]
+[xmlrpc][INFO] 2026-10-23 18:47:53,833: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 18:47:53,834: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:33059/]
+[rospy.impl.masterslave][INFO] 2026-10-23 18:47:53,834: _ready: http://ronaldtk-Nitro-AN517-54:33059/
+[rospy.init][INFO] 2026-10-23 18:47:53,835: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:33059/]
+[rospy.registration][INFO] 2026-10-23 18:47:53,845: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 18:47:53,845: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 18:47:53,946: registered with master
+[rospy.rosout][INFO] 2026-10-23 18:47:53,947: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 18:47:53,956: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 18:47:53,958: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 18:47:53,962: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 18:47:53,967: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rosout][INFO] 2026-10-23 18:47:54,042: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 18:47:54,046: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 18:47:54,082: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rospy.internal][INFO] 2026-10-23 18:47:54,094: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rosout][INFO] 2026-10-23 18:47:54,093: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 18:47:54,104: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:46681/], count 0
+[rospy.internal][INFO] 2026-10-23 18:47:54,106: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rospy.internal][INFO] 2026-10-23 18:47:54,171: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 18:47:54,209: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 0
+[rospy.internal][INFO] 2026-10-23 18:47:54,239: topic[/tf] adding connection to [/my_gen3/move_group], count 1
+[rospy.internal][INFO] 2026-10-23 18:47:54,243: topic[/tf] adding connection to [/rviz], count 2
+[rospy.internal][INFO] 2026-10-23 18:47:54,368: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rospy.core][INFO] 2026-10-23 18:48:26,485: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 18:48:26,522: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 18:48:26,523: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 18:48:26,524: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 18:48:26,532: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 18:48:26,533: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 18:48:26,537: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 18:48:26,540: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 18:48:26,540: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 18:48:26,541: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 18:48:26,541: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:46681/
+[rospy.impl.masterslave][INFO] 2026-10-23 18:48:26,544: signal-2
+[rospy.rosout][ERROR] 2026-10-23 18:48:26,546: Unable to report rosout: publish() to a closed topic
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 235, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 264, in _broadcast_tf
+    self.tf_broadcaster.sendTransform(t)
+  File "/opt/ros/noetic/lib/python3/dist-packages/tf2_ros/transform_broadcaster.py", line 54, in sendTransform
+    self.pub_tf.publish(TFMessage(transform))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 100, in _rosout
+    _rosout_pub.publish(l)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rosout][ERROR] 2026-10-23 18:48:26,535: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x7f0cfeefa520>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 235, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 264, in _broadcast_tf
+    self.tf_broadcaster.sendTransform(t)
+  File "/opt/ros/noetic/lib/python3/dist-packages/tf2_ros/transform_broadcaster.py", line 54, in sendTransform
+    self.pub_tf.publish(TFMessage(transform))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rospy.core][INFO] 2026-10-23 18:48:27,089: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 18:48:30,769: init_node, name[/geomagic_kinova_cartesian_teleop], pid[80985]
+[xmlrpc][INFO] 2026-10-23 18:48:30,769: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 18:48:30,770: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:33951/]
+[rospy.init][INFO] 2026-10-23 18:48:30,770: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:33951/]
+[rospy.impl.masterslave][INFO] 2026-10-23 18:48:30,770: _ready: http://ronaldtk-Nitro-AN517-54:33951/
+[rospy.registration][INFO] 2026-10-23 18:48:30,772: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 18:48:30,772: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 18:48:30,871: registered with master
+[rospy.rosout][INFO] 2026-10-23 18:48:30,871: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 18:48:30,886: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 18:48:30,889: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 18:48:30,894: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 18:48:30,898: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rosout][INFO] 2026-10-23 18:48:30,939: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 18:48:30,943: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 18:48:30,988: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rospy.internal][INFO] 2026-10-23 18:48:30,992: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:46681/], count 0
+[rosout][INFO] 2026-10-23 18:48:30,995: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 18:48:31,009: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rospy.internal][INFO] 2026-10-23 18:48:31,013: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rospy.internal][INFO] 2026-10-23 18:48:31,093: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 0
+[rospy.internal][INFO] 2026-10-23 18:48:31,139: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 18:48:31,146: topic[/tf] adding connection to [/rviz], count 1
+[rospy.internal][INFO] 2026-10-23 18:48:31,148: topic[/tf] adding connection to [/my_gen3/move_group], count 2
+[rospy.internal][INFO] 2026-10-23 18:48:31,248: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rosout][INFO] 2026-10-23 18:49:20,904: Teleop ativado. Aguardando alinhamento da caneta com o robô...
+[rosout][WARNING] 2026-10-23 18:49:20,960: Desalinhamento: 34.2 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:22,096: Desalinhamento: 18.7 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:23,258: Desalinhamento: 18.0 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:24,386: Desalinhamento: 17.0 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:25,592: Desalinhamento: 17.5 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:26,755: Desalinhamento: 18.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:27,869: Desalinhamento: 17.7 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:29,004: Desalinhamento: 16.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:30,164: Desalinhamento: 16.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:31,280: Desalinhamento: 16.5 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:32,421: Desalinhamento: 16.9 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:49:33,528: Desalinhamento: 18.0 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][INFO] 2026-10-23 18:49:33,709: >>> Orientação alinhada! Teleoperação ativa.
+[rosout][INFO] 2026-10-23 18:54:56,288: Teleop desativado.
+[rosout][WARNING] 2026-10-23 18:54:56,296: Desalinhamento: 35.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][INFO] 2026-10-23 18:55:22,561: Teleop ativado. Aguardando alinhamento da caneta com o robô...
+[rosout][WARNING] 2026-10-23 18:55:22,615: Desalinhamento: 38.4 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:55:23,721: Desalinhamento: 37.1 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:55:24,866: Desalinhamento: 32.1 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:55:26,012: Desalinhamento: 32.0 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 18:55:27,148: Desalinhamento: 18.1 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][INFO] 2026-10-23 18:55:27,489: >>> Orientação alinhada! Teleoperação ativa.
+[rosout][INFO] 2026-10-23 18:55:53,715: Teleop desativado.
+[rospy.core][INFO] 2026-10-23 18:56:23,988: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 18:56:23,996: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 18:56:23,997: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 18:56:23,998: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 18:56:23,998: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 18:56:23,999: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 18:56:23,999: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 18:56:24,000: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 18:56:24,001: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 18:56:24,002: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 18:56:24,003: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 18:56:24,003: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:46681/
+[rospy.impl.masterslave][INFO] 2026-10-23 18:56:24,004: signal-2
+[rospy.core][INFO] 2026-10-23 18:56:24,591: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 19:09:57,757: init_node, name[/geomagic_kinova_cartesian_teleop], pid[93803]
+[xmlrpc][INFO] 2026-10-23 19:09:57,759: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 19:09:57,760: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:43237/]
+[rospy.impl.masterslave][INFO] 2026-10-23 19:09:57,760: _ready: http://ronaldtk-Nitro-AN517-54:43237/
+[rospy.registration][INFO] 2026-10-23 19:09:57,762: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 19:09:57,762: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 19:09:57,763: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:43237/]
+[rospy.init][INFO] 2026-10-23 19:09:57,763: registered with master
+[rospy.rosout][INFO] 2026-10-23 19:09:57,763: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 19:09:57,777: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 19:09:57,779: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 19:09:57,782: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 19:09:57,785: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rosout][INFO] 2026-10-23 19:09:57,829: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 19:09:57,833: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 19:09:57,848: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rospy.internal][INFO] 2026-10-23 19:09:57,853: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rospy.internal][INFO] 2026-10-23 19:09:57,858: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rosout][INFO] 2026-10-23 19:09:57,860: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 19:09:57,881: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:46681/], count 0
+[rospy.internal][INFO] 2026-10-23 19:09:57,983: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 0
+[rospy.internal][INFO] 2026-10-23 19:09:58,016: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 19:09:58,026: topic[/tf] adding connection to [/rviz], count 1
+[rospy.internal][INFO] 2026-10-23 19:09:58,030: topic[/tf] adding connection to [/my_gen3/move_group], count 2
+[rospy.internal][INFO] 2026-10-23 19:09:58,068: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rosout][INFO] 2026-10-23 19:10:18,747: Teleop ativado. Aguardando alinhamento da caneta com o robô...
+[rosout][INFO] 2026-10-23 19:10:18,798: >>> Orientação alinhada! Teleoperação ativa.
+[rosout][INFO] 2026-10-23 19:10:47,065: Teleop desativado.
+[rospy.core][INFO] 2026-10-23 19:10:52,210: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 19:10:52,221: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 19:10:52,221: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 19:10:52,223: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 19:10:52,224: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 19:10:52,225: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 19:10:52,226: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 19:10:52,226: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 19:10:52,230: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:10:52,232: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:10:52,233: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:10:52,234: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:10:52,234: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:46681/
+[rospy.impl.masterslave][INFO] 2026-10-23 19:10:52,234: signal-2
+[rospy.core][INFO] 2026-10-23 19:10:52,817: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 19:11:09,937: init_node, name[/geomagic_kinova_cartesian_teleop], pid[94811]
+[xmlrpc][INFO] 2026-10-23 19:11:09,938: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 19:11:09,939: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:41097/]
+[rospy.init][INFO] 2026-10-23 19:11:09,939: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:41097/]
+[rospy.impl.masterslave][INFO] 2026-10-23 19:11:09,939: _ready: http://ronaldtk-Nitro-AN517-54:41097/
+[rospy.registration][INFO] 2026-10-23 19:11:09,941: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 19:11:09,941: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 19:11:10,044: registered with master
+[rospy.rosout][INFO] 2026-10-23 19:11:10,044: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 19:11:10,056: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 19:11:10,058: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 19:11:10,061: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 19:11:10,065: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rosout][INFO] 2026-10-23 19:11:10,112: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 19:11:10,114: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 19:11:10,131: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rospy.internal][INFO] 2026-10-23 19:11:10,136: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rospy.internal][INFO] 2026-10-23 19:11:10,141: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rosout][INFO] 2026-10-23 19:11:10,143: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 19:11:10,162: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:46681/], count 0
+[rospy.internal][INFO] 2026-10-23 19:11:10,266: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 0
+[rospy.internal][INFO] 2026-10-23 19:11:10,294: topic[/tf] adding connection to [/my_gen3/move_group], count 1
+[rospy.internal][INFO] 2026-10-23 19:11:10,300: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 19:11:10,301: topic[/tf] adding connection to [/rviz], count 2
+[rospy.internal][INFO] 2026-10-23 19:11:10,359: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rosout][INFO] 2026-10-23 19:11:13,491: Teleop ativado. Aguardando alinhamento da caneta com o robô...
+[rosout][INFO] 2026-10-23 19:11:13,534: >>> Orientação alinhada! Teleoperação ativa.
+[rosout][INFO] 2026-10-23 19:12:33,777: Teleop desativado.
+[rosout][INFO] 2026-10-23 19:12:33,788: >>> Orientação alinhada! Teleoperação ativa.
+[rospy.core][INFO] 2026-10-23 19:17:17,169: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 19:17:17,239: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 19:17:17,241: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 19:17:17,243: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 19:17:17,246: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 19:17:17,249: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 19:17:17,249: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 19:17:17,260: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 19:17:17,261: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:17:17,261: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:17:17,261: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:46681/
+[rospy.impl.masterslave][INFO] 2026-10-23 19:17:17,261: signal-2
+[rospy.internal][ERROR] 2026-10-23 19:17:17,264: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 739, in receive_once
+    sock.setblocking(1)
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.core][INFO] 2026-10-23 19:17:17,773: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 19:17:22,227: init_node, name[/geomagic_kinova_cartesian_teleop], pid[97556]
+[xmlrpc][INFO] 2026-10-23 19:17:22,228: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 19:17:22,229: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:40151/]
+[rospy.init][INFO] 2026-10-23 19:17:22,229: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:40151/]
+[rospy.impl.masterslave][INFO] 2026-10-23 19:17:22,229: _ready: http://ronaldtk-Nitro-AN517-54:40151/
+[rospy.registration][INFO] 2026-10-23 19:17:22,231: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 19:17:22,234: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 19:17:22,330: registered with master
+[rospy.rosout][INFO] 2026-10-23 19:17:22,331: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 19:17:22,347: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 19:17:22,351: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 19:17:22,362: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 19:17:22,371: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rosout][INFO] 2026-10-23 19:17:22,414: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 19:17:22,417: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 19:17:22,437: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rospy.internal][INFO] 2026-10-23 19:17:22,443: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rospy.internal][INFO] 2026-10-23 19:17:22,450: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rosout][INFO] 2026-10-23 19:17:22,451: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 19:17:22,459: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:46681/], count 0
+[rospy.internal][INFO] 2026-10-23 19:17:22,568: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 0
+[rospy.internal][INFO] 2026-10-23 19:17:22,574: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 19:17:22,618: topic[/tf] adding connection to [/my_gen3/move_group], count 1
+[rospy.internal][INFO] 2026-10-23 19:17:22,652: topic[/tf] adding connection to [/rviz], count 2
+[rospy.internal][INFO] 2026-10-23 19:17:22,689: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rosout][INFO] 2026-10-23 19:17:28,028: Teleop ativado. Aguardando alinhamento da caneta com o robô...
+[rosout][WARNING] 2026-10-23 19:17:28,060: Desalinhamento: 57.2 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:29,251: Desalinhamento: 57.2 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:30,457: Desalinhamento: 57.2 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:31,621: Desalinhamento: 55.5 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:32,843: Desalinhamento: 55.2 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:34,068: Desalinhamento: 57.2 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:35,195: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:36,371: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:37,572: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:38,761: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:39,922: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:41,079: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:42,262: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:43,458: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:44,611: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:45,810: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:46,990: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:48,169: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:49,340: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:50,501: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:51,747: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:52,914: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:54,102: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:55,240: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:56,462: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:57,626: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:17:58,876: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:18:00,076: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:18:01,239: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:18:02,405: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:18:03,580: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:18:04,785: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:18:05,964: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][WARNING] 2026-10-23 19:18:07,163: Desalinhamento: 57.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rospy.core][INFO] 2026-10-23 19:18:07,768: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 19:18:07,779: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 19:18:07,781: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 19:18:07,782: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 19:18:07,784: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 19:18:07,805: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 19:18:07,816: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 19:18:07,816: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][ERROR] 2026-10-23 19:18:07,818: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 739, in receive_once
+    sock.setblocking(1)
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.rosout][ERROR] 2026-10-23 19:18:07,820: Unable to report rosout: publish() to a closed topic
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 244, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 273, in _broadcast_tf
+    self.tf_broadcaster.sendTransform(t)
+  File "/opt/ros/noetic/lib/python3/dist-packages/tf2_ros/transform_broadcaster.py", line 54, in sendTransform
+    self.pub_tf.publish(TFMessage(transform))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 100, in _rosout
+    _rosout_pub.publish(l)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rosout][ERROR] 2026-10-23 19:18:07,800: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x72882605d430>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 244, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 273, in _broadcast_tf
+    self.tf_broadcaster.sendTransform(t)
+  File "/opt/ros/noetic/lib/python3/dist-packages/tf2_ros/transform_broadcaster.py", line 54, in sendTransform
+    self.pub_tf.publish(TFMessage(transform))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rospy.internal][INFO] 2026-10-23 19:18:07,824: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:18:07,831: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:18:07,833: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:18:07,833: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:46681/
+[rospy.impl.masterslave][INFO] 2026-10-23 19:18:07,835: signal-2
+[rosout][ERROR] 2026-10-23 19:18:07,805: bad callback: <bound method TeleopNode._on_haptic_state of <__main__.TeleopNode object at 0x72882605d430>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 311, in _on_haptic_state
+    self._broadcast_tf(T_des, self.kinova_base_frame, "target_ee_des")
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 273, in _broadcast_tf
+    self.tf_broadcaster.sendTransform(t)
+  File "/opt/ros/noetic/lib/python3/dist-packages/tf2_ros/transform_broadcaster.py", line 54, in sendTransform
+    self.pub_tf.publish(TFMessage(transform))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rospy.core][INFO] 2026-10-23 19:18:08,379: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 19:38:13,113: init_node, name[/geomagic_kinova_cartesian_teleop], pid[98988]
+[xmlrpc][INFO] 2026-10-23 19:38:13,114: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 19:38:13,114: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:41287/]
+[rospy.impl.masterslave][INFO] 2026-10-23 19:38:13,118: _ready: http://ronaldtk-Nitro-AN517-54:41287/
+[rospy.init][INFO] 2026-10-23 19:38:13,115: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:41287/]
+[xmlrpc][INFO] 2026-10-23 19:38:13,124: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2026-10-23 19:38:13,123: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2026-10-23 19:38:13,225: registered with master
+[rospy.rosout][INFO] 2026-10-23 19:38:13,225: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 19:38:13,234: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 19:38:13,235: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 19:38:13,239: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 19:38:13,246: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rosout][INFO] 2026-10-23 19:38:13,282: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 19:38:13,284: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 19:38:13,305: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rospy.internal][INFO] 2026-10-23 19:38:13,316: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rospy.internal][INFO] 2026-10-23 19:38:13,325: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:46681/], count 0
+[rospy.internal][INFO] 2026-10-23 19:38:13,330: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rosout][INFO] 2026-10-23 19:38:13,327: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 19:38:13,462: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 19:38:13,536: topic[/tf] adding connection to [/my_gen3/move_group], count 0
+[rospy.internal][INFO] 2026-10-23 19:38:13,542: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 1
+[rospy.internal][INFO] 2026-10-23 19:38:13,546: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rospy.internal][INFO] 2026-10-23 19:38:13,548: topic[/tf] adding connection to [/rviz], count 2
+[rosout][INFO] 2026-10-23 19:38:26,129: Teleop ativado. Aguardando alinhamento da caneta com o robô...
+[rosout][INFO] 2026-10-23 19:38:26,210: >>> Orientação alinhada! Teleoperação ativa.
+[rosout][INFO] 2026-10-23 19:40:02,519: Teleop desativado.
+[rosout][INFO] 2026-10-23 19:40:02,525: >>> Orientação alinhada! Teleoperação ativa.
+[rospy.core][INFO] 2026-10-23 19:46:09,158: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 19:46:09,165: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 19:46:09,166: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 19:46:09,166: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 19:46:09,167: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 19:46:09,168: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 19:46:09,169: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 19:46:09,170: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 19:46:09,172: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][ERROR] 2026-10-23 19:46:09,173: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 739, in receive_once
+    sock.setblocking(1)
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.internal][INFO] 2026-10-23 19:46:09,175: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:46:09,175: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 19:46:09,176: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:46681/
+[rospy.internal][INFO] 2026-10-23 19:46:09,177: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:46681/
+[rospy.impl.masterslave][INFO] 2026-10-23 19:46:09,177: signal-2
+[rosout][ERROR] 2026-10-23 19:46:09,178: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x7643f2b77fd0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 244, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 273, in _broadcast_tf
+    self.tf_broadcaster.sendTransform(t)
+  File "/opt/ros/noetic/lib/python3/dist-packages/tf2_ros/transform_broadcaster.py", line 54, in sendTransform
+    self.pub_tf.publish(TFMessage(transform))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rospy.core][INFO] 2026-10-23 19:46:09,762: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 19:46:13,696: init_node, name[/geomagic_kinova_cartesian_teleop], pid[102256]
+[xmlrpc][INFO] 2026-10-23 19:46:13,697: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 19:46:13,697: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:38025/]
+[rospy.init][INFO] 2026-10-23 19:46:13,698: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:38025/]
+[rospy.impl.masterslave][INFO] 2026-10-23 19:46:13,698: _ready: http://ronaldtk-Nitro-AN517-54:38025/
+[rospy.registration][INFO] 2026-10-23 19:46:13,699: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 19:46:13,699: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 19:46:13,798: registered with master
+[rospy.rosout][INFO] 2026-10-23 19:46:13,799: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 19:46:13,821: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 19:46:13,826: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 19:46:13,833: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 19:46:13,847: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rosout][INFO] 2026-10-23 19:46:13,905: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 19:46:13,907: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 19:46:13,943: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rospy.internal][INFO] 2026-10-23 19:46:13,952: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:46681/], count 0
+[rosout][INFO] 2026-10-23 19:46:13,945: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 19:46:13,956: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rospy.internal][INFO] 2026-10-23 19:46:13,960: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:34059/], count 0
+[rospy.internal][INFO] 2026-10-23 19:46:14,112: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 19:46:14,122: topic[/tf] adding connection to [/my_gen3/move_group], count 0
+[rospy.internal][INFO] 2026-10-23 19:46:14,124: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rospy.internal][INFO] 2026-10-23 19:46:14,126: topic[/tf] adding connection to [/rviz], count 1
+[rospy.internal][INFO] 2026-10-23 19:46:14,164: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 2
+[rosout][INFO] 2026-10-23 19:46:24,721: Teleop ativado. Aguardando alinhamento da caneta com o robô...
+[rosout][INFO] 2026-10-23 19:46:24,768: >>> Orientação alinhada! Teleoperação ativa.
+[rosout][INFO] 2026-10-23 19:46:58,925: Teleop desativado.
+[rospy.core][INFO] 2026-10-23 20:58:57,523: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 20:58:57,535: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 20:58:57,536: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 20:58:57,536: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 20:58:57,537: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 20:58:57,537: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 20:58:57,538: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 20:58:57,538: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36537/
+[rospy.internal][INFO] 2026-10-23 20:58:57,540: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 20:58:57,541: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:34059/
+[rospy.internal][INFO] 2026-10-23 20:58:57,542: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:46681/
+[rospy.internal][INFO] 2026-10-23 20:58:57,542: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:46681/
+[rospy.impl.masterslave][INFO] 2026-10-23 20:58:57,543: signal-2
+[rospy.core][INFO] 2026-10-23 20:58:58,125: signal_shutdown [atexit]

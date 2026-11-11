@@ -1,0 +1,6 @@
+
+
+0.000000000  Node Startup
+0.000000000 INFO /geomagic_node [/catkin_ws/src/geomagic_control/src/omni_cartesian.cpp:452(main)] [topics: /rosout, /geomagic/position, /geomagic/speed, /geomagic/joint_states, /geomagic/button] [Geomagic] Found PHANTOM Omni.
+0.000000000 INFO /geomagic_node [/catkin_ws/src/geomagic_control/src/omni_cartesian.cpp:391(HHD_Auto_Calibration)] [topics: /rosout, /geomagic/position, /geomagic/speed, /geomagic/joint_states, /geomagic/button] [Geomagic] HD_CALIBRATION_INKWELL..
+0.000000000 INFO /geomagic_node [/catkin_ws/src/geomagic_control/src/omni_cartesian.cpp:399(HHD_Auto_Calibration)] [topics: /rosout, /geomagic/position, /geomagic/speed, /geomagic/joint_states, /geomagic/button] [Geomagic] Already calibrated

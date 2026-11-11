@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2026-10-22 19:33:41,154: init_node, name[/my_gen3/urdf_spawner], pid[1399]
+[xmlrpc][INFO] 2026-10-22 19:33:41,154: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-22 19:33:41,155: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:41151/]
+[rospy.init][INFO] 2026-10-22 19:33:41,155: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:41151/]
+[rospy.impl.masterslave][INFO] 2026-10-22 19:33:41,155: _ready: http://ronaldtk-Nitro-AN517-54:41151/
+[rospy.registration][INFO] 2026-10-22 19:33:41,156: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-22 19:33:41,156: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-22 19:33:41,256: registered with master
+[rospy.rosout][INFO] 2026-10-22 19:33:41,256: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-22 19:33:41,261: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-22 19:33:41,263: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-22 19:33:41,265: connected to core topic /clock
+[rosout][INFO] 2026-10-22 19:33:41,270: Loading model XML from ros parameter robot_description
+[rosout][INFO] 2026-10-22 19:33:41,283: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2026-10-22 19:33:41,471: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2026-10-22 19:33:42,498: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2026-10-22 19:33:42,518: Spawn status: SpawnModel: Failure - entity already exists.
+[rosout][ERROR] 2026-10-22 19:33:42,522: Spawn service failed. Exiting.
+[rospy.core][INFO] 2026-10-22 19:33:42,527: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-22 19:33:42,541: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2026-10-22 19:33:42,541: atexit

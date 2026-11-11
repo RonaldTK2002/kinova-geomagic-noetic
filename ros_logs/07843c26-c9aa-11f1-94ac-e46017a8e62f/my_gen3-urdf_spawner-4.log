@@ -1,0 +1,17 @@
+[rospy.client][INFO] 2026-10-16 21:39:14,431: init_node, name[/my_gen3/urdf_spawner], pid[189]
+[xmlrpc][INFO] 2026-10-16 21:39:14,431: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-16 21:39:14,431: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:34239/]
+[rospy.init][INFO] 2026-10-16 21:39:14,432: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:34239/]
+[rospy.impl.masterslave][INFO] 2026-10-16 21:39:14,432: _ready: http://ronaldtk-Nitro-AN517-54:34239/
+[rospy.registration][INFO] 2026-10-16 21:39:14,432: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-16 21:39:14,432: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-16 21:39:14,533: registered with master
+[rospy.rosout][INFO] 2026-10-16 21:39:14,533: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-16 21:39:14,543: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-16 21:39:14,546: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-16 21:39:14,552: connected to core topic /clock
+[rosout][INFO] 2026-10-16 21:39:14,555: Loading model XML from ros parameter robot_description
+[rosout][INFO] 2026-10-16 21:39:14,563: Waiting for service /gazebo/spawn_urdf_model
+[rospy.core][INFO] 2026-10-16 21:39:14,638: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2026-10-16 21:39:14,644: signal-2
+[rospy.core][INFO] 2026-10-16 21:39:15,240: signal_shutdown [atexit]

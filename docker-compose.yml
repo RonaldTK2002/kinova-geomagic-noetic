@@ -38,6 +38,8 @@ x-demo-common: &demo-common
     - /tmp/.X11-unix:/tmp/.X11-unix
     # Emparelhamento Geomagic ($GTDD_HOME): bind mount — commit Default Device.config para reutilizar noutras máquinas.
     - ./docker/geomagic-config:/usr/share/3DSystems
+    - ./catkin_ws/src:/catkin_ws/src
+    - ./ros_logs:/root/.ros/log
   stdin_open: true
   tty: true
 
@@ -67,7 +69,20 @@ services:
     container_name: kinova_geomagic_noetic
     # Hardware: Geomagic ↔ Kinova. IP do braço via .env: KINOVA_ROBOT_IP=192.168.1.10 (omissão: 192.168.1.10)
     # RViz apenas (sem robô/háptico): roslaunch kinova_geomagic_demo demo_rviz.launch
+    # roslaunch kinova_geomagic_demo demo_hardware.launch robot_ip:=${KINOVA_ROBOT_IP:-192.168.1.10}
     command: roslaunch kinova_geomagic_demo demo_hardware.launch robot_ip:=${KINOVA_ROBOT_IP:-192.168.1.10}
+
+
+  sim:
+    <<: *demo-common
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kinova_geomagic_noetic_simulation
+    # Hardware: Geomagic ↔ Kinova. IP do braço via .env: KINOVA_ROBOT_IP=192.168.1.10 (omissão: 192.168.1.10)
+    # RViz apenas (sem robô/háptico): roslaunch kinova_geomagic_demo demo_rviz.launch
+    command: /bin/bash
+
 
   # --- Geomagic Touch (perfil setup | calibration): emparelhamento / IP + diagnóstico do fabricante ---
   # Uso:  docker compose --profile setup run --rm geomagic-setup

@@ -24,29 +24,30 @@
 #define BT_EULER_DEFAULT_ZYX
 #include <bullet/LinearMath/btMatrix3x3.h>
 
-//#include "omni_msgs/OmniState.h"
+// #include "omni_msgs/OmniState.h"
 #include <pthread.h>
 
 float prev_time;
 int calibrationStyle;
 
-static const hduVector3Dd nominalBaseTorque(15000.0, 15000.0, 15000.0); //mNm
+static const hduVector3Dd nominalBaseTorque(15000.0, 15000.0, 15000.0); // mNm
 
-struct OmniState {
-  hduVector3Dd position;  //3x1 vector of position
-  hduVector3Dd velocity;  //3x1 vector of velocity
-  hduVector3Dd inp_vel1;  //3x1 history of velocity used for filtering velocity estimate
+struct OmniState
+{
+  hduVector3Dd position; // 3x1 vector of position
+  hduVector3Dd velocity; // 3x1 vector of velocity
+  hduVector3Dd inp_vel1; // 3x1 history of velocity used for filtering velocity estimate
   hduVector3Dd inp_vel2;
   hduVector3Dd inp_vel3;
   hduVector3Dd out_vel1;
   hduVector3Dd out_vel2;
   hduVector3Dd out_vel3;
-  hduVector3Dd pos_hist1; //3x1 history of position used for 2nd order backward difference estimate of velocity
+  hduVector3Dd pos_hist1; // 3x1 history of position used for 2nd order backward difference estimate of velocity
   hduVector3Dd pos_hist2;
   hduQuaternion rot;
-  //hduVector3Dd joints;
-  hduVector3Dd force;   //3 element double vector force[0], force[1], force[2]
-    hduVector3Dd jointTorque;
+  // hduVector3Dd joints;
+  hduVector3Dd force; // 3 element double vector force[0], force[1], force[2]
+  hduVector3Dd jointTorque;
   float thetas[7];
   int buttons[2];
   int buttons_prev[2];
@@ -58,7 +59,8 @@ struct OmniState {
   pthread_mutex_t force_lock;
 };
 
-class PhantomROS {
+class PhantomROS
+{
 
 public:
   ros::NodeHandle n;
@@ -74,7 +76,8 @@ public:
 
   OmniState *state;
 
-  void init(OmniState *s) {
+  void init(OmniState *s)
+  {
     bool is_torque_mode;
     ros::param::param(std::string("~omni_name"), omni_name, std::string("/geomagic"));
     ros::param::param(std::string("~reference_frame"), ref_frame, std::string("/map"));
@@ -82,26 +85,26 @@ public:
     ros::param::param(std::string("~torque_mode"), is_torque_mode, true);
     ros::param::param(std::string("~force_topic"), force_topic, std::string("/arm/force_feedback"));
 
-    //Subscribe to NAME/force_feedback
+    // Subscribe to NAME/force_feedback
     std::ostringstream stream3;
-    //stream3 << "/arm/force_feedback";
+    // stream3 << "/arm/force_feedback";
     stream3 << force_topic;
     std::string force_feedback_topic = std::string(stream3.str());
     haptic_sub = n.subscribe(force_feedback_topic.c_str(), 1, &PhantomROS::force_callback, this);
 
-    //Publish on NAME/position
+    // Publish on NAME/position
     std::ostringstream stream4;
     stream4 << omni_name << "/position";
     std::string position_topic_name = std::string(stream4.str());
     position_publisher = n.advertise<geometry_msgs::Vector3>(position_topic_name.c_str(), 1);
-    
-    //Publish on NAME/speed
+
+    // Publish on NAME/speed
     std::ostringstream stream2;
     stream2 << omni_name << "/speed";
     std::string speed_topic_name = std::string(stream2.str());
     speed_publisher = n.advertise<geometry_msgs::Vector3>(speed_topic_name.c_str(), 1);
 
-    //Publish on NAME/joint_states
+    // Publish on NAME/joint_states
     std::ostringstream stream5;
     stream5 << omni_name << "/joint_states";
     std::string joint_topic_name = std::string(stream5.str());
@@ -113,7 +116,8 @@ public:
     button_pub = n.advertise<std_msgs::Int32MultiArray>(button_topic.str(), 1);
 
     state = s;
-    if (pthread_mutex_init(&state->force_lock, NULL) != 0) {
+    if (pthread_mutex_init(&state->force_lock, NULL) != 0)
+    {
       ROS_FATAL("[Geomagic] pthread_mutex_init(force_lock) failed");
     }
     state->is_torque_mode = is_torque_mode;
@@ -125,18 +129,19 @@ public:
     state->force = zeros;
     state->jointTorque = zeros;
     state->position = zeros;
-    for (int i = 0; i < 7; ++i) {
+    for (int i = 0; i < 7; ++i)
+    {
       state->thetas[i] = 0.f;
     }
     state->velocity = zeros;
-    state->inp_vel1 = zeros;  //3x1 history of velocity
-    state->inp_vel2 = zeros;  //3x1 history of velocity
-    state->inp_vel3 = zeros;  //3x1 history of velocity
-    state->out_vel1 = zeros;  //3x1 history of velocity
-    state->out_vel2 = zeros;  //3x1 history of velocity
-    state->out_vel3 = zeros;  //3x1 history of velocity
-    state->pos_hist1 = zeros; //3x1 history of position
-    state->pos_hist2 = zeros; //3x1 history of position
+    state->inp_vel1 = zeros;  // 3x1 history of velocity
+    state->inp_vel2 = zeros;  // 3x1 history of velocity
+    state->inp_vel3 = zeros;  // 3x1 history of velocity
+    state->out_vel1 = zeros;  // 3x1 history of velocity
+    state->out_vel2 = zeros;  // 3x1 history of velocity
+    state->out_vel3 = zeros;  // 3x1 history of velocity
+    state->pos_hist1 = zeros; // 3x1 history of position
+    state->pos_hist2 = zeros; // 3x1 history of position
     state->lock = false;
     state->close_gripper = false;
     state->lock_pos = zeros;
@@ -160,8 +165,9 @@ public:
   /*******************************************************************************
    ROS node callback.
    *******************************************************************************/
-//void force_callback(const geometry_msgs::Vector3& omnifeed) {
-  void force_callback(const sensor_msgs::ChannelFloat32& omnifeed) {
+  // void force_callback(const geometry_msgs::Vector3& omnifeed) {
+  void force_callback(const sensor_msgs::ChannelFloat32 &omnifeed)
+  {
     ////////////////////Some people might not like this extra damping, but it
     ////////////////////helps to stabilize the overall force feedback. It isn't
     ////////////////////like we are getting direct impedance matching from the
@@ -170,11 +176,14 @@ public:
     if (omnifeed.values.size() < 3)
       return;
     pthread_mutex_lock(&state->force_lock);
-    if (!state->is_torque_mode) {
+    if (!state->is_torque_mode)
+    {
       state->force[0] = omnifeed.values[0];
       state->force[1] = omnifeed.values[1];
       state->force[2] = omnifeed.values[2];
-    } else {
+    }
+    else
+    {
       state->jointTorque[0] = omnifeed.values[0];
       state->jointTorque[1] = omnifeed.values[1];
       state->jointTorque[2] = omnifeed.values[2];
@@ -182,7 +191,8 @@ public:
     pthread_mutex_unlock(&state->force_lock);
   }
 
-  void publish_omni_state() {
+  void publish_omni_state()
+  {
     // Build the state msg
 
     // Publish the JointState msg
@@ -200,18 +210,18 @@ public:
     joint_state.velocity[1] = state->velocity[1];
     joint_state.name[2] = "elbow";
     joint_state.position[2] = state->thetas[3]; // *180.0/M_PI;
-    //joint_state.position[2] = (state->thetas[3] - M_PI/2.0);// *180.0/M_PI;
+    // joint_state.position[2] = (state->thetas[3] - M_PI/2.0);// *180.0/M_PI;
     joint_state.velocity[2] = state->velocity[2];
     joint_state.name[3] = "yaw";
-    //joint_state.position[3] = -state->thetas[4] + M_PI;
+    // joint_state.position[3] = -state->thetas[4] + M_PI;
     joint_state.position[3] = -state->thetas[4]; // *180.0/M_PI;
     joint_state.velocity[3] = state->velocity[3];
     joint_state.name[4] = "pitch";
-    //joint_state.position[4] = -state->thetas[5] - 3*M_PI/4;
-    joint_state.position[4] = state->thetas[5] - M_PI/8.0;
+    // joint_state.position[4] = -state->thetas[5] - 3*M_PI/4;
+    joint_state.position[4] = state->thetas[5] - M_PI / 8.0;
     joint_state.velocity[4] = state->velocity[4];
     joint_state.name[5] = "roll";
-    //joint_state.position[5] = -state->thetas[6] - M_PI;
+    // joint_state.position[5] = -state->thetas[6] - M_PI;
     joint_state.position[5] = state->thetas[6];
     joint_state.velocity[5] = state->velocity[5];
     joint_publisher.publish(joint_state);
@@ -233,25 +243,27 @@ public:
     // Build button msg
     std_msgs::Int32MultiArray button_msg;
     button_msg.data.clear();
-    button_msg.data.push_back(state->buttons[0]);  //cinza escuro
-    button_msg.data.push_back(state->buttons[1]);  //cinza claro
-    if (state->buttons[0] != state->buttons_prev[0] || state->buttons[1] != state->buttons_prev[1]){
+    button_msg.data.push_back(state->buttons[0]); // cinza escuro
+    button_msg.data.push_back(state->buttons[1]); // cinza claro
+    if (state->buttons[0] != state->buttons_prev[0] || state->buttons[1] != state->buttons_prev[1])
+    {
       button_pub.publish(button_msg);
     }
     state->buttons_prev[0] = state->buttons[0];
     state->buttons_prev[1] = state->buttons[1];
-    }
+  }
 };
 
-HDCallbackCode HDCALLBACK omni_state_callback(void *pUserData) 
+HDCallbackCode HDCALLBACK omni_state_callback(void *pUserData)
 {
-  const HDdouble kTorqueInfluence = 3.14; /* radians */
+  const HDdouble kTorqueInfluence = 3.14;     /* radians */
   const HDdouble kStylusTorqueConstant = 500; /* torque spring constant (mN.m/radian)*/
 
   OmniState *omni_state = static_cast<OmniState *>(pUserData);
-  if (hdCheckCalibration() == HD_CALIBRATION_NEEDS_UPDATE) {
+  if (hdCheckCalibration() == HD_CALIBRATION_NEEDS_UPDATE)
+  {
     ROS_DEBUG("[Geomagic] Updating calibration...");
-      hdUpdateCalibration(calibrationStyle);
+    hdUpdateCalibration(calibrationStyle);
   }
   hdBeginFrame(hdGetCurrentDevice());
   // Get transform and angles
@@ -262,7 +274,7 @@ HDCallbackCode HDCALLBACK omni_state_callback(void *pUserData)
   // Do not return early here: return -1 is not a valid HDCallbackCode and skips hdEndFrame(),
   // which stops the scheduler / freezes /geomagic/joint_states. Real faults are handled after hdEndFrame.
 
-  //ROS_INFO("Joints: %.2f, %.2f, %.2f",joints[0],joints[1],joints[2]);
+  // ROS_INFO("Joints: %.2f, %.2f, %.2f",joints[0],joints[1],joints[2]);
 
   hduVector3Dd gimbal_angles;
   hdGetDoublev(HD_CURRENT_GIMBAL_ANGLES, gimbal_angles);
@@ -279,20 +291,16 @@ HDCallbackCode HDCALLBACK omni_state_callback(void *pUserData)
   // Orientation (quaternion)
   hduMatrix rotation(transform);
   rotation.getRotationMatrix(rotation);
-  hduMatrix rotation_offset( 0.0, -1.0, 0.0, 0.0,
-                             1.0,  0.0, 0.0, 0.0,
-                             0.0,  0.0, 1.0, 0.0,
-                             0.0,  0.0, 0.0, 1.0);
+  hduMatrix rotation_offset(0.0, -1.0, 0.0, 0.0,
+                            1.0, 0.0, 0.0, 0.0,
+                            0.0, 0.0, 1.0, 0.0,
+                            0.0, 0.0, 0.0, 1.0);
   rotation_offset.getRotationMatrix(rotation_offset);
   omni_state->rot = hduQuaternion(rotation_offset * rotation);
   // Velocity estimation
   hduVector3Dd vel_buff(0, 0, 0);
-  vel_buff = (omni_state->position * 3 - 4 * omni_state->pos_hist1
-      + omni_state->pos_hist2) / 0.002;  //(units)/s, 2nd order backward dif
-  omni_state->velocity = (.2196 * (vel_buff + omni_state->inp_vel3)
-      + .6588 * (omni_state->inp_vel1 + omni_state->inp_vel2)) / 1000.0
-      - (-2.7488 * omni_state->out_vel1 + 2.5282 * omni_state->out_vel2
-          - 0.7776 * omni_state->out_vel3);  //cutoff freq of 20 Hz
+  vel_buff = (omni_state->position * 3 - 4 * omni_state->pos_hist1 + omni_state->pos_hist2) / 0.002;                                                                                                                                      //(units)/s, 2nd order backward dif
+  omni_state->velocity = (.2196 * (vel_buff + omni_state->inp_vel3) + .6588 * (omni_state->inp_vel1 + omni_state->inp_vel2)) / 1000.0 - (-2.7488 * omni_state->out_vel1 + 2.5282 * omni_state->out_vel2 - 0.7776 * omni_state->out_vel3); // cutoff freq of 20 Hz
   omni_state->pos_hist2 = omni_state->pos_hist1;
   omni_state->pos_hist1 = omni_state->position;
   omni_state->inp_vel3 = omni_state->inp_vel2;
@@ -301,33 +309,36 @@ HDCallbackCode HDCALLBACK omni_state_callback(void *pUserData)
   omni_state->out_vel3 = omni_state->out_vel2;
   omni_state->out_vel2 = omni_state->out_vel1;
   omni_state->out_vel1 = omni_state->velocity;
-  
-    
-   /* if (hduVecMagnitude(jointAngleOfTwist) < kTorqueInfluence)
-    {
-        /* >  T = k * r  < We calculate torque by assuming a torsional spring at each joint. 
-           T: Torque in Milli Newton . meter (mN.m)
-           k: Torque Spring Constant (mN.m / radian)
-           r: Angle of twist from fulcrum point (radians)*/
 
-      /*  hduVecScale(jointTorque, jointAngleOfTwist, kJointTorqueConstant);
-    }*/
+  /* if (hduVecMagnitude(jointAngleOfTwist) < kTorqueInfluence)
+   {
+       /* >  T = k * r  < We calculate torque by assuming a torsional spring at each joint.
+          T: Torque in Milli Newton . meter (mN.m)
+          k: Torque Spring Constant (mN.m / radian)
+          r: Angle of twist from fulcrum point (radians)*/
+
+  /*  hduVecScale(jointTorque, jointAngleOfTwist, kJointTorqueConstant);
+}*/
   hduVector3Dd jointTorque(0., 0., 0.);
   hduVector3Dd feedback(0., 0., 0.);
   pthread_mutex_lock(&omni_state->force_lock);
-  if (!omni_state->is_torque_mode) {
+  if (!omni_state->is_torque_mode)
+  {
     // Swap axes to match stylus frame (historical Omni convention).
+    printf("Force: %.2f, %.2f, %.2f\n", omni_state->force[0], omni_state->force[1], omni_state->force[2]);
     feedback[0] = omni_state->force[1] / 10.0;
     feedback[1] = omni_state->force[2] / 10.0;
     feedback[2] = omni_state->force[0] / 10.0;
-  } else {
+  }
+  else
+  {
     jointTorque[0] = omni_state->jointTorque[0];
     jointTorque[1] = omni_state->jointTorque[1];
     jointTorque[2] = omni_state->jointTorque[2];
   }
   pthread_mutex_unlock(&omni_state->force_lock);
 
-// Clamp the base torques to the nominal values.
+  // Clamp the base torques to the nominal values.
   for (int i = 0; i < 3; ++i)
   {
     if (jointTorque[i] > nominalBaseTorque[i])
@@ -344,31 +355,32 @@ HDCallbackCode HDCALLBACK omni_state_callback(void *pUserData)
       jointTorque[i] = 0.0;
   }
 
-  //Notice that we are changing Y <---> Z (copied above under lock).
+  // Notice that we are changing Y <---> Z (copied above under lock).
   if (!omni_state->is_torque_mode)
     hdSetDoublev(HD_CURRENT_FORCE, feedback);
   else
     hdSetDoublev(HD_CURRENT_JOINT_TORQUE, jointTorque);
-  //hdSetDoublev(HD_CURRENT_JOINT_TORQUE, feedback); // using torque instead off force
-  
-  //Get buttons
+  // hdSetDoublev(HD_CURRENT_JOINT_TORQUE, feedback); // using torque instead off force
+
+  // Get buttons
   int nButtons = 0;
   hdGetIntegerv(HD_CURRENT_BUTTONS, &nButtons);
-  omni_state->buttons[0] = (nButtons & HD_DEVICE_BUTTON_1) ? 1 : 0; //grey
-  omni_state->buttons[1] = (nButtons & HD_DEVICE_BUTTON_2) ? 1 : 0; //white
-  //ROS_INFO("Botao 0: %d;  Botao 1: %d", omni_state->buttons[0], omni_state->buttons[1]);
+  omni_state->buttons[0] = (nButtons & HD_DEVICE_BUTTON_1) ? 1 : 0; // grey
+  omni_state->buttons[1] = (nButtons & HD_DEVICE_BUTTON_2) ? 1 : 0; // white
+  // ROS_INFO("Botao 0: %d;  Botao 1: %d", omni_state->buttons[0], omni_state->buttons[1]);
   hdEndFrame(hdGetCurrentDevice());
 
   HDErrorInfo error;
-  if (HD_DEVICE_ERROR(error = hdGetError())) {
+  if (HD_DEVICE_ERROR(error = hdGetError()))
+  {
     hduPrintError(stderr, &error, "[Geomagic] Error during main scheduler callback");
     if (hduIsSchedulerError(&error))
       return HD_CALLBACK_DONE;
   }
 
-  float t[7] = { 0., joints[0], joints[1],
-      joints[2] - joints[1], gimbal_angles[0],
-      gimbal_angles[1], gimbal_angles[2] };
+  float t[7] = {0., joints[0], joints[1],
+                joints[2] - joints[1], gimbal_angles[0],
+                gimbal_angles[1], gimbal_angles[2]};
   for (int i = 0; i < 7; i++)
     omni_state->thetas[i] = t[i];
   return HD_CALLBACK_CONTINUE;
@@ -377,49 +389,61 @@ HDCallbackCode HDCALLBACK omni_state_callback(void *pUserData)
 /*******************************************************************************
  Automatic Calibration of Phantom Device - No character inputs
  *******************************************************************************/
-void HHD_Auto_Calibration() {
+void HHD_Auto_Calibration()
+{
   int supportedCalibrationStyles;
   HDErrorInfo error;
 
   hdGetIntegerv(HD_CALIBRATION_STYLE, &supportedCalibrationStyles);
-  if (supportedCalibrationStyles & HD_CALIBRATION_ENCODER_RESET) {
+  if (supportedCalibrationStyles & HD_CALIBRATION_ENCODER_RESET)
+  {
     calibrationStyle = HD_CALIBRATION_ENCODER_RESET;
     ROS_INFO("[Geomagic] HD_CALIBRATION_ENCODER_RESET..");
   }
-  if (supportedCalibrationStyles & HD_CALIBRATION_INKWELL) {
+  if (supportedCalibrationStyles & HD_CALIBRATION_INKWELL)
+  {
     calibrationStyle = HD_CALIBRATION_INKWELL;
     ROS_INFO("[Geomagic] HD_CALIBRATION_INKWELL..");
   }
-  if (supportedCalibrationStyles & HD_CALIBRATION_AUTO) {
+  if (supportedCalibrationStyles & HD_CALIBRATION_AUTO)
+  {
     calibrationStyle = HD_CALIBRATION_AUTO;
     ROS_INFO("[Geomagic] HD_CALIBRATION_AUTO..");
   }
 
-  if(hdCheckCalibration() == HD_CALIBRATION_OK)
-    ROS_INFO("[Geomagic] Already calibrated");    
-  else  while(hdCheckCalibration() != HD_CALIBRATION_OK) {
-          if (hdCheckCalibration() == HD_CALIBRATION_NEEDS_MANUAL_INPUT) 
-            ROS_INFO("[Geomagic] Please place the device into the inkwell for calibration");
-          else if (hdCheckCalibration() == HD_CALIBRATION_NEEDS_UPDATE) {
-                 if (calibrationStyle == HD_CALIBRATION_INKWELL) {
-                   do {
-                     hdUpdateCalibration(calibrationStyle);
-                     ROS_INFO("[Geomagic] Calibrating.. (keep stylus in inkwell)");
-                     if (HD_DEVICE_ERROR(error = hdGetError())) {
-                       hduPrintError(stderr, &error, "[Geomagic] Inkwell calibration failed.");
-                       break;
-                     }
-                   } while (hdCheckCalibration() != HD_CALIBRATION_OK);
-                   ROS_INFO("[Geomagic] Calibration complete.");
-                 }
-               }
-               else ROS_FATAL("[Geomagic] Unknown calibration status");
-        usleep(1e6); 
+  if (hdCheckCalibration() == HD_CALIBRATION_OK)
+    ROS_INFO("[Geomagic] Already calibrated");
+  else
+    while (hdCheckCalibration() != HD_CALIBRATION_OK)
+    {
+      if (hdCheckCalibration() == HD_CALIBRATION_NEEDS_MANUAL_INPUT)
+        ROS_INFO("[Geomagic] Please place the device into the inkwell for calibration");
+      else if (hdCheckCalibration() == HD_CALIBRATION_NEEDS_UPDATE)
+      {
+        if (calibrationStyle == HD_CALIBRATION_INKWELL)
+        {
+          do
+          {
+            hdUpdateCalibration(calibrationStyle);
+            ROS_INFO("[Geomagic] Calibrating.. (keep stylus in inkwell)");
+            if (HD_DEVICE_ERROR(error = hdGetError()))
+            {
+              hduPrintError(stderr, &error, "[Geomagic] Inkwell calibration failed.");
+              break;
+            }
+          } while (hdCheckCalibration() != HD_CALIBRATION_OK);
+          ROS_INFO("[Geomagic] Calibration complete.");
         }
+      }
+      else
+        ROS_FATAL("[Geomagic] Unknown calibration status");
+      usleep(1e6);
+    }
 }
 
-void *ros_publish(void *ptr) {
-  PhantomROS *omni_ros = (PhantomROS *) ptr;
+void *ros_publish(void *ptr)
+{
+  PhantomROS *omni_ros = (PhantomROS *)ptr;
   int publish_rate;
   ros::param::param(std::string("~publish_rate"), publish_rate, 50);
   ROS_INFO("[Geomagic] Publishing Geomagic state at [%d] Hz", publish_rate);
@@ -427,14 +451,16 @@ void *ros_publish(void *ptr) {
   ros::AsyncSpinner spinner(2);
   spinner.start();
 
-  while (ros::ok()) {
+  while (ros::ok())
+  {
     omni_ros->publish_omni_state();
     loop_rate.sleep();
   }
   return NULL;
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char **argv)
+{
   ros::init(argc, argv, "geomagic_node");
 
   OmniState state;
@@ -443,7 +469,8 @@ int main(int argc, char** argv) {
 
   HDErrorInfo error;
   HHD hHD = hdInitDevice(HD_DEFAULT_DEVICE);
-  if (HD_DEVICE_ERROR(error = hdGetError())) {
+  if (HD_DEVICE_ERROR(error = hdGetError()))
+  {
     ROS_ERROR("[Geomagic] Failed to initialize haptic device");
     pthread_mutex_destroy(&state.force_lock);
     return -1;
@@ -455,7 +482,8 @@ int main(int argc, char** argv) {
 
   hdScheduleAsynchronous(omni_state_callback, &state, HD_MAX_SCHEDULER_PRIORITY);
   hdStartScheduler();
-  if (HD_DEVICE_ERROR(error = hdGetError())) {
+  if (HD_DEVICE_ERROR(error = hdGetError()))
+  {
     ROS_ERROR("[Geomagic] Failed to start the scheduler");
     hdDisableDevice(hHD);
     pthread_mutex_destroy(&state.force_lock);
@@ -463,7 +491,7 @@ int main(int argc, char** argv) {
   }
 
   pthread_t publish_thread;
-  pthread_create(&publish_thread, NULL, ros_publish, (void*)&omni_ros);
+  pthread_create(&publish_thread, NULL, ros_publish, (void *)&omni_ros);
   pthread_join(publish_thread, NULL);
 
   ROS_INFO("[Geomagic] Ending Session....");

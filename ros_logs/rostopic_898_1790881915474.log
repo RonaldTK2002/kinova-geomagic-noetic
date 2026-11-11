@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2026-10-01 19:11:55,487: init_node, name[/rostopic_898_1790881915474], pid[898]
+[xmlrpc][INFO] 2026-10-01 19:11:55,487: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-01 19:11:55,488: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:45909/]
+[rospy.init][INFO] 2026-10-01 19:11:55,488: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:45909/]
+[rospy.impl.masterslave][INFO] 2026-10-01 19:11:55,488: _ready: http://ronaldtk-Nitro-AN517-54:45909/
+[rospy.registration][INFO] 2026-10-01 19:11:55,488: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-01 19:11:55,488: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-01 19:11:55,588: registered with master
+[rospy.rosout][INFO] 2026-10-01 19:11:55,588: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-01 19:11:55,589: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-01 19:11:55,590: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2026-10-01 19:11:55,599: topic[/tf] adding connection to [http://ronaldtk-Nitro-AN517-54:45093/], count 0
+[rospy.internal][INFO] 2026-10-01 19:11:55,600: topic[/tf] adding connection to [http://ronaldtk-Nitro-AN517-54:38119/], count 1
+[rospy.internal][INFO] 2026-10-01 19:11:55,791: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2026-10-01 19:12:06,033: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-01 19:12:06,034: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-01 19:12:06,034: topic[/tf] removing connection to http://ronaldtk-Nitro-AN517-54:45093/
+[rospy.internal][INFO] 2026-10-01 19:12:06,034: topic[/tf] removing connection to http://ronaldtk-Nitro-AN517-54:38119/
+[rospy.impl.masterslave][INFO] 2026-10-01 19:12:06,034: signal-2
+[rospy.core][INFO] 2026-10-01 19:12:06,633: signal_shutdown [atexit]

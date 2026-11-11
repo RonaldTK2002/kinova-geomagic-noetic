@@ -1,0 +1,16 @@
+[rospy.client][INFO] 2026-10-23 13:04:12,621: init_node, name[/rosservice_3223_1792760652574], pid[3223]
+[xmlrpc][INFO] 2026-10-23 13:04:12,622: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 13:04:12,622: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:43651/]
+[rospy.init][INFO] 2026-10-23 13:04:12,623: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:43651/]
+[rospy.impl.masterslave][INFO] 2026-10-23 13:04:12,623: _ready: http://ronaldtk-Nitro-AN517-54:43651/
+[rospy.registration][INFO] 2026-10-23 13:04:12,624: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 13:04:12,624: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 13:04:12,723: registered with master
+[rospy.rosout][INFO] 2026-10-23 13:04:12,724: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 13:04:12,728: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 13:04:12,729: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 13:04:12,734: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 13:04:12,738: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:37147/], count 0
+[rospy.core][INFO] 2026-10-23 13:04:12,751: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-23 13:04:12,764: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:37147/
+[rospy.impl.masterslave][INFO] 2026-10-23 13:04:12,765: atexit

@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2026-10-23 12:44:48,394: init_node, name[/rosservice_3181_1792759488355], pid[3181]
+[xmlrpc][INFO] 2026-10-23 12:44:48,395: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 12:44:48,396: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:41571/]
+[rospy.init][INFO] 2026-10-23 12:44:48,396: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:41571/]
+[rospy.impl.masterslave][INFO] 2026-10-23 12:44:48,396: _ready: http://ronaldtk-Nitro-AN517-54:41571/
+[rospy.registration][INFO] 2026-10-23 12:44:48,397: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 12:44:48,397: xml rpc node: starting XML-RPC server
+[rospy.core][INFO] 2026-10-23 12:44:48,451: signal_shutdown [signal-2]
+[rospy.init][INFO] 2026-10-23 12:44:49,056: registered with master
+[rospy.core][WARNING] 2026-10-23 12:44:49,057: add_shutdown_hook called after shutdown
+[rospy.impl.masterslave][INFO] 2026-10-23 12:44:49,057: already shutdown
+[rospy.client][WARNING] 2026-10-23 12:44:49,057: aborting node initialization as shutdown has been triggered
+[rospy.core][INFO] 2026-10-23 12:44:49,061: signal_shutdown [atexit]

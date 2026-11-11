@@ -1,0 +1,37 @@
+[rospy.client][INFO] 2026-10-23 12:40:26,429: init_node, name[/geomagic_kinova_cartesian_teleop], pid[1773]
+[xmlrpc][INFO] 2026-10-23 12:40:26,430: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 12:40:26,431: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:33861/]
+[rospy.init][INFO] 2026-10-23 12:40:26,431: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:33861/]
+[rospy.impl.masterslave][INFO] 2026-10-23 12:40:26,431: _ready: http://ronaldtk-Nitro-AN517-54:33861/
+[rospy.registration][INFO] 2026-10-23 12:40:26,432: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 12:40:26,433: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 12:40:26,532: registered with master
+[rospy.rosout][INFO] 2026-10-23 12:40:26,532: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 12:40:26,548: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 12:40:26,558: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 12:40:26,572: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 12:40:26,580: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:37147/], count 0
+[rosout][INFO] 2026-10-23 12:40:26,621: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 12:40:26,624: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 12:40:26,648: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:37147/], count 0
+[rospy.internal][INFO] 2026-10-23 12:40:26,653: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:45009/], count 0
+[rospy.internal][INFO] 2026-10-23 12:40:26,658: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:45009/], count 0
+[rospy.internal][INFO] 2026-10-23 12:40:26,663: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:35911/], count 0
+[rosout][INFO] 2026-10-23 12:40:26,662: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 12:40:26,795: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 12:40:26,885: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rosout][INFO] 2026-10-23 12:40:41,739: Teleop enabled (Geomagic dark button).
+[rosout][INFO] 2026-10-23 12:40:54,072: Teleop enabled (Geomagic dark button).
+[rosout][INFO] 2026-10-23 12:40:54,443: Teleop enabled (Geomagic dark button).
+[rosout][INFO] 2026-10-23 12:41:21,397: Teleop enabled (Geomagic dark button).
+[rosout][INFO] 2026-10-23 12:41:22,025: Teleop disabled (Geomagic light button).
+[rospy.core][INFO] 2026-10-23 12:41:25,082: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 12:41:25,100: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 12:41:25,100: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 12:41:25,101: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:37147/
+[rospy.internal][INFO] 2026-10-23 12:41:25,101: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:37147/
+[rospy.internal][INFO] 2026-10-23 12:41:25,106: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:45009/
+[rospy.internal][INFO] 2026-10-23 12:41:25,106: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:45009/
+[rospy.internal][INFO] 2026-10-23 12:41:25,106: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:35911/
+[rospy.impl.masterslave][INFO] 2026-10-23 12:41:25,110: signal-2
+[rospy.core][INFO] 2026-10-23 12:41:25,686: signal_shutdown [atexit]

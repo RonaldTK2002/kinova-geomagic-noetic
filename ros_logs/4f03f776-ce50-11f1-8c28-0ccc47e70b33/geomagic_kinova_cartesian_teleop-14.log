@@ -1,0 +1,63 @@
+[rospy.client][INFO] 2026-10-22 19:39:37,641: init_node, name[/geomagic_kinova_cartesian_teleop], pid[9949]
+[xmlrpc][INFO] 2026-10-22 19:39:37,641: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-22 19:39:37,642: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:40807/]
+[rospy.init][INFO] 2026-10-22 19:39:37,642: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:40807/]
+[rospy.impl.masterslave][INFO] 2026-10-22 19:39:37,642: _ready: http://ronaldtk-Nitro-AN517-54:40807/
+[rospy.registration][INFO] 2026-10-22 19:39:37,644: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-22 19:39:37,644: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-22 19:39:37,743: registered with master
+[rospy.rosout][INFO] 2026-10-22 19:39:37,743: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-22 19:39:37,751: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-22 19:39:37,753: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-22 19:39:37,756: connected to core topic /clock
+[rosout][INFO] 2026-10-22 19:39:37,783: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-22 19:39:37,785: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-22 19:39:37,804: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:44263/], count 0
+[rospy.internal][INFO] 2026-10-22 19:39:37,809: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:44263/], count 0
+[rosout][INFO] 2026-10-22 19:39:37,812: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-22 19:39:37,983: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-22 19:39:38,025: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rospy.internal][INFO] 2026-10-22 19:39:38,895: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:43971/], count 0
+[rospy.internal][INFO] 2026-10-22 19:39:39,803: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:43971/], count 0
+[rospy.internal][INFO] 2026-10-22 19:39:49,250: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:36389/], count 0
+[rosout][INFO] 2026-10-22 19:40:28,282: Teleop enabled (Geomagic dark button).
+[rosout][ERROR] 2026-10-22 19:40:28,287: bad callback: <bound method TeleopNode._on_haptic_state of <__main__.TeleopNode object at 0x71ff6a011700>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 237, in _on_haptic_state
+    p_des = self._ee0 + self.workspace_scale * (p - self._hap0)
+TypeError: unsupported operand type(s) for -: 'float' and 'NoneType'
+
+[rosout][INFO] 2026-10-22 19:41:18,678: Teleop enabled (Geomagic dark button).
+[rosout][INFO] 2026-10-22 19:41:19,954: Teleop disabled (Geomagic light button).
+[rosout][INFO] 2026-10-22 19:41:24,935: Teleop enabled (Geomagic dark button).
+[rosout][ERROR] 2026-10-22 19:41:24,939: bad callback: <bound method TeleopNode._on_haptic_state of <__main__.TeleopNode object at 0x71ff6a011700>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 237, in _on_haptic_state
+    p_des = self._ee0 + self.workspace_scale * (p - self._hap0)
+TypeError: unsupported operand type(s) for -: 'float' and 'NoneType'
+
+[rospy.core][INFO] 2026-10-22 19:44:08,751: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-22 19:44:08,760: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-22 19:44:08,761: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-22 19:44:08,761: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:43971/
+[rospy.internal][INFO] 2026-10-22 19:44:08,762: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:43971/
+[rospy.internal][INFO] 2026-10-22 19:44:08,762: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:44263/
+[rospy.internal][INFO] 2026-10-22 19:44:08,764: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:44263/
+[rospy.internal][INFO] 2026-10-22 19:44:08,764: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:44263/
+[rospy.internal][INFO] 2026-10-22 19:44:08,765: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:36389/
+[rospy.impl.masterslave][INFO] 2026-10-22 19:44:08,765: signal-2
+[rospy.internal][WARNING] 2026-10-22 19:44:09,153: Unknown error initiating TCP/IP socket to ronaldtk-Nitro-AN517-54:45379 (rosrpc://ronaldtk-Nitro-AN517-54:45379): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 569, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 664, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2026-10-22 19:44:09,153: send_joint_speeds: unable to connect to service: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.core][INFO] 2026-10-22 19:44:09,355: signal_shutdown [atexit]

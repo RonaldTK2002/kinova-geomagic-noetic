@@ -1,0 +1,5 @@
+logging to /root/.ros/log/70cc49ca-cf0f-11f1-bbd4-0ccc47e70b33/rosout.log
+re-publishing aggregated messages to /rosout_agg
+subscribed to /rosout
+Error in XmlRpcClient::writeRequest: write error (Connection reset by peer).
+Error in XmlRpcClient::writeRequest: write error (Connection reset by peer).

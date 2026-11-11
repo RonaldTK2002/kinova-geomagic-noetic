@@ -1,0 +1,4 @@
+{
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  "cmake.sourceDirectory": "/home/ronaldtk/Documents/Verlab/geomagic_kinova/kinova-geomagic-noetic/catkin_ws/src"
+}

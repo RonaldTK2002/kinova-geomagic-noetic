@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2026-10-16 19:48:49,708: init_node, name[/my_gen3/urdf_spawner], pid[198]
+[xmlrpc][INFO] 2026-10-16 19:48:49,708: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-16 19:48:49,708: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:33979/]
+[rospy.init][INFO] 2026-10-16 19:48:49,708: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:33979/]
+[rospy.impl.masterslave][INFO] 2026-10-16 19:48:49,709: _ready: http://ronaldtk-Nitro-AN517-54:33979/
+[rospy.registration][INFO] 2026-10-16 19:48:49,709: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-16 19:48:49,709: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-16 19:48:49,809: registered with master
+[rospy.rosout][INFO] 2026-10-16 19:48:49,809: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-16 19:48:49,812: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-16 19:48:49,813: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-16 19:48:49,814: connected to core topic /clock
+[rosout][INFO] 2026-10-16 19:48:49,815: Loading model XML from ros parameter robot_description
+[rosout][INFO] 2026-10-16 19:48:49,820: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2026-10-16 19:48:50,016: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2026-10-16 19:48:50,123: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2026-10-16 19:48:50,134: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36555/], count 0
+[rosout][INFO] 2026-10-16 19:48:50,137: Spawn status: SpawnModel: Failure - entity already exists.
+[rosout][ERROR] 2026-10-16 19:48:50,139: Spawn service failed. Exiting.
+[rospy.core][INFO] 2026-10-16 19:48:50,141: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-16 19:48:50,145: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-16 19:48:50,145: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36555/
+[rospy.impl.masterslave][INFO] 2026-10-16 19:48:50,146: atexit

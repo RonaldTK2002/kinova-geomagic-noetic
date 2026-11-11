@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2026-10-01 18:09:40,190: init_node, name[/rqt_gui_py_node_774], pid[774]
+[xmlrpc][INFO] 2026-10-01 18:09:40,190: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-01 18:09:40,190: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:41117/]
+[rospy.init][INFO] 2026-10-01 18:09:40,190: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:41117/]
+[rospy.impl.masterslave][INFO] 2026-10-01 18:09:40,190: _ready: http://ronaldtk-Nitro-AN517-54:41117/
+[rospy.registration][INFO] 2026-10-01 18:09:40,191: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-01 18:09:40,191: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-01 18:09:40,291: registered with master
+[rospy.rosout][INFO] 2026-10-01 18:09:40,291: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-01 18:09:40,292: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-01 18:09:40,292: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2026-10-01 18:09:40,338: topic[/tf] adding connection to [http://ronaldtk-Nitro-AN517-54:45093/], count 0
+[rospy.internal][INFO] 2026-10-01 18:09:40,339: topic[/tf_static] adding connection to [http://ronaldtk-Nitro-AN517-54:38789/], count 0
+[rospy.internal][INFO] 2026-10-01 18:09:40,340: topic[/tf_static] adding connection to [http://ronaldtk-Nitro-AN517-54:45093/], count 1
+[rospy.internal][INFO] 2026-10-01 18:09:40,544: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2026-10-01 18:09:50,257: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-10-01 18:09:50,258: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-01 18:09:50,258: topic[/tf] removing connection to http://ronaldtk-Nitro-AN517-54:45093/
+[rospy.internal][INFO] 2026-10-01 18:09:50,259: topic[/tf_static] removing connection to http://ronaldtk-Nitro-AN517-54:38789/
+[rospy.internal][INFO] 2026-10-01 18:09:50,259: topic[/tf_static] removing connection to http://ronaldtk-Nitro-AN517-54:45093/
+[rospy.impl.masterslave][INFO] 2026-10-01 18:09:50,259: atexit

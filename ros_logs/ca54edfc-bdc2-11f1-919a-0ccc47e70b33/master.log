@@ -1,0 +1,173 @@
+[rosmaster.main][INFO] 2026-10-01 18:06:14,396: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2026-10-01 18:06:14,396: Starting ROS Master Node
+[xmlrpc][INFO] 2026-10-01 18:06:14,396: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2026-10-01 18:06:14,396: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:11311/]
+[rosmaster.master][INFO] 2026-10-01 18:06:14,396: Master initialized: port[11311], uri[http://ronaldtk-Nitro-AN517-54:11311/]
+[xmlrpc][INFO] 2026-10-01 18:06:14,396: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2026-10-01 18:06:14,453: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:06:14,453: +PARAM [/roslaunch/uris/host_ronaldtk_nitro_an517_54__33267] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:06:14,476: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:06:14,476: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:06:14,476: +PARAM [/geomagic/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2026-10-01 18:06:14,480: +SERVICE [/rosout/get_loggers] /rosout http://ronaldtk-Nitro-AN517-54:45777/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,481: +SERVICE [/rosout/set_logger_level] /rosout http://ronaldtk-Nitro-AN517-54:45777/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,481: +PUB [/rosout_agg] /rosout http://ronaldtk-Nitro-AN517-54:45777/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,482: +SUB [/rosout] /rosout http://ronaldtk-Nitro-AN517-54:45777/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,490: +PUB [/rosout] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:44305/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,490: +SERVICE [/geomagic/rsp_geomagic/get_loggers] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:44305/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,490: +PUB [/rosout] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:41241/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,490: +SERVICE [/geomagic/rsp_geomagic/set_logger_level] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:44305/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,491: +SERVICE [/base_link_to_geomagic_base/get_loggers] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:41241/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,491: +SERVICE [/base_link_to_geomagic_base/set_logger_level] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:41241/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,492: +PUB [/tf_static] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:41241/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,492: +PUB [/tf] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:44305/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,492: +CACHEDPARAM [/rosout_disable_topics_generation] by /base_link_to_geomagic_base
+[rosmaster.master][INFO] 2026-10-01 18:06:14,492: +PUB [/tf_static] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:44305/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,494: +SUB [/geomagic/joint_states] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:44305/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,496: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:45777/ ['http://ronaldtk-Nitro-AN517-54:44305/']
+[rosmaster.master][INFO] 2026-10-01 18:06:14,498: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:45777/ ['http://ronaldtk-Nitro-AN517-54:44305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:06:14,498: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:45777/ ['http://ronaldtk-Nitro-AN517-54:44305/', 'http://ronaldtk-Nitro-AN517-54:41241/']
+[rosmaster.master][INFO] 2026-10-01 18:06:14,498: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:45777/ ['http://ronaldtk-Nitro-AN517-54:44305/', 'http://ronaldtk-Nitro-AN517-54:41241/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:06:14,571: +PUB [/rosout] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,572: +SERVICE [/rviz/get_loggers] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,572: +SERVICE [/rviz/set_logger_level] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,572: +CACHEDPARAM [/rosout_disable_topics_generation] by /rviz
+[rosmaster.master][INFO] 2026-10-01 18:06:14,597: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:45777/ ['http://ronaldtk-Nitro-AN517-54:44305/', 'http://ronaldtk-Nitro-AN517-54:41241/', 'http://ronaldtk-Nitro-AN517-54:44251/']
+[rosmaster.master][INFO] 2026-10-01 18:06:14,597: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:45777/ ['http://ronaldtk-Nitro-AN517-54:44305/', 'http://ronaldtk-Nitro-AN517-54:41241/', 'http://ronaldtk-Nitro-AN517-54:44251/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:06:14,769: +SUB [/tf] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,769: +SUB [/tf_static] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,812: +PUB [/initialpose] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,813: +PUB [/goal] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,873: -PUB [/goal] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,874: -PUB [/initialpose] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,914: +SERVICE [/rviz/reload_shaders] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,914: +SERVICE [/rviz/load_config] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,915: +SERVICE [/rviz/load_config_discarding_changes] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:14,915: +SERVICE [/rviz/save_config] /rviz http://ronaldtk-Nitro-AN517-54:44251/
+[rosmaster.master][INFO] 2026-10-01 18:06:15,261: +CACHEDPARAM [/roslaunch/uris/host_ronaldtk_nitro_an517_54__33267] by /foxglove_27677
+[rosmaster.master][INFO] 2026-10-01 18:06:17,494: -PUB [/clicked_point] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:06:17,494: -PUB [/initialpose] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:06:17,522: +PUB [/move_base_simple/goal] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:06:17,536: +PUB [/clicked_point] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:06:17,536: +PUB [/initialpose] /foxglove_27677 http://ronaldtk-Nitro-AN517-54:39663/
+[rosmaster.master][INFO] 2026-10-01 18:06:20,106: -PUB [/rosout] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:44305/
+[rosmaster.master][INFO] 2026-10-01 18:06:20,107: -PUB [/rosout] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:41241/
+[rosmaster.master][INFO] 2026-10-01 18:06:20,107: -PUB [/tf] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:44305/
+[rosmaster.master][INFO] 2026-10-01 18:06:20,107: -PUB [/tf_static] /base_link_to_geomagic_base http://ronaldtk-Nitro-AN517-54:41241/
+[rosmaster.master][INFO] 2026-10-01 18:06:20,107: -PUB [/tf_static] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:44305/
+[rosmaster.master][INFO] 2026-10-01 18:06:20,107: -SERVICE [/base_link_to_geomagic_base/get_loggers] /base_link_to_geomagic_base rosrpc://ronaldtk-Nitro-AN517-54:34343
+[rosmaster.master][INFO] 2026-10-01 18:06:20,108: -SUB [/geomagic/joint_states] /geomagic/rsp_geomagic http://ronaldtk-Nitro-AN517-54:44305/
+[rosmaster.master][INFO] 2026-10-01 18:06:20,108: -SERVICE [/base_link_to_geomagic_base/set_logger_level] /base_link_to_geomagic_base rosrpc://ronaldtk-Nitro-AN517-54:34343
+[rosmaster.master][INFO] 2026-10-01 18:06:20,108: -SERVICE [/geomagic/rsp_geomagic/get_loggers] /geomagic/rsp_geomagic rosrpc://ronaldtk-Nitro-AN517-54:58269
+[rosmaster.master][INFO] 2026-10-01 18:06:20,108: -CACHEDPARAM [/rosout_disable_topics_generation] by /base_link_to_geomagic_base
+[rosmaster.master][INFO] 2026-10-01 18:06:20,108: -SERVICE [/geomagic/rsp_geomagic/set_logger_level] /geomagic/rsp_geomagic rosrpc://ronaldtk-Nitro-AN517-54:58269
+[rosmaster.master][INFO] 2026-10-01 18:06:20,204: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:45777/ ['http://ronaldtk-Nitro-AN517-54:41241/', 'http://ronaldtk-Nitro-AN517-54:44251/']
+[rosmaster.master][INFO] 2026-10-01 18:06:20,205: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:44251/ []
+[rosmaster.master][INFO] 2026-10-01 18:06:20,205: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:45777/ ['http://ronaldtk-Nitro-AN517-54:41241/', 'http://ronaldtk-Nitro-AN517-54:44251/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:06:20,205: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:45777/ ['http://ronaldtk-Nitro-AN517-54:44251/']
+[rosmaster.master][INFO] 2026-10-01 18:06:20,205: publisherUpdate[/tf] -> http://ronaldtk-Nitro-AN517-54:44251/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2026-10-01 18:06:20,205: publisherUpdate[/rosout] -> http://ronaldtk-Nitro-AN517-54:45777/ ['http://ronaldtk-Nitro-AN517-54:44251/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-10-01 18:06:20,205: publisherUpdate[/tf_static] -> http://ronaldtk-Nitro-AN517-54:44251/ ['http://ronaldtk-Nitro-AN517-54:44305/']
+[rosmaster.master][INFO] 2026-10-01 18:06:20,206: publisherUpdate[/tf_static] -> http://ronaldtk-Nitro-AN517-54:44251/ ['http://ronaldtk-Nitro-AN517-54:44305/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2026-10-01 18:06:20,210: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.threadpool][ERROR] 2026-10-01 18:06:20,210: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2026-10-01 18:06:20,210: publisherUpdate[/tf_static] -> http://ronaldtk-Nitro-AN517-54:44251/ []
+[rosmaster.master][INFO] 2026-10-01 18:06:20,210: publisherUpdate[/tf_static] -> http://ronaldtk-Nitro-AN517-54:44251/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2026-10-01 18:06:20,210: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2026-10-01 18:06:20,406: -PUB [/rosout_agg] /rosout http://ronaldtk-Nitro-AN517-54:45777/
+[rosmaster.master][INFO] 2026-10-01 18:06:20,406: -SUB [/rosout] /rosout http://ronaldtk-Nitro-AN517-54:45777/
+[rosmaster.master][INFO] 2026-10-01 18:06:20,406: -SERVICE [/rosout/get_loggers] /rosout rosrpc://ronaldtk-Nitro-AN517-54:34749
+[rosmaster.master][INFO] 2026-10-01 18:06:20,407: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://ronaldtk-Nitro-AN517-54:34749
+[rosmaster.main][INFO] 2026-10-01 18:06:20,449: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2026-10-01 18:06:20,449: stopping master...
+[rospy.core][INFO] 2026-10-01 18:06:20,449: signal_shutdown [atexit]

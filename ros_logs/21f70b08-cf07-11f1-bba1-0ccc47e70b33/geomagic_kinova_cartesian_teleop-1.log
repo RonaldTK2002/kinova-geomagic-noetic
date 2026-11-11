@@ -1,0 +1,2050 @@
+[rospy.client][INFO] 2026-10-23 17:30:59,568: init_node, name[/geomagic_kinova_cartesian_teleop], pid[63596]
+[xmlrpc][INFO] 2026-10-23 17:30:59,569: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 17:30:59,569: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:44457/]
+[rospy.init][INFO] 2026-10-23 17:30:59,570: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:44457/]
+[rospy.impl.masterslave][INFO] 2026-10-23 17:30:59,570: _ready: http://ronaldtk-Nitro-AN517-54:44457/
+[rospy.registration][INFO] 2026-10-23 17:30:59,572: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 17:30:59,572: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 17:30:59,670: registered with master
+[rospy.rosout][INFO] 2026-10-23 17:30:59,671: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 17:30:59,678: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 17:30:59,679: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 17:30:59,683: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 17:30:59,688: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rosout][INFO] 2026-10-23 17:30:59,713: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 17:30:59,715: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 17:30:59,729: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rospy.internal][INFO] 2026-10-23 17:30:59,736: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rosout][INFO] 2026-10-23 17:30:59,741: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 17:30:59,746: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:33345/], count 0
+[rospy.internal][INFO] 2026-10-23 17:30:59,748: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rospy.internal][INFO] 2026-10-23 17:30:59,910: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 17:31:00,011: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rosout][INFO] 2026-10-23 17:31:06,580: Teleop ativado. Aguardando alinhamento da caneta com o robô...
+[rosout][INFO] 2026-10-23 17:31:06,612: >>> Orientação alinhada! Teleoperação ativa.
+[rospy.core][INFO] 2026-10-23 17:31:50,630: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 17:31:50,637: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 17:31:50,638: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 17:31:50,641: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:31:50,641: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:31:50,646: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:31:50,649: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:31:50,650: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:31:50,652: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.internal][INFO] 2026-10-23 17:31:50,654: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.impl.masterslave][INFO] 2026-10-23 17:31:50,654: signal-2
+[rospy.core][INFO] 2026-10-23 17:31:51,235: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 17:32:24,147: init_node, name[/geomagic_kinova_cartesian_teleop], pid[65249]
+[xmlrpc][INFO] 2026-10-23 17:32:24,148: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 17:32:24,149: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:39443/]
+[rospy.init][INFO] 2026-10-23 17:32:24,149: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:39443/]
+[rospy.impl.masterslave][INFO] 2026-10-23 17:32:24,149: _ready: http://ronaldtk-Nitro-AN517-54:39443/
+[rospy.registration][INFO] 2026-10-23 17:32:24,152: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 17:32:24,155: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 17:32:24,251: registered with master
+[rospy.rosout][INFO] 2026-10-23 17:32:24,252: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 17:32:24,273: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 17:32:24,276: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 17:32:24,285: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 17:32:24,295: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rosout][INFO] 2026-10-23 17:32:24,341: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 17:32:24,344: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 17:32:24,358: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rospy.internal][INFO] 2026-10-23 17:32:24,362: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rospy.internal][INFO] 2026-10-23 17:32:24,372: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:33345/], count 0
+[rosout][INFO] 2026-10-23 17:32:24,371: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 17:32:24,375: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rospy.internal][INFO] 2026-10-23 17:32:24,510: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 17:32:24,618: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rosout][INFO] 2026-10-23 17:32:30,889: Teleop ativado. Aguardando alinhamento da caneta com o robô...
+[rosout][WARNING] 2026-10-23 17:32:30,958: Desalinhamento: 56.3 deg. Aproxime a atitude da caneta da ferramenta (Limite: 15.0 deg)
+[rosout][INFO] 2026-10-23 17:32:31,365: Teleop desativado.
+[rospy.core][INFO] 2026-10-23 17:33:12,921: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 17:33:12,927: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 17:33:12,928: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 17:33:12,929: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:33:12,930: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:33:12,930: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:33:12,931: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:33:12,931: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:33:12,932: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:33:12,932: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.internal][INFO] 2026-10-23 17:33:12,932: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.impl.masterslave][INFO] 2026-10-23 17:33:12,933: signal-2
+[rospy.core][INFO] 2026-10-23 17:33:13,526: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 17:35:21,606: init_node, name[/geomagic_kinova_cartesian_teleop], pid[65325]
+[xmlrpc][INFO] 2026-10-23 17:35:21,607: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 17:35:21,608: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:40619/]
+[rospy.init][INFO] 2026-10-23 17:35:21,608: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:40619/]
+[rospy.impl.masterslave][INFO] 2026-10-23 17:35:21,608: _ready: http://ronaldtk-Nitro-AN517-54:40619/
+[rospy.registration][INFO] 2026-10-23 17:35:21,610: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 17:35:21,610: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 17:35:21,709: registered with master
+[rospy.rosout][INFO] 2026-10-23 17:35:21,710: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 17:35:21,719: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 17:35:21,721: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 17:35:21,725: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 17:35:21,728: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rosout][INFO] 2026-10-23 17:35:21,754: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 17:35:21,756: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 17:35:21,776: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rospy.internal][INFO] 2026-10-23 17:35:21,784: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rosout][INFO] 2026-10-23 17:35:21,804: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 17:35:21,809: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rospy.internal][INFO] 2026-10-23 17:35:21,809: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:33345/], count 0
+[rospy.internal][INFO] 2026-10-23 17:35:22,008: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 17:35:22,017: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rosout][INFO] 2026-10-23 17:35:42,124: Teleop ativado. Aguardando alinhamento da caneta com o robô...
+[rosout][INFO] 2026-10-23 17:35:42,149: >>> Orientação alinhada! Teleoperação ativa.
+[rospy.core][INFO] 2026-10-23 17:36:14,654: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 17:36:14,672: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 17:36:14,673: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 17:36:14,674: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:36:14,675: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:36:14,683: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][ERROR] 2026-10-23 17:36:14,683: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 739, in receive_once
+    sock.setblocking(1)
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.internal][INFO] 2026-10-23 17:36:14,684: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:36:14,684: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:36:14,685: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.internal][INFO] 2026-10-23 17:36:14,685: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.impl.masterslave][INFO] 2026-10-23 17:36:14,685: signal-2
+[rospy.core][INFO] 2026-10-23 17:36:15,258: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 17:51:43,489: init_node, name[/geomagic_kinova_cartesian_teleop], pid[66483]
+[xmlrpc][INFO] 2026-10-23 17:51:43,489: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 17:51:43,490: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:37819/]
+[rospy.init][INFO] 2026-10-23 17:51:43,490: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:37819/]
+[rospy.impl.masterslave][INFO] 2026-10-23 17:51:43,490: _ready: http://ronaldtk-Nitro-AN517-54:37819/
+[rospy.registration][INFO] 2026-10-23 17:51:43,492: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 17:51:43,493: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 17:51:43,591: registered with master
+[rospy.rosout][INFO] 2026-10-23 17:51:43,591: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 17:51:43,598: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 17:51:43,601: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 17:51:43,605: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 17:51:43,608: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rosout][INFO] 2026-10-23 17:51:43,650: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 17:51:43,653: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 17:51:43,672: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rosout][INFO] 2026-10-23 17:51:43,683: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 17:51:43,686: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rospy.internal][INFO] 2026-10-23 17:51:43,692: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:33345/], count 0
+[rospy.internal][INFO] 2026-10-23 17:51:43,695: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rosout][ERROR] 2026-10-23 17:51:43,725: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rospy.internal][INFO] 2026-10-23 17:51:43,741: topic[/tf] adding connection to [/rviz], count 0
+[rosout][ERROR] 2026-10-23 17:51:43,779: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rospy.internal][INFO] 2026-10-23 17:51:43,822: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 17:51:43,832: topic[/tf] adding connection to [/my_gen3/move_group], count 1
+[rosout][ERROR] 2026-10-23 17:51:43,830: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:43,869: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rospy.internal][INFO] 2026-10-23 17:51:43,896: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 2
+[rosout][ERROR] 2026-10-23 17:51:43,906: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rospy.internal][INFO] 2026-10-23 17:51:43,957: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rosout][ERROR] 2026-10-23 17:51:43,964: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,016: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,055: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,091: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,144: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,199: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,237: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,268: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,316: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,370: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,412: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,447: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,488: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,547: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,591: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,625: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,666: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,717: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,756: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,793: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,838: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,885: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,929: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:44,976: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,024: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,077: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,124: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,166: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,204: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,275: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,313: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,352: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,396: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,437: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,495: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,543: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,581: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,619: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,672: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,732: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,769: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,813: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,867: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,922: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:45,968: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,010: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,045: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,096: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,149: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,192: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,226: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,265: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,319: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,358: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,397: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,439: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,493: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,534: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,574: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,619: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,671: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,716: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,754: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,786: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,840: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,894: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,925: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:46,964: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,003: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,056: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,101: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,155: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,205: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,264: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,350: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,416: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,519: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,587: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,691: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,759: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,862: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:47,941: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:48,043: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:48,122: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:48,219: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rosout][ERROR] 2026-10-23 17:51:48,289: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x742e720178e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 220, in _on_arm_state
+    T_ee_base = compute_fk(self._q_arm, self.arm_dh_params, base_transform=self.arm_base_transform)
+NameError: name 'compute_fk' is not defined
+
+[rospy.core][INFO] 2026-10-23 17:51:48,324: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 17:51:48,345: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 17:51:48,345: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 17:51:48,346: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 17:51:48,347: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 17:51:48,349: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 17:51:48,351: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:51:48,352: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:51:48,354: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:51:48,356: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:51:48,357: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:51:48,358: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:51:48,360: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.internal][INFO] 2026-10-23 17:51:48,360: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.impl.masterslave][INFO] 2026-10-23 17:51:48,361: signal-2
+[rospy.core][INFO] 2026-10-23 17:51:48,929: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 17:52:28,676: init_node, name[/geomagic_kinova_cartesian_teleop], pid[66538]
+[xmlrpc][INFO] 2026-10-23 17:52:28,677: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 17:52:28,677: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:34179/]
+[rospy.init][INFO] 2026-10-23 17:52:28,677: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:34179/]
+[rospy.impl.masterslave][INFO] 2026-10-23 17:52:28,678: _ready: http://ronaldtk-Nitro-AN517-54:34179/
+[rospy.registration][INFO] 2026-10-23 17:52:28,679: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 17:52:28,679: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 17:52:28,778: registered with master
+[rospy.rosout][INFO] 2026-10-23 17:52:28,779: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 17:52:28,794: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 17:52:28,796: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 17:52:28,800: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 17:52:28,803: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rosout][INFO] 2026-10-23 17:52:28,847: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 17:52:28,850: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 17:52:28,866: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rospy.internal][INFO] 2026-10-23 17:52:28,871: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rospy.internal][INFO] 2026-10-23 17:52:28,881: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rosout][INFO] 2026-10-23 17:52:28,882: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 17:52:28,889: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:33345/], count 0
+[rosout][ERROR] 2026-10-23 17:52:28,887: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:28,913: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:28,943: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:28,971: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rospy.internal][INFO] 2026-10-23 17:52:28,991: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 0
+[rosout][ERROR] 2026-10-23 17:52:28,997: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rospy.internal][INFO] 2026-10-23 17:52:29,015: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 17:52:29,027: topic[/tf] adding connection to [/rviz], count 1
+[rosout][ERROR] 2026-10-23 17:52:29,024: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rospy.internal][INFO] 2026-10-23 17:52:29,035: topic[/tf] adding connection to [/my_gen3/move_group], count 2
+[rosout][ERROR] 2026-10-23 17:52:29,057: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,085: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,111: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rospy.internal][INFO] 2026-10-23 17:52:29,127: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rosout][ERROR] 2026-10-23 17:52:29,134: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,161: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,183: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,218: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,247: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,272: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,301: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,323: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,367: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,390: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,423: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,443: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,467: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,503: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,530: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,555: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,581: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,606: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,648: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,668: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,700: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,720: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,744: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,783: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,811: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,839: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,863: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,887: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,928: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,950: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:29,976: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,001: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,024: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,059: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,090: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,118: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,148: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,188: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,222: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,242: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,271: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,293: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,316: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,374: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,400: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,438: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,487: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,507: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,540: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,571: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,608: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,639: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,664: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,689: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,720: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,748: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,774: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,802: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,827: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,855: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,889: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,920: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,960: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:30,999: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,033: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,073: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,104: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,139: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,170: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,196: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,229: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,256: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,304: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,350: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,385: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,437: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,466: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,504: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,544: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,586: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,625: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,657: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,704: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,738: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,782: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,828: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,880: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,923: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:31,959: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,008: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,044: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,077: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,124: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,158: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,192: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,225: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,282: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,312: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,350: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,384: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,433: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,471: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,503: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,557: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,589: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,630: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,682: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,724: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,762: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,804: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,841: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,878: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,912: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:32,963: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,005: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,038: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,086: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,122: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,161: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,202: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,245: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,290: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,339: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,383: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rosout][ERROR] 2026-10-23 17:52:33,424: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x709fc5b88910>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 221, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+AttributeError: 'TeleopNode' object has no attribute 'kinova_base_frame'
+
+[rospy.core][INFO] 2026-10-23 17:52:33,446: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 17:52:33,452: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 17:52:33,452: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 17:52:33,453: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 17:52:33,453: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 17:52:33,453: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 17:52:33,454: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:52:33,456: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:52:33,456: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:52:33,457: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:52:33,458: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:52:33,458: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.impl.masterslave][INFO] 2026-10-23 17:52:33,458: signal-2
+[rospy.core][INFO] 2026-10-23 17:52:34,048: signal_shutdown [atexit]
+[rospy.client][INFO] 2026-10-23 17:53:15,648: init_node, name[/geomagic_kinova_cartesian_teleop], pid[66590]
+[xmlrpc][INFO] 2026-10-23 17:53:15,649: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 17:53:15,650: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:35075/]
+[rospy.init][INFO] 2026-10-23 17:53:15,650: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:35075/]
+[rospy.impl.masterslave][INFO] 2026-10-23 17:53:15,650: _ready: http://ronaldtk-Nitro-AN517-54:35075/
+[rospy.registration][INFO] 2026-10-23 17:53:15,652: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 17:53:15,652: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 17:53:15,751: registered with master
+[rospy.rosout][INFO] 2026-10-23 17:53:15,751: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 17:53:15,758: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 17:53:15,760: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 17:53:15,763: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 17:53:15,766: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rosout][INFO] 2026-10-23 17:53:15,809: Arm joints (7): ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6', 'joint_7']
+[rosout][INFO] 2026-10-23 17:53:15,812: Waiting for /my_gen3/base/send_joint_speeds_command
+[rospy.internal][INFO] 2026-10-23 17:53:15,826: topic[/my_gen3/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:36081/], count 0
+[rospy.internal][INFO] 2026-10-23 17:53:15,831: topic[/geomagic/joint_states] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rospy.internal][INFO] 2026-10-23 17:53:15,836: topic[/geomagic/button] adding connection to [http://ronaldtk-Nitro-AN517-54:33583/], count 0
+[rosout][INFO] 2026-10-23 17:53:15,839: geomagic_kinova_cartesian_teleop running.
+[rospy.internal][INFO] 2026-10-23 17:53:15,851: topic[/my_gen3/base_feedback] adding connection to [http://ronaldtk-Nitro-AN517-54:33345/], count 0
+[rospy.internal][INFO] 2026-10-23 17:53:15,953: topic[/tf] adding connection to [/my_gen3/my_gen3_driver], count 0
+[rospy.internal][INFO] 2026-10-23 17:53:15,994: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 17:53:16,004: topic[/tf] adding connection to [/my_gen3/move_group], count 1
+[rospy.internal][INFO] 2026-10-23 17:53:16,008: topic[/tf] adding connection to [/rviz], count 2
+[rospy.internal][INFO] 2026-10-23 17:53:16,010: topic[/arm/force_feedback] adding connection to [/geomagic_node], count 0
+[rospy.core][INFO] 2026-10-23 17:57:05,404: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2026-10-23 17:57:05,411: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 17:57:05,412: topic[/tf] removing connection to /my_gen3/my_gen3_driver
+[rospy.internal][INFO] 2026-10-23 17:57:05,412: topic[/tf] removing connection to /my_gen3/move_group
+[rospy.internal][INFO] 2026-10-23 17:57:05,413: topic[/tf] removing connection to /rviz
+[rospy.internal][INFO] 2026-10-23 17:57:05,413: topic[/arm/force_feedback] removing connection to /geomagic_node
+[rospy.internal][INFO] 2026-10-23 17:57:05,414: topic[/clock] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:57:05,419: topic[/my_gen3/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:36081/
+[rospy.internal][INFO] 2026-10-23 17:57:05,421: topic[/geomagic/joint_states] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:57:05,421: topic[/geomagic/button] removing connection to http://ronaldtk-Nitro-AN517-54:33583/
+[rospy.internal][INFO] 2026-10-23 17:57:05,426: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.internal][INFO] 2026-10-23 17:57:05,431: topic[/my_gen3/base_feedback] removing connection to http://ronaldtk-Nitro-AN517-54:33345/
+[rospy.impl.masterslave][INFO] 2026-10-23 17:57:05,431: signal-2
+[rosout][ERROR] 2026-10-23 17:57:05,419: bad callback: <bound method TeleopNode._on_arm_state of <__main__.TeleopNode object at 0x7a47d9bba8e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 224, in _on_arm_state
+    self._broadcast_tf(T_ee_base, self.kinova_base_frame, "calculated_kinova_ee")
+  File "/catkin_ws/src/kinova_geomagic_demo/scripts/geomagic_kinova_cartesian_teleop.py", line 253, in _broadcast_tf
+    self.tf_broadcaster.sendTransform(t)
+  File "/opt/ros/noetic/lib/python3/dist-packages/tf2_ros/transform_broadcaster.py", line 54, in sendTransform
+    self.pub_tf.publish(TFMessage(transform))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rospy.core][INFO] 2026-10-23 17:57:06,014: signal_shutdown [atexit]

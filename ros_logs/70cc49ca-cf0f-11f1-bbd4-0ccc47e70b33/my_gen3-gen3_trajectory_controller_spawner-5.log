@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2026-10-23 18:27:47,691: init_node, name[/my_gen3/gen3_trajectory_controller_spawner], pid[79872]
+[xmlrpc][INFO] 2026-10-23 18:27:47,692: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 18:27:47,692: Started XML-RPC server [http://ronaldtk-Nitro-AN517-54:40733/]
+[rospy.init][INFO] 2026-10-23 18:27:47,692: ROS Slave URI: [http://ronaldtk-Nitro-AN517-54:40733/]
+[rospy.impl.masterslave][INFO] 2026-10-23 18:27:47,692: _ready: http://ronaldtk-Nitro-AN517-54:40733/
+[rospy.registration][INFO] 2026-10-23 18:27:47,695: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-10-23 18:27:47,695: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 18:27:47,793: registered with master
+[rospy.rosout][INFO] 2026-10-23 18:27:47,794: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 18:27:47,800: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 18:27:47,802: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 18:27:47,805: connected to core topic /clock
+[rosout][INFO] 2026-10-23 18:27:47,808: Controller Spawner: Waiting for service controller_manager/load_controller
+[rospy.internal][INFO] 2026-10-23 18:27:48,038: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 18:27:49,093: topic[/clock] adding connection to [http://ronaldtk-Nitro-AN517-54:36537/], count 0
+[rosout][INFO] 2026-10-23 18:27:49,626: Controller Spawner: Waiting for service controller_manager/switch_controller
+[rosout][INFO] 2026-10-23 18:27:49,630: Controller Spawner: Waiting for service controller_manager/unload_controller
+[rosout][INFO] 2026-10-23 18:27:49,635: Loading controller: gen3_joint_trajectory_controller
+[rosout][INFO] 2026-10-23 18:27:49,914: Loading controller: joint_state_controller
+[rosout][INFO] 2026-10-23 18:27:49,963: Controller Spawner: Loaded controllers: gen3_joint_trajectory_controller, joint_state_controller
+[rosout][INFO] 2026-10-23 18:27:58,010: Started controllers: gen3_joint_trajectory_controller, joint_state_controller
